@@ -1,6 +1,6 @@
 # DK64 Route Assistant
 
-This is a simple React/Vite app that displays routes for DK64.
+This is a simple React/Vite app that displays routes for DK64. It also provides simplified split files and links to the referenced Google Docs.
 
 It's intended to be used on mobile, or as a browser source in OBS/streaming software. (That's why it'll look..._wide_ on larger screens.)
 
