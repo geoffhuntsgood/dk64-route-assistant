@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "LuckiestGuy";
+  src: url("font/LuckiestGuy-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  background-image: url("img/trees.jpg");
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.header {
+  margin: 0;
+  text-align: center;
+  font-family: "LuckiestGuy";
+  color: maroon;
+  text-shadow: 3px 3px goldenrod;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: goldenrod;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background: maroon;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
