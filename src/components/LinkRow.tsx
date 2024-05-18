@@ -56,9 +56,9 @@ export const LinkRow = ({
         </Button>
       </Grid>
       <Grid item xs={2}>
-        <Button sx={styles.button} variant="contained">
-          <a target="_blank" rel="noopener noreferrer" href={refUrl}>DOCS</a>
-        </Button>
+        <a target="_blank" rel="noopener noreferrer" href={refUrl}>
+          <Button sx={styles.button} variant="contained">DOCS</Button>
+        </a>
       </Grid>
     </Grid>
   );
