@@ -6,11 +6,13 @@ import { Route } from "../enums";
 export const LinkRow = ({
   setRoute,
   title,
+  shortTitle,
   fileName,
   refUrl,
 }: {
   setRoute: Dispatch<SetStateAction<Route>>,
   title: Route,
+  shortTitle: string,
   fileName: string,
   refUrl: string
 }
@@ -42,10 +44,10 @@ export const LinkRow = ({
   };
 
   return (
-    <Grid container spacing={1}>
-      <Grid item xs={6}>
+    <Grid container>
+      <Grid item xs={8}>
         <Button sx={styles.button} variant="contained" onClick={() => setRoute(title)}>
-          {title}
+          {shortTitle}
         </Button>
       </Grid>
       <Grid item xs={2}>
@@ -53,9 +55,9 @@ export const LinkRow = ({
           SPLIT
         </Button>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={2}>
         <Button sx={styles.button} variant="contained">
-          <a target="_blank" rel="noopener noreferrer" href={refUrl}>REF DOC</a>
+          <a target="_blank" rel="noopener noreferrer" href={refUrl}>DOCS</a>
         </Button>
       </Grid>
     </Grid>

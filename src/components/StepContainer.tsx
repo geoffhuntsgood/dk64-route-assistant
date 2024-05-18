@@ -4,13 +4,12 @@ import { Step } from "./Step";
 export const StepContainer = ({ step }: { step: Step }) => {
   const styles = {
     container: {
-      border: "2px solid black",
+      border: "1px solid black",
       backgroundColor: step.color,
     },
     img: {
-      marginTop: "auto",
-      marginBottom: "auto",
-      marginRight: "-7px"
+      float: "right",
+      fontFamily: "monospace"
     },
     header: {
       display: "grid",
@@ -27,30 +26,30 @@ export const StepContainer = ({ step }: { step: Step }) => {
   };
 
   return (
-    <Grid container sx={styles.container} columns={13}>
+    <Grid container sx={styles.container}>
       {step.isHeader &&
-        <Grid item xs={13} sx={styles.header}>
+        <Grid item xs={12} sx={styles.header}>
           <Typography sx={styles.text}>{step.text}</Typography>
         </Grid>
       }
       {!step.isHeader &&
-        <>
-          <Grid item xs={0.75}>
-            {step.tagDirection &&
-              <Typography sx={styles.text}>[{step.tagDirection}]</Typography>
+        <Grid item xs={12}>
+          <Typography sx={styles.text}>
+            {step.tagDirection ? `[${step.tagDirection}] ` : ""}
+            {step.text}
+            {step.gbCount &&
+              <>
+                <Typography sx={styles.img}>
+                  {step.gbCount}
+                </Typography>
+                <Typography sx={styles.img}>
+                  <img src="img/gb.png" height={22} width={16.5} />
+                </Typography>
+              </>
             }
-          </Grid>
-          <Grid item xs={10.25}>
-            <Typography sx={styles.text}>{step.text}</Typography>
-          </Grid>
-          <Grid item xs={0.5}></Grid>
-          <Grid item xs={0.5} sx={styles.img}>
-            {step.gbCount && <img src="img/gb.png" width="20" height="30" />}
-          </Grid>
-          <Grid item xs={1}>
-            {step.gbCount && <Typography sx={styles.text}>{step.gbCount}</Typography>}
-          </Grid>
-        </>
+          </Typography>
+        </Grid>
+
       }
     </Grid>
   );

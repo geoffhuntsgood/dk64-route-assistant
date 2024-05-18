@@ -9,23 +9,23 @@ export const krool: Step[] = [
   },
   {
     color: Color.DK,
-    text: "DK Phase: 4, 5, 3, 7"
+    text: "DK Punches: 4, 5, 3, 7"
   },
   {
     color: Color.Diddy,
-    text: "Diddy Phase: clip ammo through lights"
+    text: "Diddy: clip ammo"
   },
   {
     color: Color.Lanky,
-    text: "Lanky Phase Corners: Y, B, B, B"
+    text: "Lanky Corners: Y, B, B, B"
   },
   {
     color: Color.Tiny,
-    text: "Tiny Phase Slams: 4, 3, 4, 5"
+    text: "Tiny Slams: 4, 3, 4, 5"
   },
   {
     color: Color.Chunky,
-    text: "Chunky Phase Corners: always red"
+    text: "Chunky Corners: R"
   },
   {
     color: Color.Header,

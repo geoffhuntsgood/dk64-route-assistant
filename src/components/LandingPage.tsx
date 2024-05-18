@@ -62,6 +62,7 @@ export const LandingPage = ({ setRoute }: { setRoute: Dispatch<SetStateAction<Ro
             <LinkRow
               setRoute={setRoute}
               title={Route.Intermediate101}
+              shortTitle="INTERMEDIATE"
               fileName="DK64101VCSimplified.lss"
               refUrl="https://docs.google.com/document/d/170Vu0a63Jnlgt1-KnczI5VV0V6omhFNBV9DnnSNYKAs"
             />
@@ -78,12 +79,14 @@ export const LandingPage = ({ setRoute }: { setRoute: Dispatch<SetStateAction<Ro
             <LinkRow
               setRoute={setRoute}
               title={Route.AnyPercent1Kong2014}
+              shortTitle="1-KONG 2014"
               fileName="DK64Any1Kong2014.lss"
               refUrl="https://docs.google.com/document/d/1GHJMfpSWSD4Ao5acqLS6hTW-f7oSsLytu9Jb8BxWGF0"
             />
             <LinkRow
               setRoute={setRoute}
               title={Route.AnyPercentGlitchless}
+              shortTitle="GLITCHLESS"
               fileName="DK64AnyGlitchless.lss"
               refUrl="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzSfCuMvYruNml5sIQm-Z6pPJr3D5TF_KjdvpJVbOlhGBCctCNb-9LVEJ96vnDeA/pubhtml#"
             />
@@ -100,6 +103,7 @@ export const LandingPage = ({ setRoute }: { setRoute: Dispatch<SetStateAction<Ro
             <LinkRow
               setRoute={setRoute}
               title={Route.NoLevelsEarlyHelmEscape}
+              shortTitle="HELM ESCAPE"
               fileName="DK64NLEHelmEscape.lss"
               refUrl="https://docs.google.com/document/d/102A9Ii0M4ZnCHg_obKMCrL6UUvsG7_yP0MJAo7JCJnQ"
             />

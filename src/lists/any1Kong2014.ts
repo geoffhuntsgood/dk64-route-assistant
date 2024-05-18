@@ -10,6 +10,10 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.Header,
+    text: "Prereqs: 10 fairies, 2nd controller"
+  },
+  {
+    color: Color.Header,
     text: "Story Skip on, delete File 1"
   },
   {
@@ -19,11 +23,11 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Pseudo-dive, phase swim to escape"
+    text: "Pseudo-dive, phase swim escape"
   },
   {
     color: Color.DK,
-    text: "Fall or Uncrouch TBS (C-down confirm)"
+    text: "Fall or Uncrouch TBS"
   },
   {
     color: Color.DK,
@@ -51,7 +55,7 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Slope resets to climb first hill"
+    text: "Slope resets on first hill"
   },
   {
     color: Color.DK,
@@ -67,8 +71,7 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Lanky's Room: roll between grate/glass",
-    image: "/img/helmlankyroom.png"
+    text: "Lanky's Room: roll between grate/glass"
   },
   {
     color: Color.DK,
@@ -76,11 +79,11 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.DK,
-    text: "If too low, backflip through wheel"
+    text: "Backup: backflip through wheel"
   },
   {
     color: Color.DK,
-    text: "Terminal clip 2, follow to end"
+    text: "Terminal clip 2, roll to end"
   },
   {
     color: Color.DK,
