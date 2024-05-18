@@ -12,10 +12,10 @@ Current routes include:
 - any% Glitchless
 - NLE (Helm Escape)
 
-I have this app hosted at geoffhuntsgood.com/dk64router, but if you'd like you can run it yourself. Just:
+I have this app hosted at geoffhuntsgood.com/dk64router, but if you have Node.js on your machine you can run it yourself. Just:
 - Clone the repository
 - CD to that directory in your terminal
-- Run "npm run dev"
+- Run "npm i && npm run dev"
 - The app will now run at localhost:5173 in your browser.
 
 Any and all feedback is welcome, just create an issue in GitHub.
