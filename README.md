@@ -4,7 +4,7 @@ This is a simple React/Vite app that displays routes for DK64. It also provides 
 
 It's intended to be used on mobile, or as a browser source in OBS/streaming software. (That's why it'll look..._wide_ on larger screens.)
 
-It also only has WII U VC routes as of now.
+It also only has Wii U VC routes as of now.
 
 Current routes include:
 - 101% Intermediate
