@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# DK64 Route Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React/Vite app that displays routes for DK64.
 
-Currently, two official plugins are available:
+It's intended to be used on mobile, or as a browser source in OBS/streaming software. (That's why it'll look..._wide_ on larger screens.)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It also only has WII U VC routes as of now.
 
-## Expanding the ESLint configuration
+Current routes include:
+- 101% Intermediate
+- any% 1-Kong (2014)
+- any% Glitchless
+- NLE (Helm Escape)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+I have this app hosted at geoffhuntsgood.com/dk64router, but if you'd like you can run it yourself. Just:
+- Clone the repository
+- CD to that directory in your terminal
+- Run "npm run dev"
+- The app will now run at localhost:5173 in your browser.
 
-- Configure the top-level `parserOptions` property like this:
+Any and all feedback is welcome, just create an issue in GitHub.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Happy routing!
