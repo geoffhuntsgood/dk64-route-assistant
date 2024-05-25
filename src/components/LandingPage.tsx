@@ -104,7 +104,7 @@ export const LandingPage = ({ setRoute }: { setRoute: Dispatch<SetStateAction<Ro
               setRoute={setRoute}
               title={Route.NoLevelsEarly40BP}
               shortTitle="40 BP"
-              fileName=""
+              fileName="DK64NLE40BP.lss"
               refUrl="https://docs.google.com/document/d/1FcKiAVEQmdBdrY-bf6sr0WSjzSg5KKoCVlpqhgJff7E"
             />
             <LinkRow
