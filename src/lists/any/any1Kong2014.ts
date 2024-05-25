@@ -1,6 +1,6 @@
-import { Step } from "../components/Step";
-import { Color } from "../enums";
-import { krool } from "./krool";
+import { Step } from "../../classes/Step";
+import { Color } from "../../enums";
+import { krool } from "../krool";
 
 export const any1Kong2014: Step[] = [
   {
@@ -23,7 +23,7 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Pseudo-dive, phase swim escape"
+    text: "Pseudo-dive, pswim escape"
   },
   {
     color: Color.DK,
@@ -47,7 +47,7 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Helm Lobby Kick or phasewalk"
+    text: "Helm Lobby Kick or pwalk"
   },
   {
     color: Color.DK,
@@ -140,11 +140,11 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Roll to W4, enter Factory lobby"
+    text: "Roll to W4, enter Factory Lobby"
   },
   {
     color: Color.DK,
-    text: "Phase fall or phasewalk into Factory"
+    text: "Phase fall or pwalk into Factory"
   },
   {
     color: Color.Header,

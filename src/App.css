@@ -22,7 +22,7 @@ h3 {
 .header {
   margin: 0;
   text-align: center;
-  font-family: "LuckiestGuy";
+  font-family: "LuckiestGuy", sans-serif;
   color: maroon;
   text-shadow: 3px 3px goldenrod;
 }

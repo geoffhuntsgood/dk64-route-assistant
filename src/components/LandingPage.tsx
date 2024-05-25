@@ -15,7 +15,7 @@ export const LandingPage = ({ setRoute }: { setRoute: Dispatch<SetStateAction<Ro
     },
     text: {
       textAlign: "center",
-      fontFamily: "LuckiestGuy",
+      fontFamily: "LuckiestGuy, sans-serif",
       fontSize: "1.2rem",
       color: "maroon",
       backgroundColor: "goldenrod"
@@ -100,6 +100,13 @@ export const LandingPage = ({ setRoute }: { setRoute: Dispatch<SetStateAction<Ro
             NLE
           </AccordionSummary>
           <AccordionDetails>
+            <LinkRow
+              setRoute={setRoute}
+              title={Route.NoLevelsEarly40BP}
+              shortTitle="40 BP"
+              fileName=""
+              refUrl="https://docs.google.com/document/d/1FcKiAVEQmdBdrY-bf6sr0WSjzSg5KKoCVlpqhgJff7E"
+            />
             <LinkRow
               setRoute={setRoute}
               title={Route.NoLevelsEarlyHelmEscape}

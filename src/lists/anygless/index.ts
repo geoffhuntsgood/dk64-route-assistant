@@ -1,9 +1,0 @@
-export * from "./1 - startAndJapes1";
-export * from "./2 - aztec";
-export * from "./3 - factory";
-export * from "./4 - japes2";
-export * from "./5 - galleon";
-export * from "./6 - forest";
-export * from "./7 - caves";
-export * from "./8 - castle";
-export * from "./9 - helm";

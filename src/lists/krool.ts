@@ -1,4 +1,4 @@
-import { Step } from "../components/Step";
+import { Step } from "../classes/Step";
 import { Color } from "../enums";
 
 export const krool: Step[] = [

@@ -1,12 +1,9 @@
 import { Grid } from "@mui/material";
 import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { Step } from "../classes/Step";
 import { Route } from "../enums";
-import { any1Kong2014 } from "../lists/any1Kong2014";
-import { anyGlitchless } from "../lists/anyGlitchless";
-import { intermediate101 } from "../lists/intermediate101";
-import { Step } from "./Step";
+import { any1Kong2014, anyGlitchless, intermediate101, nle40bp, nleHelmEscape } from "../lists";
 import { StepContainer } from "./StepContainer";
-import { nleHelmEscape } from "../lists/nleHelmEscape";
 
 export const StepList = ({
   route,
@@ -27,6 +24,9 @@ export const StepList = ({
         break;
       case Route.Intermediate101:
         setList(intermediate101);
+        break;
+      case Route.NoLevelsEarly40BP:
+        setList(nle40bp);
         break;
       case Route.NoLevelsEarlyHelmEscape:
         setList(nleHelmEscape);

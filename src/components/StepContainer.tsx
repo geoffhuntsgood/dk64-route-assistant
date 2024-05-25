@@ -1,5 +1,5 @@
 import { Grid, Typography } from "@mui/material";
-import { Step } from "./Step";
+import { Step } from "../classes/Step";
 
 export const StepContainer = ({ step }: { step: Step }) => {
   const styles = {
@@ -9,7 +9,8 @@ export const StepContainer = ({ step }: { step: Step }) => {
     },
     img: {
       float: "right",
-      fontFamily: "monospace"
+      fontFamily: "monospace",
+      fontWeight: "bold"
     },
     header: {
       display: "grid",
