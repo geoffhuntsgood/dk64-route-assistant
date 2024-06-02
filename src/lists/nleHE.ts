@@ -1,12 +1,11 @@
-import { Step } from "../../classes/Step";
-import { Color, Tag } from "../../enums";
-import { krool } from "../krool";
+import { Step } from "../classes";
+import { Color, Tag } from "../enums";
+import { krool } from "./krool";
 
-export const nleHelmEscape: Step[] = [
+export const nleHE: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START",
-    isHeader: true
+    text: "PRE-START"
   },
   {
     color: Color.Header,
@@ -18,8 +17,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!",
-    isHeader: true
+    text: "START!"
   },
   {
     color: Color.Header,
@@ -99,11 +97,6 @@ export const nleHelmEscape: Step[] = [
     text: "ENTER Japes"
   },
   {
-    color: Color.Header,
-    text: "ENTER JAPES 1 (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "Bush push, moonkick to cannon"
   },
@@ -145,7 +138,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Mountain GB, BP",
     gbCount: 6
   },
@@ -156,17 +149,12 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Key 1, torch clip to void"
   },
   {
     color: Color.DK,
     text: "EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "JAPES 1 DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -181,17 +169,12 @@ export const nleHelmEscape: Step[] = [
     text: "ENTER Aztec"
   },
   {
-    color: Color.Header,
-    text: "ENTER AZTEC (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "BP, 3 crystals"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, enter Tiny Temple"
   },
   {
@@ -205,7 +188,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Torch clip to Klaptrap GB",
     gbCount: 9
   },
@@ -215,13 +198,13 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Gong tower GB, tag at Snide",
     gbCount: 10
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Enter T&S by W5, Key 2"
   },
   {
@@ -235,7 +218,11 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Tag W2, gun dive START SKEW"
+    text: "Tag W2"
+  },
+  {
+    color: Color.DK,
+    text: "--- START SKEW ---"
   },
   {
     color: Color.DK,
@@ -244,7 +231,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W1, skew to matching game",
     gbCount: 13
   },
@@ -254,14 +241,13 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
-    text: "W1, W2, lava GB, void out END SKEW",
+    tag: Tag.Right,
+    text: "W1, W2, lava GB, void out",
     gbCount: 14
   },
   {
-    color: Color.Header,
-    text: "AZTEC DONE (SPLIT)",
-    isHeader: true
+    color: Color.Tiny,
+    text: "--- END SKEW ---"
   },
   {
     color: Color.Tiny,
@@ -278,13 +264,8 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "ENTER Factory"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER FACTORY (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Lanky,
@@ -297,7 +278,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Tag W4, drop to BP"
   },
   {
@@ -306,13 +287,13 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Free Chunky GB",
     gbCount: 17
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "HEADPHONES, BP"
   },
   {
@@ -322,18 +303,18 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Pfall/pwalk to testing, BP"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, Ostand TBS for piano GB",
     gbCount: 19
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Exit TBS as DK, push OOB"
   },
   {
@@ -343,7 +324,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Dark room GB, prod switch",
     gbCount: 21
   },
@@ -354,18 +335,18 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Spring GB",
     gbCount: 23
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Enter T&S, Key 3"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, drop to crusher room"
   },
   {
@@ -378,40 +359,30 @@ export const nleHelmEscape: Step[] = [
     text: "EXIT"
   },
   {
-    color: Color.Header,
-    text: "FACTORY DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "Bongos GB",
     gbCount: 25
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Punch box"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, leave Lobby, W4"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W5, Japes Lobby, move rock"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Trombone GB, ENTER Japes",
     gbCount: 26
-  },
-  {
-    color: Color.Header,
-    text: "ENTER JAPES 2 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Lanky,
@@ -419,8 +390,12 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
-    text: "Gun skew, cage GB START SKEW",
+    text: "--- START SKEW ---"
+  },
+  {
+    color: Color.Tiny,
+    tag: Tag.Right,
+    text: "Cage GB",
     gbCount: 27
   },
   {
@@ -430,25 +405,29 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Wall skew for cage GB",
     gbCount: 29
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Cage GB",
     gbCount: 30
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Cage GB, skew in painting room",
     gbCount: 31
   },
   {
     color: Color.Lanky,
-    text: "END SKEW, clip for GB",
+    text: "--- END SKEW ---"
+  },
+  {
+    color: Color.Lanky,
+    text: "Clip for GB",
     gbCount: 32
   },
   {
@@ -458,7 +437,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Pswim underground"
   },
   {
@@ -468,13 +447,8 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W1, EXIT Japes"
-  },
-  {
-    color: Color.Header,
-    text: "JAPES 2 DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -483,13 +457,8 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, ENTER Galleon"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER GALLEON (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Chunky,
@@ -503,7 +472,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, raise water"
   },
   {
@@ -513,23 +482,23 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W3, BP, tag in T&S"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Key 4, OOB to cactus BP"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Pswim to 5DS GB",
     gbCount: 43
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Pswim to 5DS GB",
     gbCount: 44
   },
@@ -552,13 +521,8 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Pswim to void, EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "GALLEON DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Tiny,
@@ -576,7 +540,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Pswim to cage GB",
     gbCount: 49
   },
@@ -587,7 +551,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W5, slam X, STS to cage GB",
     gbCount: 51
   },
@@ -598,13 +562,8 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "ENTER Forest"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER FOREST (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -612,27 +571,27 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Shoot switch"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Shoot switch"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Shoot switch"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Shoot switch"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "CS overlap for cannon GB",
     gbCount: 53
   },
@@ -642,39 +601,43 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Slam switch, dark room GB",
     gbCount: 54
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Fall to BP, fall to Blast"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Climb into mushroom, BP, back out"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, gun dive, pswim to Owl"
   },
   {
     color: Color.Tiny,
-    text: "START SKEW"
+    text: "--- START SKEW ---"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
-    text: "Skew into anthill GB END SKEW",
+    tag: Tag.Right,
+    text: "Skew into anthill GB",
     gbCount: 55
+  },
+  {
+    color: Color.Tiny,
+    text: "--- END SKEW ---"
   },
   {
     color: Color.Tiny,
@@ -683,13 +646,13 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Key 5, enter mill, clip for GB",
     gbCount: 62
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Exit mill, pswim to cage GB",
     gbCount: 63
   },
@@ -699,13 +662,8 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "FOREST DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -713,7 +671,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Exit Lobby, cage GB",
     gbCount: 64
   },
@@ -723,7 +681,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W1, turn in Key 5, W1, W2"
   },
   {
@@ -737,19 +695,14 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Rocket to Guitar GB, ENTER Caves",
     gbCount: 66
-  },
-  {
-    color: Color.Header,
-    text: "ENTER CAVES (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Diddy,
@@ -761,29 +714,29 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "DK Cabin GB, 5DC GB",
     gbCount: 68
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "5DC GB",
     gbCount: 69
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W5, BP, tag at ice castle"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, kick down to tag"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Gun skew to Gone GB, HEADPHONES",
     gbCount: 70
   },
@@ -794,7 +747,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W4, Monkeyport GB",
     gbCount: 72
   },
@@ -804,13 +757,13 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Turn in BPs",
     gbCount: 79
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Key 6, turn in BPs",
     gbCount: 85
   },
@@ -819,13 +772,8 @@ export const nleHelmEscape: Step[] = [
     text: "Pfall/pwalk to void, EXIT"
   },
   {
-    color: Color.Header,
-    text: "CAVES DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Lava GB, exit Lobby, W1",
     gbCount: 86
   },
@@ -835,18 +783,13 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, deathwarp"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "ENTER Castle"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER CASTLE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -859,7 +802,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, exit crypt, rocket to top"
   },
   {
@@ -869,7 +812,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Turn in BPs, library clip for GB",
     gbCount: 98
   },
@@ -879,7 +822,7 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shed GB, enter T&S, start KKO",
     gbCount: 99
   },
@@ -893,11 +836,6 @@ export const nleHelmEscape: Step[] = [
     gbCount: 100
   },
   {
-    color: Color.Header,
-    text: "CASTLE DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Tiny,
     text: "Turn in Keys 7 and 6"
   },
@@ -907,22 +845,17 @@ export const nleHelmEscape: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Gone for vines, ENTER Helm"
   },
   {
-    color: Color.Header,
-    text: "ENTER HELM (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Kickslide up hill"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Shoot switch, vines"
   },
   {
@@ -932,11 +865,6 @@ export const nleHelmEscape: Step[] = [
   {
     color: Color.Chunky,
     text: "Key 8, pfall/pwalk to escape"
-  },
-  {
-    color: Color.Header,
-    text: "HELM DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Chunky,

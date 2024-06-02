@@ -1,65 +1,59 @@
 import { Button, Grid } from "@mui/material";
-import JsFileDownloader from "js-file-downloader";
-import { Dispatch, SetStateAction } from "react";
-import { Route } from "../enums";
+import { useNavigate } from "react-router-dom";
+import { RouteInfo } from "../classes";
 
 export const LinkRow = ({
-  setRoute,
-  title,
-  shortTitle,
-  fileName,
-  refUrl,
+  routeInfo
 }: {
-  setRoute: Dispatch<SetStateAction<Route>>,
-  title: Route,
-  shortTitle: string,
-  fileName: string,
-  refUrl: string
+  routeInfo: RouteInfo
 }
 ) => {
-  const download = () => {
-    new JsFileDownloader({
-      url: `public/splits/${fileName}`
-    });
+  const navigate = useNavigate();
+
+  const click = () => {
+    navigate("/route", { state: { routeInfo } });
   };
 
   const styles = {
+    container: {
+      border: "3px solid #660000",
+      borderRadius: "5px"
+    },
     button: {
       fontFamily: "LuckiestGuy",
-      fontSize: "1.2rem",
-      color: "maroon",
+      fontSize: "1.3rem",
+      color: "#660000",
       backgroundColor: "goldenrod",
       width: "100%",
-      border: "3px solid maroon",
       "&:hover": {
         backgroundColor: "gold"
-      },
-      a: {
-        textDecoration: "none",
-        "&:visited, &:focus": {
-          color: "maroon"
-        }
       }
     }
   };
 
   return (
-    <Grid container>
-      <Grid item xs={8}>
-        <Button sx={styles.button} variant="contained" onClick={() => setRoute(title)}>
-          {shortTitle}
-        </Button>
-      </Grid>
-      <Grid item xs={2}>
-        <Button sx={styles.button} variant="contained" onClick={download}>
-          SPLIT
-        </Button>
-      </Grid>
-      <Grid item xs={2}>
-        <a target="_blank" rel="noopener noreferrer" href={refUrl}>
-          <Button sx={styles.button} variant="contained">DOCS</Button>
-        </a>
-      </Grid>
+    <Grid container sx={styles.container}>
+      {routeInfo.docUrl.length > 0 &&
+        <>
+          <Grid item xs={9}>
+            <Button sx={styles.button} variant="contained" onClick={() => click()}>
+              {routeInfo.name.split(" ")[0]}
+            </Button>
+          </Grid>
+          <Grid item xs={3}>
+            <a target="_blank" rel="noopener noreferrer" href={routeInfo.docUrl}>
+              <Button sx={styles.button} variant="contained">GDOC</Button>
+            </a>
+          </Grid>
+        </>
+      }
+      {routeInfo.docUrl.length === 0 &&
+        <Grid item xs={12}>
+          <Button sx={styles.button} variant="contained" onClick={() => click()}>
+            {routeInfo.name.split(" ")[0]}
+          </Button>
+        </Grid>
+      }
     </Grid>
   );
 };

@@ -1,12 +1,11 @@
-import { Step } from "../../classes/Step";
-import { Color, Tag } from "../../enums";
-import { krool } from "../krool";
+import { Step } from "../classes";
+import { Color, Tag } from "../enums";
+import { krool } from "./krool";
 
 export const nle40bp: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START",
-    isHeader: true
+    text: "PRE-START"
   },
   {
     color: Color.Header,
@@ -18,8 +17,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!",
-    isHeader: true
+    text: "START!"
   },
   {
     color: Color.Header,
@@ -99,11 +97,6 @@ export const nle40bp: Step[] = [
     text: "ENTER Japes"
   },
   {
-    color: Color.Header,
-    text: "ENTER JAPES 1 (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "Bush push, moonkick to cannon"
   },
@@ -145,7 +138,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Mountain GB, BP",
     gbCount: 6
   },
@@ -156,17 +149,12 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Key 1, back to portal"
   },
   {
     color: Color.DK,
     text: "EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "JAPES 1 DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -181,17 +169,12 @@ export const nle40bp: Step[] = [
     text: "ENTER Aztec"
   },
   {
-    color: Color.Header,
-    text: "ENTER AZTEC 1 (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "BP, 3 crystals"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Guitar to open tunnel"
   },
   {
@@ -209,18 +192,18 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, tag by Snide"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Gong tower GB, tag by Snide",
     gbCount: 9
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Enter T&S, Key 2, tag W5"
   },
   {
@@ -238,7 +221,11 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Tag W2, gun skew START SKEW"
+    text: "Tag W2"
+  },
+  {
+    color: Color.DK,
+    text: "--- START SKEW ---"
   },
   {
     color: Color.DK,
@@ -247,7 +234,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W1, skew to matching game GB",
     gbCount: 12
   },
@@ -257,22 +244,21 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W1, W2, lava GB",
     gbCount: 13
   },
   {
     color: Color.Tiny,
-    text: "Skew to void out END SKEW"
+    text: "Skew to void out"
+  },
+  {
+    color: Color.Tiny,
+    text: "--- END SKEW ---"
   },
   {
     color: Color.Tiny,
     text: "EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "AZTEC 1 DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Tiny,
@@ -289,13 +275,8 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "ENTER Factory"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER FACTORY (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Lanky,
@@ -304,7 +285,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Tag W4, drop for BP"
   },
   {
@@ -313,13 +294,13 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Free Chunky GB",
     gbCount: 17
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Key 3, BP, cage GB"
   },
   {
@@ -328,23 +309,23 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, go to R&D"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Drop to power shed, lever GB",
     gbCount: 19
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Dark room GB",
     gbCount: 20
   },
@@ -359,13 +340,13 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Spring GB",
     gbCount: 22
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, drop to crusher room"
   },
   {
@@ -378,40 +359,30 @@ export const nle40bp: Step[] = [
     text: "EXIT"
   },
   {
-    color: Color.Header,
-    text: "FACTORY DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "Bongos GB",
     gbCount: 24
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Punch box"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, W4"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W5, Japes Lobby, move rock"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Trombone GB, ENTER Japes",
     gbCount: 25
-  },
-  {
-    color: Color.Header,
-    text: "ENTER JAPES 2 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Lanky,
@@ -419,8 +390,12 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
-    text: "Gun skew, cage GB START SKEW",
+    text: "--- START SKEW ---"
+  },
+  {
+    color: Color.Tiny,
+    tag: Tag.Right,
+    text: "Cage GB",
     gbCount: 26
   },
   {
@@ -430,25 +405,29 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Wall skew for cage GB",
     gbCount: 28
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Cage GB",
     gbCount: 29
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Cage GB",
     gbCount: 30
   },
   {
     color: Color.Lanky,
-    text: "Skew in painting room END SKEW"
+    text: "Skew in painting room"
+  },
+  {
+    color: Color.Lanky,
+    text: "--- END SKEW ---"
   },
   {
     color: Color.Lanky,
@@ -462,7 +441,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Pswim underground"
   },
   {
@@ -477,13 +456,8 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W1, EXIT Japes"
-  },
-  {
-    color: Color.Header,
-    text: "JAPES 2 DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -496,13 +470,8 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, ENTER Galleon"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER GALLEON (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Chunky,
@@ -515,13 +484,13 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Pswim to 5DS GB",
     gbCount: 37
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Pswim to 5DS GB",
     gbCount: 38
   },
@@ -536,12 +505,12 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Ledge kick from chest to BP"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Pswim to void, BP"
   },
   {
@@ -555,24 +524,19 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, raise water, turn in BPs",
     gbCount: 44
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Turn in BPs, W3, BP",
     gbCount: 48
   },
   {
     color: Color.Tiny,
     text: "Void above T&S, EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "GALLEON DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Tiny,
@@ -590,7 +554,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Pswim to cage GB",
     gbCount: 51
   },
@@ -605,7 +569,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W5, slam big X, STS to cage GB",
     gbCount: 53
   },
@@ -616,13 +580,8 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "ENTER Forest"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER FOREST (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -634,39 +593,39 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Rocket to mushroom top, get homing"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Slam switch, dark room GB",
     gbCount: 55
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Fall to BP, fall to Blast platform"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Climb ladder for BP, back out to tag"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, drop to pswim to Owl"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, W4, turn in BPs",
     gbCount: 60
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Turn in BPs",
     gbCount: 65
   },
@@ -682,7 +641,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Exit mill, pswim to cage GB",
     gbCount: 71
   },
@@ -692,17 +651,12 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, EXIT"
   },
   {
-    color: Color.Header,
-    text: "FOREST DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Exit Forest Lobby, cage GB",
     gbCount: 72
   },
@@ -712,7 +666,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W1, turn in Key 5, W1/W2"
   },
   {
@@ -726,12 +680,12 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Rocket to Guitar GB",
     gbCount: 74
   },
@@ -740,13 +694,12 @@ export const nle40bp: Step[] = [
     text: "ENTER Caves"
   },
   {
-    color: Color.Header,
-    text: "ENTER CAVES (SPLIT)",
-    isHeader: true
+    color: Color.Diddy,
+    text: "Tag W1"
   },
   {
     color: Color.Diddy,
-    text: "Tag W1, gun skew START SKEW"
+    text: "--- START SKEW ---"
   },
   {
     color: Color.Diddy,
@@ -754,7 +707,11 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    text: "Rocket to tag W5 END SKEW"
+    text: "Rocket to tag W5"
+  },
+  {
+    color: Color.Diddy,
+    text: "--- END SKEW ---"
   },
   {
     color: Color.Diddy,
@@ -767,41 +724,41 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Key 6, DK cabin GB",
     gbCount: 76
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, 5DC GB",
     gbCount: 77
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "5DC GB",
     gbCount: 78
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W5, BP, tag at ice castle"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, kick down to tag"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W4 to ice shield GB, W4",
     gbCount: 79
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, W1, pswim for Gone GB",
     gbCount: 80
   },
@@ -810,17 +767,12 @@ export const nle40bp: Step[] = [
     text: "EXIT"
   },
   {
-    color: Color.Header,
-    text: "CAVES DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Chunky,
     text: "Jump left, Punch wall"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Damage boost to lava GB",
     gbCount: 81
   },
@@ -834,13 +786,8 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, ENTER Castle"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER CASTLE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Diddy,
@@ -848,12 +795,12 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Clip in tree for BP"
   },
   {
@@ -875,18 +822,13 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, deathwarp, EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "CASTLE DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Tiny,
@@ -898,7 +840,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Damage boost to BP"
   },
   {
@@ -910,17 +852,12 @@ export const nle40bp: Step[] = [
     text: "ENTER Aztec"
   },
   {
-    color: Color.Header,
-    text: "ENTER AZTEC 2 (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "W1 to tag"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Hunky clip OOB by bonus barrel"
   },
   {
@@ -938,25 +875,25 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Turn in BPs",
     gbCount: 89
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Turn in BPs",
     gbCount: 93
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Turn in BPs",
     gbCount: 96
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Turn in BPs",
     gbCount: 100
   },
@@ -965,32 +902,22 @@ export const nle40bp: Step[] = [
     text: "Lose Beaver Bother, pause exit"
   },
   {
-    color: Color.Header,
-    text: "AZTEC 2 DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Tiny,
     text: "W2, Port to Helm Lobby"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Gone for vines, ENTER Helm"
   },
   {
-    color: Color.Header,
-    text: "ENTER HELM (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Kickslide up hill"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Switch, cross vines"
   },
   {
@@ -1000,11 +927,6 @@ export const nle40bp: Step[] = [
   {
     color: Color.Chunky,
     text: "Key 8, RESET"
-  },
-  {
-    color: Color.Header,
-    text: "HELM DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,

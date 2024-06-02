@@ -1,12 +1,11 @@
-import { Step } from "../../classes/Step";
-import { Color, Tag } from "../../enums";
-import { krool } from "../krool";
+import { Step } from "../classes";
+import { Color, Tag } from "../enums";
+import { krool } from "./krool";
 
-export const anyGlitchless: Step[] = [
+export const glitchlessAny: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START",
-    isHeader: true
+    text: "PRE-START"
   },
   {
     color: Color.Header,
@@ -14,17 +13,11 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!",
-    isHeader: true
+    text: "START!"
   },
   {
     color: Color.DK,
     text: "Complete all training barrels"
-  },
-  {
-    color: Color.Header,
-    text: "TRAINING DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -38,11 +31,6 @@ export const anyGlitchless: Step[] = [
     color: Color.DK,
     text: "Japes entrance GB, ENTER Japes",
     gbCount: 1
-  },
-  {
-    color: Color.Header,
-    text: "ENTER JAPES 1 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -92,7 +80,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W4, BP, 3 coins"
   },
   {
@@ -101,7 +89,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloon (55), Rambi (60), 3 coins"
   },
   {
@@ -114,7 +102,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Buy Charge, slam switch, W4"
   },
   {
@@ -133,7 +121,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Cage GB",
     gbCount: 6
   },
@@ -144,19 +132,14 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tunnel GB, 2 coins, enter T&S",
     gbCount: 8
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Feed T&S, Key 1, EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "JAPES 1 DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -165,11 +148,6 @@ export const anyGlitchless: Step[] = [
   {
     color: Color.DK,
     text: "W1, tag W2/W3, ENTER Aztec"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER AZTEC (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -181,7 +159,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W1, Guitar, balloon (10)"
   },
   {
@@ -207,17 +185,17 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "4 oasis coins, BP, buy Mini"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Buy Rocket"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloons (30), tag W2, Blast"
   },
   {
@@ -239,7 +217,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "1 coin, tag far W2, lava GB",
     gbCount: 11
   },
@@ -249,13 +227,13 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Climb 3 trees, llama GB (75)",
     gbCount: 12
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, 2 coins, W2 (39)"
   },
   {
@@ -265,22 +243,22 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W5 coins, buy Feather, enter T&S"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S, Key 2"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W4 coins, Grape, enter Llama Temple"
   },
   {
@@ -293,23 +271,18 @@ export const anyGlitchless: Step[] = [
     text: "1 coin over lava, EXIT"
   },
   {
-    color: Color.Header,
-    text: "AZTEC DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Lanky,
     text: "W2 to tag"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BFI, camera, cage GB, W5",
     gbCount: 15
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W4, K. Lumsy RC, turn in Key 2"
   },
   {
@@ -317,22 +290,17 @@ export const anyGlitchless: Step[] = [
     text: "ENTER Factory"
   },
   {
-    color: Color.Header,
-    text: "ENTER FACTORY (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "Tag W1, blue switches (15)"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Slope resets to Chunky (wait for GB)"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W1 coins, use W1 (10), BP"
   },
   {
@@ -341,7 +309,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "R&D singles (15), BP, W2 (25), W1"
   },
   {
@@ -355,22 +323,22 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Cranky & Candy moves"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Cranky & Candy moves"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Buy Spring"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Cranky moves, balloon (25)"
   },
   {
@@ -388,7 +356,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Dark room RC, overlap Punch & Triangle"
   },
   {
@@ -407,13 +375,13 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloon (40), pipe GB (65)",
     gbCount: 20
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, prod switch, 10 singles to W4 (10)"
   },
   {
@@ -423,7 +391,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, crusher room GB (75)",
     gbCount: 22
   },
@@ -443,22 +411,22 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Exit/enter to skip CS, Key 3, cage GB",
     gbCount: 25
   },
@@ -467,35 +435,25 @@ export const anyGlitchless: Step[] = [
     text: "BP (2 coins?), EXIT"
   },
   {
-    color: Color.Header,
-    text: "FACTORY DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Punch box"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, W4"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Enter Japes Lobby, move rock"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Trombone GB, ENTER Japes",
     gbCount: 26
-  },
-  {
-    color: Color.Header,
-    text: "ENTER JAPES 2 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Lanky,
@@ -504,7 +462,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Cage GB, BP, up to 9 coins",
     gbCount: 28
   },
@@ -515,7 +473,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W5, buy Pineapple, Ammo Belt 1"
   },
   {
@@ -529,35 +487,25 @@ export const anyGlitchless: Step[] = [
     gbCount: 31
   },
   {
-    color: Color.Header,
-    text: "JAPES 2 DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Chunky,
     text: "W4, Snide BC"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Spring to bonus GB",
     gbCount: 32
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Cage GB, enter Galleon Lobby",
     gbCount: 33
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, ENTER Galleon"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER GALLEON (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Chunky,
@@ -579,17 +527,17 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Open shipyard gate"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Tunnel bunches (15)"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Tunnel bunches (40)"
   },
   {
@@ -598,7 +546,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "5DS pad, ship bunch, box balloon (20)"
   },
   {
@@ -616,7 +564,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Open lighthouse gate, raise water"
   },
   {
@@ -626,7 +574,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Turn in BPs, ship switch, balloon (10)",
     gbCount: 40
   },
@@ -637,7 +585,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Enguarde, break chests: R, L, DL, GB",
     gbCount: 42
   },
@@ -652,7 +600,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Turn in BPs",
     gbCount: 50
   },
@@ -663,7 +611,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Snide balloon (10), turn in BPs",
     gbCount: 55
   },
@@ -677,28 +625,23 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S, Key 4, EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "GALLEON DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Lanky,
@@ -707,14 +650,9 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Cage GB, ENTER Forest",
     gbCount: 57
-  },
-  {
-    color: Color.Header,
-    text: "ENTER FOREST (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Chunky,
@@ -722,12 +660,12 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Night switch, tag W4, pink tunnel (5)"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Buy Slam 2, rocket to top"
   },
   {
@@ -740,7 +678,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "11 singles down, clockwise (16)"
   },
   {
@@ -749,7 +687,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Singles to night door, BP, balloon"
   },
   {
@@ -758,22 +696,22 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shoot switch"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shoot switch, balloon (10)"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shoot switch"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shoot/slam to overlap CSs"
   },
   {
@@ -783,7 +721,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Balloon (20), exit, slam switch (25)"
   },
   {
@@ -793,13 +731,13 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Face puzzle, bunch, balloon (75)",
     gbCount: 60
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BC, twirl to BP, balloon (10)"
   },
   {
@@ -808,7 +746,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Clockwise to W3 (47), shoot switch"
   },
   {
@@ -817,7 +755,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Around tree, W4, rocket bunches (48)"
   },
   {
@@ -835,22 +773,22 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloon behind barn (51)"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Float to bunches, GB, singles (75)",
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "4 singles toward thorns (55), BP"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloon (20), enter T&S"
   },
   {
@@ -859,38 +797,33 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S, Key 5, EXIT"
   },
   {
-    color: Color.Header,
-    text: "FOREST DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Cage GB, tag W3",
     gbCount: 63
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Turn in Key 5, Triangle GB",
     gbCount: 64
   },
@@ -900,19 +833,14 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Guitar GB, ENTER Caves",
     gbCount: 65
-  },
-  {
-    color: Color.Header,
-    text: "ENTER CAVES (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Diddy,
@@ -924,64 +852,64 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Waterfall balloon (10)"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, balloon (10), 5DC GB (30)",
     gbCount: 66
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Bongo pad bunch (5)"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "5DC balloon (20), top 5DC GB (35)",
     gbCount: 67
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W5, BP, bunches, castle balloon (40)"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Move rock (13), move big rock (24)"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Cave balloon (15), singles up to (23)"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Buy Gone"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Buy Port"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Baboon Balloon bunches (55)"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Rocket to W4 bunch, balloon (50)"
   },
   {
@@ -995,7 +923,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W3 bunch (35), tag W1, Port to Kosha"
   },
   {
@@ -1013,7 +941,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W1 (33), 4 5DI singles (37)"
   },
   {
@@ -1027,13 +955,13 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, ice dome GB (29)",
     gbCount: 71
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "5DI GB, balloon, singles (70)",
     gbCount: 72
   },
@@ -1043,7 +971,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W2 bunch (34), Gone GB (42)",
     gbCount: 73
   },
@@ -1053,23 +981,23 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Exit T&S, turn in BPs, feed T&S",
     gbCount: 76
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Feed T&S"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Feed T&S"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Feed T&S, Key 6, turn in BPs",
     gbCount: 81
   },
@@ -1078,29 +1006,19 @@ export const anyGlitchless: Step[] = [
     text: "EXIT"
   },
   {
-    color: Color.Header,
-    text: "CAVES DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "Lava GB, Castle Lobby, open Kasplat",
     gbCount: 82
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, deathwarp"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "ENTER Castle"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER CASTLE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -1108,7 +1026,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W1, W2 to Cranky (10)"
   },
   {
@@ -1126,12 +1044,12 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Ballroom bunches, balloon (25)"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Ballroom bunches, balloon (56)"
   },
   {
@@ -1140,7 +1058,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Drop to shed GB, balloon (10)",
     gbCount: 84
   },
@@ -1163,23 +1081,23 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Face puzzle GB (55)",
     gbCount: 86
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Dungeon bunches (45)"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Dungeon balloons (20)"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Punch for balloons (63), exit dungeon"
   },
   {
@@ -1188,7 +1106,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Tag W3, W4 to greenhouse GB (50)"
   },
   {
@@ -1197,12 +1115,12 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Crypt balloon (95)"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, balloon, crypt GB, balloon (70)",
     gbCount: 87
   },
@@ -1221,13 +1139,13 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Enter tower for balloon (90), turn in BPs",
     gbCount: 96
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Turn in BPs, Cranky for Rareware Coin",
     gbCount: 99
   },
@@ -1237,28 +1155,23 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Feed T&S"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Feed T&S"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Feed T&S"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Feed T&S, Key 7, EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "CASTLE DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Lanky,
@@ -1266,7 +1179,7 @@ export const anyGlitchless: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Exit Lobby, turn in Keys 6 & 7"
   },
   {
@@ -1279,68 +1192,58 @@ export const anyGlitchless: Step[] = [
     text: "ENTER Helm"
   },
   {
-    color: Color.Header,
-    text: "ENTER HELM (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Chunky,
     text: "Slope resets, switch, vines"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Mini through pipe"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Pull lever"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Rocket through stars"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Punch DK gate"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "DK's room"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Punch other gates, Chunky's room"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Tiny's room"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Lanky's room"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Diddy's room, tag DK"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Key 8, EXIT Helm"
-  },
-  {
-    color: Color.Header,
-    text: "HELM DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,

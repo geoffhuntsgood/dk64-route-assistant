@@ -1,15 +1,16 @@
-import { useState } from "react";
-import "./App.css";
+import { Route, Routes, useLocation } from "react-router";
 import { LandingPage } from "./components/LandingPage";
 import { StepList } from "./components/StepList";
-import { Route } from "./enums";
 
 const App = () => {
-  const [route, setRoute] = useState(Route.None);
+  const location = useLocation();
 
-  return route === Route.None ?
-    <LandingPage setRoute={setRoute} /> :
-    <StepList route={route} setRoute={setRoute} />;
+  return (
+    <Routes location={location} key={location.pathname}>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/route" element={<StepList />} />
+    </Routes>
+  )
 };
 
 export default App;

@@ -1,12 +1,7 @@
-import { Step } from "../classes/Step";
+import { Step } from "../classes";
 import { Color } from "../enums";
 
 export const krool: Step[] = [
-  {
-    color: Color.Header,
-    text: "K. ROOL: SPLIT EACH PHASE",
-    isHeader: true
-  },
   {
     color: Color.DK,
     text: "DK Punches: 4, 5, 3, 7"
@@ -29,12 +24,10 @@ export const krool: Step[] = [
   },
   {
     color: Color.Header,
-    text: "64TH ANNUAL COMMEMORATIVE BACKFLIP",
-    isHeader: true
+    text: "64TH ANNUAL COMMEMORATIVE BACKFLIP"
   },
   {
     color: Color.Header,
-    text: "GG!",
-    isHeader: true
+    text: "GG!"
   }
 ];

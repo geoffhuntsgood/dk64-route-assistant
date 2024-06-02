@@ -9,26 +9,31 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
-h3 {
-  cursor: pointer;
-  position: absolute;
-  top: 15px;
-  left: 20px;
+h2 { 
+  font-size: 2rem;
 }
 
 .header {
   margin: 0;
   text-align: center;
   font-family: "LuckiestGuy", sans-serif;
-  color: maroon;
-  text-shadow: 3px 3px goldenrod;
+  letter-spacing: 2px;
+  color: #660000;
+  text-shadow: 1px 1px goldenrod;
+}
+
+a {
+  text-decoration: none;
+  &:focus {
+    cursor: pointer;
+  }
 }
 
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 3px;
 }
 
 ::-webkit-scrollbar-track {

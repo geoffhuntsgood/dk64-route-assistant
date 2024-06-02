@@ -1,12 +1,11 @@
-import { Step } from "../../classes/Step";
-import { Color } from "../../enums";
-import { krool } from "../krool";
+import { Step } from "../classes";
+import { Color } from "../enums";
+import { krool } from "./krool";
 
 export const any1Kong2014: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START",
-    isHeader: true
+    text: "PRE-START"
   },
   {
     color: Color.Header,
@@ -18,8 +17,7 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!",
-    isHeader: true
+    text: "START!"
   },
   {
     color: Color.DK,
@@ -95,11 +93,6 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.Header,
-    text: "Start ISG (SPLIT)",
-    isHeader: true
-  },
-  {
-    color: Color.Header,
     text: "Start timer w/ISG, enter file 1"
   },
   {
@@ -147,11 +140,6 @@ export const any1Kong2014: Step[] = [
     text: "Phase fall or pwalk into Factory"
   },
   {
-    color: Color.Header,
-    text: "ENTER FACTORY (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "Kick through Chunky cutscene"
   },
@@ -170,11 +158,6 @@ export const any1Kong2014: Step[] = [
   {
     color: Color.DK,
     text: "DK Mad Jack for Key 3"
-  },
-  {
-    color: Color.Header,
-    text: "KEY 3 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,

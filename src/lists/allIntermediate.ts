@@ -1,12 +1,11 @@
-import { Step } from "../../classes/Step";
-import { Color, Tag } from "../../enums";
-import { krool } from "../krool";
+import { Step } from "../classes";
+import { Color, Tag } from "../enums";
+import { krool } from "./krool";
 
-export const intermediate101: Step[] = [
+export const allIntermediate: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START",
-    isHeader: true
+    text: "PRE-START"
   },
   {
     color: Color.Header,
@@ -14,17 +13,11 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!",
-    isHeader: true
+    text: "START!"
   },
   {
     color: Color.DK,
     text: "Complete training barrels"
-  },
-  {
-    color: Color.Header,
-    text: "TRAINING GROUNDS DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -54,11 +47,6 @@ export const intermediate101: Step[] = [
   {
     color: Color.DK,
     text: "Kick to Japes Lobby, ENTER Japes"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER JAPES 1 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -113,7 +101,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Buy up to Spring"
   },
   {
@@ -131,13 +119,8 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Army Dillo"
-  },
-  {
-    color: Color.Header,
-    text: "KEY 1 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -156,11 +139,6 @@ export const intermediate101: Step[] = [
     text: "W1, W2, ENTER Aztec"
   },
   {
-    color: Color.Header,
-    text: "ENTER AZTEC 1 (Split)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "BP, 3 coins"
   },
@@ -170,7 +148,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W1, buy Guitar"
   },
   {
@@ -200,12 +178,12 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Buy Slam 2, balloons (20)"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Buy up to Monkeyport"
   },
   {
@@ -218,13 +196,8 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "DDQ"
-  },
-  {
-    color: Color.Header,
-    text: "KEY 5 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -272,7 +245,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "1 coin, Klaptrap GB (15)",
     gbCount: 11
   },
@@ -282,7 +255,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "2 coins max, bunch, single (6)"
   },
   {
@@ -291,7 +264,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W3, tower GB (51)",
     gbCount: 12
   },
@@ -318,17 +291,12 @@ export const intermediate101: Step[] = [
     text: "EXIT"
   },
   {
-    color: Color.Header,
-    text: "AZTEC 1 DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Diddy,
     text: "Charge gongs"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Twirl to bonus GB",
     gbCount: 15
   },
@@ -342,13 +310,8 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "ENTER Factory"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER FACTORY (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Lanky,
@@ -374,17 +337,17 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Buy Saxophone"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Cranky then Candy"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Buy Bongos, balloon (10)"
   },
   {
@@ -402,7 +365,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Dark room RC, GB (15)",
     gbCount: 19
   },
@@ -417,7 +380,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Clear MJ CS, leave T&S"
   },
   {
@@ -427,13 +390,8 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Mad Jack"
-  },
-  {
-    color: Color.Header,
-    text: "KEY 3 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Tiny,
@@ -455,29 +413,29 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Buy Grape, Homing Ammo"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Buy Pineapple, Ammo Belt 2, BP"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Numbers GB (60), fairy",
     gbCount: 24
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Block Tower GB (20)",
     gbCount: 25
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Bonus GB, go to R&D",
     gbCount: 26
   },
@@ -500,7 +458,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Car race GB (45)",
     gbCount: 28
   },
@@ -510,7 +468,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "ENTER, hatch balloon (30)"
   },
   {
@@ -524,7 +482,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "R&D GB (50): 3124,4231,1342",
     gbCount: 30
   },
@@ -539,7 +497,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Jump (60), slam prod switch"
   },
   {
@@ -548,24 +506,24 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloon, bonus GB (75)",
     gbCount: 33
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloon (75)"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Spring to GB (75)",
     gbCount: 34
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, crusher GB (75)",
     gbCount: 35
   },
@@ -574,44 +532,34 @@ export const intermediate101: Step[] = [
     text: "EXIT"
   },
   {
-    color: Color.Header,
-    text: "FACTORY DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
     text: "Bongo GB",
     gbCount: 36
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Punch box"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, fairy"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Drop to Snide Spring GB",
     gbCount: 37
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BC, fall to Galleon, BP"
   },
   {
     color: Color.Chunky,
     text: "BP, ENTER Galleon"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER GALLEON (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Chunky,
@@ -637,12 +585,12 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Raise water, tag W5"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Lighthouse GB (30)",
     gbCount: 40
   },
@@ -656,7 +604,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloon (10), turn in BPs",
     gbCount: 43
   },
@@ -669,27 +617,22 @@ export const intermediate101: Step[] = [
     text: "Pufftoss as Tiny"
   },
   {
-    color: Color.Header,
-    text: "KEY 4 (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Tiny,
     text: "OOB above T&S, cactus tag"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Cactus balloon (10)"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Cactus balloon (35), BP"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Submarine GB",
     gbCount: 44
   },
@@ -749,12 +692,12 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Balloon/bunch (75)"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Treasure room GB (5)",
     gbCount: 51
   },
@@ -786,7 +729,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tunnel (50), 5DS GB",
     gbCount: 54
   },
@@ -815,7 +758,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Seal Race Skip GB",
     gbCount: 58
   },
@@ -838,18 +781,13 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Mermaid GB",
     gbCount: 60
   },
   {
     color: Color.Tiny,
     text: "EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "GALLEON DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Tiny,
@@ -867,7 +805,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "10 HOMING, bonus GB",
     gbCount: 63
   },
@@ -877,13 +815,8 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "10 MORE HOMING, ENTER Helm"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER HELM (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Tiny,
@@ -891,7 +824,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Switch kick to DK's room"
   },
   {
@@ -900,42 +833,37 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Rocket through stars"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Punch gates, Chunky's room"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Tiny's room"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Lanky's room"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Diddy's room, BC"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Terminal clip, Key 8"
   },
   {
     color: Color.DK,
     text: "EXIT on fairy picture"
-  },
-  {
-    color: Color.Header,
-    text: "HELM DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -956,18 +884,13 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, deathwarp"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "ENTER Castle"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER CASTLE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -992,7 +915,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W2, rocket to cloud (5)",
   },
   {
@@ -1002,7 +925,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Tag W5, library clip",
   },
   {
@@ -1024,13 +947,13 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Twirl to bonus GB",
     gbCount: 68
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Singles until (15)"
   },
   {
@@ -1043,13 +966,13 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Face puzzle GB",
     gbCount: 69
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "2 balloons (20)"
   },
   {
@@ -1059,7 +982,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "2 bunches, balloon (25)"
   },
   {
@@ -1082,7 +1005,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "2 singles (2), car race GB",
     gbCount: 73
   },
@@ -1116,11 +1039,6 @@ export const intermediate101: Step[] = [
     text: "Enter KKO as Tiny"
   },
   {
-    color: Color.Header,
-    text: "KEY 7 (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Lanky,
     text: "W4/W5, tower GB",
     gbCount: 75
@@ -1145,7 +1063,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Funky balloon (70)"
   },
   {
@@ -1154,7 +1072,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, balloon (60)"
   },
   {
@@ -1164,13 +1082,13 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Balloon (75), crypt GB",
     gbCount: 80
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Crypt GB",
     gbCount: 81
   },
@@ -1214,17 +1132,12 @@ export const intermediate101: Step[] = [
     text: "EXIT"
   },
   {
-    color: Color.Header,
-    text: "CASTLE DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Chunky,
     text: "Move Lobby rock"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Bonus GB, leave Lobby",
     gbCount: 85
   },
@@ -1248,22 +1161,17 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W2, move rock, drop to tag"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W2 to Trombone pad",
   },
   {
     color: Color.Lanky,
     text: "ENTER Aztec"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER AZTEC 2 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Lanky,
@@ -1276,7 +1184,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Cage clip to bonus GB",
     gbCount: 89
   },
@@ -1286,13 +1194,13 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Beetle Race GB (20)",
     gbCount: 90
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Enter Llama Temple"
   },
   {
@@ -1301,13 +1209,17 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Fairy, bonus GB",
     gbCount: 91
   },
   {
     color: Color.Lanky,
-    text: "START SKEW to balloons (39)"
+    text: "--- START SKEW ---"
+  },
+  {
+    color: Color.Lanky,
+    text: "Skew to balloons (39)"
   },
   {
     color: Color.Lanky,
@@ -1315,7 +1227,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Lava room GB (35)",
     gbCount: 92
   },
@@ -1325,7 +1237,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Matching game GB",
     gbCount: 93
   },
@@ -1335,7 +1247,11 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    text: "Leave temple (50) END SKEW"
+    text: "Leave temple (50)"
+  },
+  {
+    color: Color.Lanky,
+    text: "--- END SKEW ---"
   },
   {
     color: Color.Lanky,
@@ -1348,7 +1264,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Path and 3 trees (65)"
   },
   {
@@ -1362,13 +1278,8 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Dogadon as Chunky"
-  },
-  {
-    color: Color.Header,
-    text: "KEY 2 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Chunky,
@@ -1394,11 +1305,6 @@ export const intermediate101: Step[] = [
     gbCount: 98
   },
   {
-    color: Color.Header,
-    text: "AZTEC 2 DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Chunky,
     text: "Leave Lobby, Triangle GB",
     gbCount: 99
@@ -1409,19 +1315,14 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Guitar GB, ENTER Caves",
     gbCount: 100
-  },
-  {
-    color: Color.Header,
-    text: "ENTER CAVES 2 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Diddy,
@@ -1438,13 +1339,8 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Army Dillo 2"
-  },
-  {
-    color: Color.Header,
-    text: "KEY 6 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -1453,7 +1349,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W2 (10), pswim to GB (18)",
     gbCount: 103
   },
@@ -1463,7 +1359,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Swim to tag W4 (2)"
   },
   {
@@ -1491,7 +1387,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Lanky 5DI GB (15)",
     gbCount: 107
   },
@@ -1510,25 +1406,25 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "BP, balloon (55), 5DC GB (75)",
     gbCount: 109
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "5DC GB (50)",
     gbCount: 110
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "5DC GB (15)",
     gbCount: 111
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Balloon above cabins (20)"
   },
   {
@@ -1542,7 +1438,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W5 for BP (60)"
   },
   {
@@ -1557,7 +1453,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, W1 to 5DI GB (50)",
     gbCount: 116
   },
@@ -1568,7 +1464,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W4 to BP, balloon (65)"
   },
   {
@@ -1578,7 +1474,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W3, balloon (60), W3"
   },
   {
@@ -1595,11 +1491,6 @@ export const intermediate101: Step[] = [
     text: "EXIT"
   },
   {
-    color: Color.Header,
-    text: "CAVES 2 DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.Chunky,
     text: "Small island fairy, slam X"
   },
@@ -1614,19 +1505,14 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Trombone GB",
     gbCount: 123
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "ENTER Japes"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER JAPES 2 (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -1635,7 +1521,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Pswim underground"
   },
   {
@@ -1649,11 +1535,11 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    text: "Gun skew, CS rise START SKEW"
+    text: "--- START SKEW ---"
   },
   {
     color: Color.Chunky,
-    text: "Tag W1/W2"
+    text: "CS to ground, tag W1/W2"
   },
   {
     color: Color.Chunky,
@@ -1662,13 +1548,13 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Cage GB",
     gbCount: 128
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Snide bunch (5), cage GB",
     gbCount: 129
   },
@@ -1678,7 +1564,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Hut skew, balloon (15)"
   },
   {
@@ -1692,8 +1578,12 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    text: "Stump GB, enter shell END SKEW",
+    text: "Stump GB, enter shell",
     gbCount: 131
+  },
+  {
+    color: Color.Tiny,
+    text: "--- END SKEW ---"
   },
   {
     color: Color.Tiny,
@@ -1711,13 +1601,13 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Bonus GB (20)",
     gbCount: 134
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W2, enter mountain (24)"
   },
   {
@@ -1744,7 +1634,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "3 trees (45) and bonus GB",
     gbCount: 137
   },
@@ -1754,7 +1644,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "BP, bonus GB (42)",
     gbCount: 138
   },
@@ -1768,13 +1658,8 @@ export const intermediate101: Step[] = [
     text: "Balloon (75), fairy, EXIT"
   },
   {
-    color: Color.Header,
-    text: "JAPES 2 DONE (SPLIT)",
-    isHeader: true
-  },
-  {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Leave Lobby for GB",
     gbCount: 140
   },
@@ -1784,38 +1669,33 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Shoot mushroom"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shoot mushroom"
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Shoot mushroom"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Shoot mushroom"
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shoot mushroom"
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Gone for BC, ENTER Forest"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER FOREST (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Chunky,
@@ -1846,7 +1726,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Mini to back room"
   },
   {
@@ -1860,7 +1740,11 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    text: "Swim to (27), thorns START SKEW"
+    text: "Swim to (27), damage on thorns"
+  },
+  {
+    color: Color.Tiny,
+    text: "--- START SKEW ---"
   },
   {
     color: Color.Tiny,
@@ -1868,7 +1752,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Tag W2, save apple (29)",
     gbCount: 145
   },
@@ -1878,8 +1762,12 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Right,
-    text: "BP, (5), enter shed END SKEW"
+    tag: Tag.Right,
+    text: "BP, (5), enter shed"
+  },
+  {
+    color: Color.DK,
+    text: "--- END SKEW ---"
   },
   {
     color: Color.DK,
@@ -1896,7 +1784,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W3 (6)",
   },
   {
@@ -1910,7 +1798,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "W4, rocket to night (20)"
   },
   {
@@ -1924,7 +1812,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Stump GB (50)",
     gbCount: 149
   },
@@ -1947,7 +1835,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Rocket to bonus GB (44)",
     gbCount: 151
   },
@@ -1957,7 +1845,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Blast course (25)",
     gbCount: 152
   },
@@ -1971,7 +1859,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Face room GB (44)",
     gbCount: 153
   },
@@ -1985,29 +1873,29 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shoot switch, bonus GB (75)",
     gbCount: 154
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shoot switch, balloon (24)"
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Shoot switch"
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Slam/shoot overlap, cannon GB (65)",
     gbCount: 155
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "Balloon (34), dark room GB (49)",
     gbCount: 156
   },
@@ -2027,7 +1915,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Pswim to cage GB",
     gbCount: 159
   },
@@ -2038,13 +1926,8 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.DK,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloon (75), moonkick to Snide's"
-  },
-  {
-    color: Color.Header,
-    text: "ENTER SNIDE'S (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.DK,
@@ -2053,36 +1936,31 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Chunky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "OH BANANA! x8",
     gbCount: 176
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "OH BANANA! x5",
     gbCount: 181
   },
   {
     color: Color.Lanky,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "OH BANANA! x8",
     gbCount: 189
   },
   {
     color: Color.Diddy,
-    tagDirection: Tag.Left,
+    tag: Tag.Left,
     text: "Balloon (75), OH BANANA! x8",
     gbCount: 197
   },
   {
     color: Color.Diddy,
     text: "EXIT"
-  },
-  {
-    color: Color.Header,
-    text: "FOREST DONE (SPLIT)",
-    isHeader: true
   },
   {
     color: Color.Diddy,
@@ -2096,7 +1974,7 @@ export const intermediate101: Step[] = [
   },
   {
     color: Color.Tiny,
-    tagDirection: Tag.Right,
+    tag: Tag.Right,
     text: "W5 to fairy cage GB",
     gbCount: 200
   },
