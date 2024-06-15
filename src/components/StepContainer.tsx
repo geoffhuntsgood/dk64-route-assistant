@@ -39,13 +39,13 @@ export const StepContainer = ({ step }: { step: Step }) => {
             {step.gbCount && <span style={{ float: "right" }}>{step.gbCount}</span>}
             {step.gbCount &&
               <span style={{ float: "right" }}>
-                <img src="img/gb.png" height={22} width={16.5} />
+                <img src="/img/gb.png" height={22} width={16.5} />
               </span>
             }
             {step.link &&
               <span style={{ float: "right" }}>
                 <a target="_blank" rel="noopener noreferrer" href={step.link}>
-                  🔗
+                  ↗
                 </a>
               </span>
             }

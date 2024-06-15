@@ -5,7 +5,7 @@ import { krool } from "./krool";
 export const taNLE: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START"
+    text: "--- PRE-START ---"
   },
   {
     color: Color.Header,
@@ -17,7 +17,7 @@ export const taNLE: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!"
+    text: "--- START! ---"
   },
   {
     color: Color.DK,
@@ -27,6 +27,10 @@ export const taNLE: Step[] = [
     color: Color.DK,
     text: "W1 to Japes Lobby, ENTER Japes",
     gbCount: 1
+  },
+  {
+    color: Color.Header,
+    text: "--- JAPES ---"
   },
   {
     color: Color.DK,
@@ -52,7 +56,7 @@ export const taNLE: Step[] = [
     text: "Pswim/tag to skew"
   },
   {
-    color: Color.Diddy,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -107,7 +111,7 @@ export const taNLE: Step[] = [
     text: "Skew in painting room"
   },
   {
-    color: Color.Lanky,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -137,6 +141,10 @@ export const taNLE: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- JAPES DONE ---"
+  },
+  {
     color: Color.Chunky,
     text: "Move Lobby rock"
   },
@@ -156,6 +164,10 @@ export const taNLE: Step[] = [
   {
     color: Color.DK,
     text: "ENTER Aztec"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC ---"
   },
   {
     color: Color.DK,
@@ -205,7 +217,7 @@ export const taNLE: Step[] = [
     text: "Pswim/tag to skew"
   },
   {
-    color: Color.DK,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -223,13 +235,17 @@ export const taNLE: Step[] = [
     text: "Corner skew to BP"
   },
   {
-    color: Color.Lanky,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
     color: Color.Tiny,
     text: "Lava GB, EXIT",
     gbCount: 21
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC DONE ---"
   },
   {
     color: Color.DK,
@@ -263,8 +279,12 @@ export const taNLE: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Bongos GB",
+    text: "Bongos GB, ENTER Factory",
     gbCount: 24
+  },
+  {
+    color: Color.Header,
+    text: "--- FACTORY ---"
   },
   {
     color: Color.DK,
@@ -334,12 +354,24 @@ export const taNLE: Step[] = [
   },
   {
     color: Color.DK,
-    text: "EXIT, drop to cage GB",
+    text: "EXIT"
+  },
+  {
+    color: Color.Header,
+    text: "--- FACTORY DONE ---"
+  },
+  {
+    color: Color.DK,
+    text: "Drop to cage GB",
     gbCount: 35
   },
   {
     color: Color.Chunky,
     text: "Galleon Lobby BP, ENTER Galleon"
+  },
+  {
+    color: Color.Header,
+    text: "--- GALLEON ---"
   },
   {
     color: Color.Chunky,
@@ -406,12 +438,16 @@ export const taNLE: Step[] = [
   },
   {
     color: Color.Tiny,
-    text: "Pswim to bonus GB",
+    text: "Pswim to bonus GB, EXIT",
     gbCount: 46
   },
   {
+    color: Color.Header,
+    text: "--- GALLEON DONE ---"
+  },
+  {
     color: Color.Tiny,
-    text: "EXIT, pswim to pipe GB",
+    text: "Pswim to pipe GB",
     gbCount: 47
   },
   {
@@ -438,6 +474,10 @@ export const taNLE: Step[] = [
     text: "W3, ENTER Forest"
   },
   {
+    color: Color.Header,
+    text: "--- FOREST ---"
+  },
+  {
     color: Color.DK,
     text: "Pink tunnel"
   },
@@ -450,7 +490,7 @@ export const taNLE: Step[] = [
     text: "Pswim/tag to skew"
   },
   {
-    color: Color.Diddy,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -458,7 +498,7 @@ export const taNLE: Step[] = [
     text: "Rocket to dark room door"
   },
   {
-    color: Color.Diddy,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -483,7 +523,7 @@ export const taNLE: Step[] = [
     text: "Pswim/tag to skew"
   },
   {
-    color: Color.Diddy,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -495,7 +535,7 @@ export const taNLE: Step[] = [
     text: "Skew in right wall, backflip under stump"
   },
   {
-    color: Color.Tiny,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -533,6 +573,10 @@ export const taNLE: Step[] = [
   {
     color: Color.DK,
     text: "BP, EXIT"
+  },
+  {
+    color: Color.Header,
+    text: "--- FOREST DONE ---"
   },
   {
     color: Color.Diddy,
@@ -575,11 +619,15 @@ export const taNLE: Step[] = [
     text: "ENTER Caves"
   },
   {
+    color: Color.Header,
+    text: "--- CAVES ---"
+  },
+  {
     color: Color.Diddy,
     text: "Tag W2, pswim/tag to skew"
   },
   {
-    color: Color.Diddy,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -629,7 +677,7 @@ export const taNLE: Step[] = [
     gbCount: 67
   },
   {
-    color: Color.Chunky,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -678,12 +726,16 @@ export const taNLE: Step[] = [
   },
   {
     color: Color.Chunky,
-    text: "Turn in BPs",
+    text: "Turn in BPs, EXIT",
     gbCount: 83
   },
   {
+    color: Color.Header,
+    text: "--- CAVES DONE ---"
+  },
+  {
     color: Color.DK,
-    text: "EXIT, W1, Castle Lobby"
+    text: "W1, Castle Lobby"
   },
   {
     color: Color.DK,
@@ -696,6 +748,10 @@ export const taNLE: Step[] = [
   {
     color: Color.DK,
     text: "ENTER Castle"
+  },
+  {
+    color: Color.Header,
+    text: "--- CASTLE ---"
   },
   {
     color: Color.DK,
@@ -762,12 +818,16 @@ export const taNLE: Step[] = [
   },
   {
     color: Color.Lanky,
-    text: "Tag midair to skip greenhouse GB",
+    text: "Tag midair to skip greenhouse GB, EXIT",
     gbCount: 100
   },
   {
+    color: Color.Header,
+    text: "--- CASTLE DONE ---"
+  },
+  {
     color: Color.Lanky,
-    text: "EXIT, deathwarp, exit Lobby"
+    text: "Deathwarp, exit Lobby"
   },
   {
     color: Color.DK,
@@ -782,16 +842,16 @@ export const taNLE: Step[] = [
     text: "Gone for vines, ENTER Helm"
   },
   {
+    color: Color.Header,
+    text: "--- HELM ---"
+  },
+  {
     color: Color.Lanky,
     text: "Orangstand up hills"
   },
   {
     color: Color.DK,
-    text: "Pwalk behind tag barrel"
-  },
-  {
-    color: Color.Diddy,
-    text: "Backflip on Chunky room corner"
+    text: "Pwalks/switch kick OOB"
   },
   {
     color: Color.DK,
@@ -800,6 +860,10 @@ export const taNLE: Step[] = [
   {
     color: Color.Header,
     text: "Pause quit, enter file"
+  },
+  {
+    color: Color.Header,
+    text: "--- HELM DONE ---"
   },
   {
     color: Color.DK,

@@ -5,7 +5,7 @@ import { krool } from "./krool";
 export const glitchlessAny: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START"
+    text: "--- PRE-START ---"
   },
   {
     color: Color.Header,
@@ -13,7 +13,7 @@ export const glitchlessAny: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!"
+    text: "--- START! ---"
   },
   {
     color: Color.DK,
@@ -31,6 +31,10 @@ export const glitchlessAny: Step[] = [
     color: Color.DK,
     text: "Japes entrance GB, ENTER Japes",
     gbCount: 1
+  },
+  {
+    color: Color.Header,
+    text: "--- JAPES 1 ---"
   },
   {
     color: Color.DK,
@@ -142,12 +146,20 @@ export const glitchlessAny: Step[] = [
     text: "Feed T&S, Key 1, EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- JAPES 1 DONE ---"
+  },
+  {
     color: Color.DK,
     text: "Tag W5/W1, turn in Key 1"
   },
   {
     color: Color.DK,
     text: "W1, tag W2/W3, ENTER Aztec"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC ---"
   },
   {
     color: Color.DK,
@@ -271,6 +283,10 @@ export const glitchlessAny: Step[] = [
     text: "1 coin over lava, EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- AZTEC DONE ---"
+  },
+  {
     color: Color.Lanky,
     text: "W2 to tag"
   },
@@ -288,6 +304,10 @@ export const glitchlessAny: Step[] = [
   {
     color: Color.DK,
     text: "ENTER Factory"
+  },
+  {
+    color: Color.Header,
+    text: "--- FACTORY ---"
   },
   {
     color: Color.DK,
@@ -435,6 +455,10 @@ export const glitchlessAny: Step[] = [
     text: "BP (2 coins?), EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- FACTORY DONE ---"
+  },
+  {
     color: Color.Chunky,
     tag: Tag.Right,
     text: "Punch box"
@@ -454,6 +478,10 @@ export const glitchlessAny: Step[] = [
     tag: Tag.Left,
     text: "Trombone GB, ENTER Japes",
     gbCount: 26
+  },
+  {
+    color: Color.Header,
+    text: "--- JAPES 2 ---"
   },
   {
     color: Color.Lanky,
@@ -487,6 +515,10 @@ export const glitchlessAny: Step[] = [
     gbCount: 31
   },
   {
+    color: Color.Header,
+    text: "--- JAPES 2 DONE ---"
+  },
+  {
     color: Color.Chunky,
     text: "W4, Snide BC"
   },
@@ -506,6 +538,10 @@ export const glitchlessAny: Step[] = [
     color: Color.Chunky,
     tag: Tag.Left,
     text: "BP, ENTER Galleon"
+  },
+  {
+    color: Color.Header,
+    text: "--- GALLEON ---"
   },
   {
     color: Color.Chunky,
@@ -644,6 +680,10 @@ export const glitchlessAny: Step[] = [
     text: "Feed T&S, Key 4, EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- GALLEON DONE ---"
+  },
+  {
     color: Color.Lanky,
     text: "Cage GB, turn in Key 4, W1",
     gbCount: 56
@@ -653,6 +693,10 @@ export const glitchlessAny: Step[] = [
     tag: Tag.Right,
     text: "Cage GB, ENTER Forest",
     gbCount: 57
+  },
+  {
+    color: Color.Header,
+    text: "--- FOREST ---"
   },
   {
     color: Color.Chunky,
@@ -816,6 +860,10 @@ export const glitchlessAny: Step[] = [
     text: "Feed T&S, Key 5, EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- FOREST DONE ---"
+  },
+  {
     color: Color.Diddy,
     tag: Tag.Right,
     text: "Cage GB, tag W3",
@@ -841,6 +889,10 @@ export const glitchlessAny: Step[] = [
     tag: Tag.Left,
     text: "Guitar GB, ENTER Caves",
     gbCount: 65
+  },
+  {
+    color: Color.Header,
+    text: "--- CAVES ---"
   },
   {
     color: Color.Diddy,
@@ -1006,6 +1058,10 @@ export const glitchlessAny: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- CAVES DONE ---"
+  },
+  {
     color: Color.DK,
     text: "Lava GB, Castle Lobby, open Kasplat",
     gbCount: 82
@@ -1019,6 +1075,10 @@ export const glitchlessAny: Step[] = [
     color: Color.DK,
     tag: Tag.Left,
     text: "ENTER Castle"
+  },
+  {
+    color: Color.Header,
+    text: "--- CASTLE ---"
   },
   {
     color: Color.DK,
@@ -1174,6 +1234,10 @@ export const glitchlessAny: Step[] = [
     text: "Feed T&S, Key 7, EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- CASTLE DONE ---"
+  },
+  {
     color: Color.Lanky,
     text: "Deathwarp to tag"
   },
@@ -1190,6 +1254,10 @@ export const glitchlessAny: Step[] = [
   {
     color: Color.Chunky,
     text: "ENTER Helm"
+  },
+  {
+    color: Color.Header,
+    text: "--- HELM ---"
   },
   {
     color: Color.Chunky,
@@ -1244,6 +1312,10 @@ export const glitchlessAny: Step[] = [
     color: Color.DK,
     tag: Tag.Left,
     text: "Key 8, EXIT Helm"
+  },
+  {
+    color: Color.Header,
+    text: "--- HELM DONE ---"
   },
   {
     color: Color.DK,

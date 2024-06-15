@@ -5,7 +5,7 @@ import { krool } from "./krool";
 export const allExpert: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START"
+    text: "--- PRE-START ---"
   },
   {
     color: Color.Header,
@@ -13,7 +13,7 @@ export const allExpert: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!"
+    text: "--- START! ---"
   },
   {
     color: Color.DK,
@@ -43,6 +43,10 @@ export const allExpert: Step[] = [
   {
     color: Color.DK,
     text: "Kick into Japes Lobby, ENTER Japes"
+  },
+  {
+    color: Color.Header,
+    text: "--- JAPES 1 ---"
   },
   {
     color: Color.DK,
@@ -141,6 +145,10 @@ export const allExpert: Step[] = [
   },
   {
     color: Color.Header,
+    text: "--- JAPES 1 DONE ---"
+  },
+  {
+    color: Color.Header,
     text: "Turn on Story Skip again"
   },
   {
@@ -150,6 +158,10 @@ export const allExpert: Step[] = [
   {
     color: Color.DK,
     text: "W1/W2, ENTER Aztec"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC 1 ---"
   },
   {
     color: Color.DK,
@@ -310,6 +322,10 @@ export const allExpert: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- AZTEC 1 DONE ---"
+  },
+  {
     color: Color.Diddy,
     text: "Charge Lobby gongs"
   },
@@ -327,6 +343,10 @@ export const allExpert: Step[] = [
     color: Color.Lanky,
     tag: Tag.Left,
     text: "ENTER Factory"
+  },
+  {
+    color: Color.Header,
+    text: "--- FACTORY ---"
   },
   {
     color: Color.Lanky,
@@ -561,6 +581,10 @@ export const allExpert: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- FACTORY DONE ---"
+  },
+  {
     color: Color.DK,
     text: "Bongos GB",
     gbCount: 37
@@ -579,6 +603,10 @@ export const allExpert: Step[] = [
   {
     color: Color.Chunky,
     text: "BP, ENTER Galleon"
+  },
+  {
+    color: Color.Header,
+    text: "--- GALLEON ---"
   },
   {
     color: Color.Chunky,
@@ -807,6 +835,10 @@ export const allExpert: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- GALLEON DONE ---"
+  },
+  {
     color: Color.Tiny,
     text: "Pswim to pipe GB, EXIT Lobby",
     gbCount: 62
@@ -830,6 +862,10 @@ export const allExpert: Step[] = [
     color: Color.Tiny,
     tag: Tag.Left,
     text: "10 MORE HOMING, ENTER Helm"
+  },
+  {
+    color: Color.Header,
+    text: "--- HELM ---"
   },
   {
     color: Color.Tiny,
@@ -871,6 +907,10 @@ export const allExpert: Step[] = [
     text: "Key 8, EXIT on fairies"
   },
   {
+    color: Color.Header,
+    text: "--- HELM DONE ---"
+  },
+  {
     color: Color.DK,
     text: "Damage boost to BP, deathwarp"
   },
@@ -892,6 +932,10 @@ export const allExpert: Step[] = [
     color: Color.DK,
     tag: Tag.Left,
     text: "ENTER Castle"
+  },
+  {
+    color: Color.Header,
+    text: "--- CASTLE ---"
   },
   {
     color: Color.DK,
@@ -1113,6 +1157,10 @@ export const allExpert: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- CASTLE DONE ---"
+  },
+  {
     color: Color.Chunky,
     text: "Move rock"
   },
@@ -1139,6 +1187,10 @@ export const allExpert: Step[] = [
   {
     color: Color.Lanky,
     text: "Tag W3, W2, ENTER Aztec"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC 2 ---"
   },
   {
     color: Color.Lanky,
@@ -1181,7 +1233,7 @@ export const allExpert: Step[] = [
     gbCount: 92
   },
   {
-    color: Color.Lanky,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -1213,7 +1265,7 @@ export const allExpert: Step[] = [
     text: "Skew to BP, W2, leave (50)"
   },
   {
-    color: Color.Lanky,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -1268,6 +1320,10 @@ export const allExpert: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- AZTEC 2 DONE ---"
+  },
+  {
     color: Color.Chunky,
     text: "Move 2 rocks, Triangle GB",
     gbCount: 100
@@ -1285,6 +1341,10 @@ export const allExpert: Step[] = [
     tag: Tag.Left,
     text: "Guitar GB, ENTER Caves",
     gbCount: 101
+  },
+  {
+    color: Color.Header,
+    text: "--- CAVES ---"
   },
   {
     color: Color.Diddy,
@@ -1463,6 +1523,10 @@ export const allExpert: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- CAVES DONE ---"
+  },
+  {
     color: Color.Chunky,
     text: "Small island fairy, slam X"
   },
@@ -1480,6 +1544,10 @@ export const allExpert: Step[] = [
     tag: Tag.Left,
     text: "Trombone GB, ENTER Japes",
     gbCount: 124
+  },
+  {
+    color: Color.Header,
+    text: "--- JAPES 2 ---"
   },
   {
     color: Color.Lanky,
@@ -1507,7 +1575,7 @@ export const allExpert: Step[] = [
     gbCount: 127
   },
   {
-    color: Color.Chunky,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -1543,6 +1611,14 @@ export const allExpert: Step[] = [
     color: Color.Tiny,
     text: "Tag W5, logs (45), stump GB",
     gbCount: 131
+  },
+  {
+    color: Color.Tiny,
+    text: "Skew into shell"
+  },
+  {
+    color: Color.Header,
+    text: "--- END SKEW ---"
   },
   {
     color: Color.Tiny,
@@ -1609,6 +1685,10 @@ export const allExpert: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- JAPES 2 DONE ---"
+  },
+  {
     color: Color.DK,
     tag: Tag.Left,
     text: "Leave Japes Lobby GB, Forest Lobby",
@@ -1618,6 +1698,10 @@ export const allExpert: Step[] = [
     color: Color.Chunky,
     tag: Tag.Left,
     text: "Pwalk/pfall to BC, ENTER Forest"
+  },
+  {
+    color: Color.Header,
+    text: "--- FOREST ---"
   },
   {
     color: Color.Chunky,
@@ -1682,6 +1766,10 @@ export const allExpert: Step[] = [
   {
     color: Color.Diddy,
     tag: Tag.Left,
+    text: "Tag, gun skew"
+  },
+  {
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -1718,7 +1806,7 @@ export const allExpert: Step[] = [
     text: "BP, bunch (15), enter shed"
   },
   {
-    color: Color.DK,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -1889,6 +1977,10 @@ export const allExpert: Step[] = [
   {
     color: Color.Diddy,
     text: "EXIT"
+  },
+  {
+    color: Color.Header,
+    text: "--- FOREST DONE ---"
   },
   {
     color: Color.Diddy,

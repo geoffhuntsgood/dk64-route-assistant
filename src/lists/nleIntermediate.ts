@@ -2,7 +2,7 @@ import { Step } from "../classes";
 import { Color, Tag } from "../enums";
 import { krool } from "./krool";
 
-export const nleHE: Step[] = [
+export const nleIntermediate: Step[] = [
   {
     color: Color.Header,
     text: "--- PRE-START ---"
@@ -85,11 +85,11 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Tag W4/W1, K. Lumsy"
+    text: "Tag W4/W1, visit K. Lumsy"
   },
   {
     color: Color.DK,
-    text: "W1, entrance GB to Japes",
+    text: "W1, entrance GB to Japes Lobby",
     gbCount: 1
   },
   {
@@ -111,54 +111,53 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Right switch, kick down"
+    text: "Shoot right switch, kick down"
   },
   {
     color: Color.DK,
-    text: "Middle switch, tag W1"
+    text: "Shoot middle switch, tag W1"
   },
   {
     color: Color.DK,
-    text: "Note: Diddy/Switch CS cancel"
+    text: "Note: Overlap Diddy/Switch CS"
   },
   {
     color: Color.DK,
-    text: "Pswim to GB, BP",
+    text: "Pswim to cage GB",
     gbCount: 3
   },
   {
     color: Color.DK,
-    text: "Tag W3, left switch"
+    text: "Jump in bounds behind gate for BP"
   },
   {
     color: Color.DK,
-    text: "Note: Blast to cancel CS, GB",
-    gbCount: 4
+    text: "Tag W3, overlap Blast/3rd switch CS"
   },
   {
     color: Color.DK,
-    text: "W2 to GB, get ammo toward Snide",
+    text: "Blast GB, W2 to Diddy GB",
     gbCount: 5
+  },
+  {
+    color: Color.DK,
+    text: "Grab ammo, head to Snide"
   },
   {
     color: Color.Diddy,
     tag: Tag.Right,
-    text: "Mountain GB, BP",
+    text: "Enter mountain, switch, mountain top GB",
     gbCount: 6
   },
   {
     color: Color.Diddy,
-    text: "Pswim for cave GB, enter T&S",
+    text: "BP, pswim to cave GB, enter T&S",
     gbCount: 7
   },
   {
     color: Color.DK,
     tag: Tag.Left,
-    text: "Key 1, torch clip to void"
-  },
-  {
-    color: Color.DK,
-    text: "EXIT"
+    text: "Key 1, walk to EXIT"
   },
   {
     color: Color.Header,
@@ -166,71 +165,71 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.DK,
-    text: "W1, turn in Key 1"
+    text: "W1, turn in Key 1, W1"
   },
   {
     color: Color.DK,
-    text: "W1, tag W2/W3, BFI camera"
-  },
-  {
-    color: Color.DK,
-    text: "ENTER Aztec"
+    text: "Tag W2/W3, ENTER Aztec"
   },
   {
     color: Color.Header,
-    text: "--- AZTEC ---"
+    text: "--- AZTEC 1 ---"
   },
   {
     color: Color.DK,
-    text: "BP, 3 crystals"
+    text: "BP, 3 crystals, go to main area"
   },
   {
     color: Color.Diddy,
     tag: Tag.Right,
+    text: "Guitar to open tunnel door"
+  },
+  {
+    color: Color.Diddy,
     text: "BP, enter Tiny Temple"
   },
   {
     color: Color.Diddy,
-    text: "Ledge clip to Tiny GB",
+    text: "Ledge clip, straight ahead to Tiny GB",
     gbCount: 8
   },
   {
     color: Color.Diddy,
-    text: "OKONG, pswim out"
+    text: "OKONG to free Tiny, pswim to leave"
   },
   {
     color: Color.Tiny,
     tag: Tag.Right,
-    text: "Torch clip to Klaptrap GB",
-    gbCount: 9
-  },
-  {
-    color: Color.Tiny,
-    text: "Guitar Skip, BP, tag at Snide"
+    text: "BP, tag by Snide"
   },
   {
     color: Color.Diddy,
     tag: Tag.Left,
-    text: "Gong tower GB, tag at Snide",
-    gbCount: 10
+    text: "Gong tower GB, tag by Snide",
+    gbCount: 9
   },
   {
     color: Color.DK,
     tag: Tag.Left,
-    text: "Enter T&S by W5, Key 2"
+    text: "Enter T&S, Key 2, tag W5"
   },
   {
     color: Color.DK,
-    text: "Tag W5, bonus GB, W5",
+    text: "Banana push to bonus GB, W5",
+    gbCount: 10
+  },
+  {
+    color: Color.DK,
+    text: "Roll clip into 5DT for GB",
     gbCount: 11
   },
   {
     color: Color.DK,
-    text: "Moonkick/roll clip in Llama Temple"
+    text: "Moonkick/roll clip into Llama Temple"
   },
   {
     color: Color.DK,
-    text: "Tag W2"
+    text: "Tag W2, gun skew"
   },
   {
     color: Color.Header,
@@ -238,13 +237,13 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.DK,
-    text: "Free Lanky, GB, skew to tag",
+    text: "Free Lanky for GB, skew to main area",
     gbCount: 12
   },
   {
     color: Color.Lanky,
     tag: Tag.Right,
-    text: "Tag W1, skew to matching game",
+    text: "Tag W1, skew to matching game GB",
     gbCount: 13
   },
   {
@@ -254,7 +253,7 @@ export const nleHE: Step[] = [
   {
     color: Color.Tiny,
     tag: Tag.Right,
-    text: "W1, W2, lava GB, void out",
+    text: "W1, W2, lava GB, skew to void out",
     gbCount: 14
   },
   {
@@ -262,21 +261,25 @@ export const nleHE: Step[] = [
     text: "--- END SKEW ---"
   },
   {
+    color: Color.Tiny,
+    text: "EXIT"
+  },
+  {
     color: Color.Header,
-    text: "--- AZTEC DONE ---"
+    text: "--- AZTEC 1 DONE ---"
   },
   {
     color: Color.Tiny,
-    text: "EXIT, W2, W1, turn in Key 2"
+    text: "W2, W1, turn in Key 2"
   },
   {
     color: Color.Tiny,
-    text: "Port, Saxophone GB",
+    text: "Monkeyport to Saxophone GB",
     gbCount: 15
   },
   {
     color: Color.Tiny,
-    text: "Factory Lobby to tag"
+    text: "Fall to Factory Lobby"
   },
   {
     color: Color.Lanky,
@@ -289,21 +292,21 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.Lanky,
-    text: "Robot push to Tiny's cage"
+    text: "Robot push OOB to Tiny cage"
   },
   {
     color: Color.Lanky,
-    text: "OOB to pipe GB, drop to tag",
+    text: "Continue to pipe GB, drop to tag",
     gbCount: 16
   },
   {
     color: Color.Diddy,
     tag: Tag.Left,
-    text: "Tag W4, drop to BP"
+    text: "Tag W4, drop to BP, slam prod switch"
   },
   {
     color: Color.Diddy,
-    text: "Slam switch, storage to tag"
+    text: "Go to storage to tag"
   },
   {
     color: Color.Lanky,
@@ -314,65 +317,55 @@ export const nleHE: Step[] = [
   {
     color: Color.Tiny,
     tag: Tag.Right,
-    text: "HEADPHONES, BP"
+    text: "Key 3, BP, get cage GB",
+    gbCount: 18
   },
   {
     color: Color.Tiny,
-    text: "Cage GB, tag in T&S",
-    gbCount: 18
+    text: "Clip to testing room"
   },
   {
     color: Color.Chunky,
     tag: Tag.Right,
-    text: "Pfall/pwalk to testing, BP"
+    text: "BP, go to R&D"
   },
   {
     color: Color.Lanky,
     tag: Tag.Left,
-    text: "BP, Ostand TBS for piano GB",
-    gbCount: 19
+    text: "BP, back to tag"
   },
   {
     color: Color.DK,
     tag: Tag.Left,
-    text: "Exit TBS as DK, push OOB"
+    text: "Drop to power shed, lever GB",
+    gbCount: 19
   },
   {
-    color: Color.DK,
-    text: "Drop to shed, lever GB",
+    color: Color.Chunky,
+    tag: Tag.Left,
+    text: "Dark room GB, slam prod switch",
     gbCount: 20
   },
   {
     color: Color.Chunky,
-    tag: Tag.Left,
-    text: "Dark room GB, prod switch",
+    text: "W4 to crusher GB, climb to tag",
     gbCount: 21
-  },
-  {
-    color: Color.Chunky,
-    text: "W4 to crusher GB, tag near T&S",
-    gbCount: 22
   },
   {
     color: Color.Diddy,
     tag: Tag.Right,
-    text: "Spring GB",
+    text: "Cross cylinders, Spring GB, back to tag",
+    gbCount: 22
+  },
+  {
+    color: Color.DK,
+    tag: Tag.Left,
+    text: "Cross cylinders, BP"
+  },
+  {
+    color: Color.DK,
+    text: "Drop to crusher room, clip to GB, clip to void",
     gbCount: 23
-  },
-  {
-    color: Color.Tiny,
-    tag: Tag.Right,
-    text: "Enter T&S, Key 3"
-  },
-  {
-    color: Color.DK,
-    tag: Tag.Right,
-    text: "BP, drop to crusher room"
-  },
-  {
-    color: Color.DK,
-    text: "Clip OOB for GB, clip to void out",
-    gbCount: 24
   },
   {
     color: Color.DK,
@@ -385,7 +378,7 @@ export const nleHE: Step[] = [
   {
     color: Color.DK,
     text: "Bongos GB",
-    gbCount: 25
+    gbCount: 24
   },
   {
     color: Color.Chunky,
@@ -395,7 +388,7 @@ export const nleHE: Step[] = [
   {
     color: Color.Tiny,
     tag: Tag.Left,
-    text: "BP, leave Lobby, W4"
+    text: "BP, W4 to tag"
   },
   {
     color: Color.Chunky,
@@ -406,7 +399,7 @@ export const nleHE: Step[] = [
     color: Color.Lanky,
     tag: Tag.Left,
     text: "Trombone GB, ENTER Japes",
-    gbCount: 26
+    gbCount: 25
   },
   {
     color: Color.Header,
@@ -417,37 +410,36 @@ export const nleHE: Step[] = [
     text: "W1 to tag"
   },
   {
+    color: Color.Tiny,
+    tag: Tag.Right,
+    text: "Gun skew in river"
+  },
+  {
     color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
     color: Color.Tiny,
-    tag: Tag.Right,
-    text: "Cage GB",
+    text: "Twirl to cage GB, W3, BP, stump GB",
     gbCount: 27
-  },
-  {
-    color: Color.Tiny,
-    text: "W3, BP, Stump GB",
-    gbCount: 28
   },
   {
     color: Color.Diddy,
     tag: Tag.Left,
-    text: "Wall skew for cage GB",
-    gbCount: 29
+    text: "Wall skew through right log to cage GB",
+    gbCount: 28
   },
   {
     color: Color.Chunky,
     tag: Tag.Left,
     text: "Cage GB",
-    gbCount: 30
+    gbCount: 29
   },
   {
     color: Color.Lanky,
     tag: Tag.Left,
     text: "Cage GB, skew in painting room",
-    gbCount: 31
+    gbCount: 30
   },
   {
     color: Color.Header,
@@ -455,41 +447,46 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.Lanky,
-    text: "Clip for GB",
-    gbCount: 32
+    text: "Clip through wall for GB, leave",
+    gbCount: 31
   },
   {
     color: Color.Lanky,
-    text: "BP, bonus GB",
+    text: "Through tunnel to BP, bonus GB",
+    gbCount: 32
+  },
+  {
+    color: Color.Chunky,
+    tag: Tag.Right,
+    text: "Pswim to underground"
+  },
+  {
+    color: Color.Chunky,
+    text: "BP, underground GB, deathwarp",
     gbCount: 33
   },
   {
     color: Color.Chunky,
-    tag: Tag.Right,
-    text: "Pswim underground"
-  },
-  {
-    color: Color.Chunky,
-    text: "BP, GB, deathwarp, rock GB",
-    gbCount: 35
+    text: "Cannon out, rock GB",
+    gbCount: 34
   },
   {
     color: Color.DK,
     tag: Tag.Right,
-    text: "W1, EXIT Japes"
+    text: "W1, EXIT"
   },
   {
     color: Color.Header,
-    text: "--- JAPES 2 DONE ---"
+    text: "--- JAPES 2 DONE"
   },
   {
     color: Color.DK,
-    text: "W4, cage GB, Galleon Lobby",
-    gbCount: 36
+    text: "W4, drop to cage GB, Galleon Lobby",
+    gbCount: 35
   },
   {
     color: Color.Chunky,
-    tag: Tag.Right,
+    tag: Tag.Left,
     text: "BP, ENTER Galleon"
   },
   {
@@ -498,67 +495,72 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.Chunky,
-    text: "Chest GB, tag W3",
+    text: "Shoot switches, chest GB",
+    gbCount: 36
+  },
+  {
+    color: Color.Chunky,
+    text: "Cannon to tag W3, Key 4"
+  },
+  {
+    color: Color.Chunky,
+    text: "Backflip OOB above T&S"
+  },
+  {
+    color: Color.Chunky,
+    text: "OOB left to cactus BP"
+  },
+  {
+    color: Color.Tiny,
+    tag: Tag.Left,
+    text: "Pswim to 5DS GB",
     gbCount: 37
   },
   {
-    color: Color.Chunky,
-    text: "Cannon skew, cannon spawn snag",
+    color: Color.Lanky,
+    tag: Tag.Left,
+    text: "Pswim to 5DS GB",
     gbCount: 38
   },
   {
-    color: Color.Diddy,
-    tag: Tag.Right,
-    text: "BP, raise water"
-  },
-  {
-    color: Color.Diddy,
-    text: "Turn in BPs, tag by Snide",
-    gbCount: 42
-  },
-  {
-    color: Color.Tiny,
-    tag: Tag.Right,
-    text: "W3, BP, tag in T&S"
-  },
-  {
-    color: Color.Chunky,
-    tag: Tag.Right,
-    text: "Key 4, OOB to cactus BP"
-  },
-  {
-    color: Color.Tiny,
-    tag: Tag.Left,
-    text: "Pswim to 5DS GB",
-    gbCount: 43
+    color: Color.Lanky,
+    text: "Pswim to 2DS GB, pswim to leave",
+    gbCount: 39
   },
   {
     color: Color.Lanky,
+    text: "Pswim to treasure room"
+  },
+  {
+    color: Color.DK,
     tag: Tag.Left,
-    text: "Pswim to 5DS GB",
+    text: "Ledge kick from chest to BP"
+  },
+  {
+    color: Color.Lanky,
+    tag: Tag.Right,
+    text: "Void on back wall, pswim to lighthouse"
+  },
+  {
+    color: Color.Lanky,
+    text: "Enguarde GB at bottom, tag at mermaid",
+    gbCount: 40
+  },
+  {
+    color: Color.Diddy,
+    tag: Tag.Left,
+    text: "BP, raise water, turn in BPs x4",
     gbCount: 44
   },
   {
-    color: Color.Lanky,
-    text: "Pswim for 2DS GB",
-    gbCount: 45
-  },
-  {
-    color: Color.Lanky,
-    text: "Pswim to void, BP"
-  },
-  {
-    color: Color.Lanky,
-    text: "Pswim to lighthouse"
-  },
-  {
-    color: Color.Lanky,
-    text: "Enguarde GB, tag near mermaid"
+    color: Color.Tiny,
+    tag: Tag.Right,
+    text: "Turn in BPs x4, W3, BP, void over T&S",
+    gbCount: 48
   },
   {
     color: Color.Tiny,
-    tag: Tag.Right,
-    text: "Pswim to void, EXIT"
+    text: "EXIT"
   },
   {
     color: Color.Header,
@@ -566,43 +568,34 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.Tiny,
-    text: "Pswim to pipe GB",
-    gbCount: 47
+    text: "Pswim to pipe GB, exit Lobby",
+    gbCount: 49
   },
   {
     color: Color.Tiny,
-    text: "Pswim to void, exit Lobby"
-  },
-  {
-    color: Color.Tiny,
-    text: "STS to BFI GB, W5",
-    gbCount: 48
+    text: "STS to BFI cage GB, W5",
+    gbCount: 50
   },
   {
     color: Color.Lanky,
     tag: Tag.Left,
-    text: "Pswim to cage GB",
-    gbCount: 49
+    text: "Cage GB behind K. Lumsy",
+    gbCount: 51
   },
   {
     color: Color.Lanky,
     text: "Sprint GB, turn in Key 4, W1",
-    gbCount: 50
+    gbCount: 52
   },
   {
     color: Color.Chunky,
     tag: Tag.Right,
-    text: "W5, slam X, STS to cage GB",
-    gbCount: 51
+    text: "W5, Hunky Chunky, slam X"
   },
   {
     color: Color.Chunky,
-    text: "Big X GB, enter Forest Lobby",
-    gbCount: 52
-  },
-  {
-    color: Color.Header,
-    text: "--- FOREST ---"
+    text: "STS to cage GB, rock GB, Forest Lobby",
+    gbCount: 54
   },
   {
     color: Color.DK,
@@ -610,136 +603,116 @@ export const nleHE: Step[] = [
     text: "ENTER Forest"
   },
   {
+    color: Color.Header,
+    text: "--- FOREST ---"
+  },
+  {
     color: Color.DK,
-    text: "Pink tunnel to mushroom"
+    text: "Tag W4, pink tunnel, tag behind mushroom"
   },
   {
     color: Color.Diddy,
     tag: Tag.Right,
-    text: "Shoot switch"
-  },
-  {
-    color: Color.Lanky,
-    tag: Tag.Right,
-    text: "Shoot switch"
-  },
-  {
-    color: Color.Tiny,
-    tag: Tag.Right,
-    text: "Shoot switch"
-  },
-  {
-    color: Color.Chunky,
-    tag: Tag.Right,
-    text: "Shoot switch"
-  },
-  {
-    color: Color.DK,
-    tag: Tag.Right,
-    text: "CS overlap for cannon GB",
-    gbCount: 53
-  },
-  {
-    color: Color.DK,
-    text: "Exit to top, clockwise to tag"
+    text: "Rocket to mushroom top, 5 Homing Ammo"
   },
   {
     color: Color.Lanky,
     tag: Tag.Right,
     text: "Slam switch, dark room GB",
-    gbCount: 54
+    gbCount: 55
   },
   {
     color: Color.Chunky,
     tag: Tag.Right,
-    text: "Fall to BP, fall to Blast"
+    text: "Drop to BP, jump to Blast platform"
   },
   {
     color: Color.Diddy,
     tag: Tag.Right,
-    text: "Climb into mushroom, BP, back out"
+    text: "Climb ladder, inside for BP, back out"
   },
   {
     color: Color.Tiny,
     tag: Tag.Right,
-    text: "BP, gun dive, pswim to Owl"
+    text: "BP, drop to water, pswim to owl area"
+  },
+  {
+    color: Color.Lanky,
+    tag: Tag.Left,
+    text: "BP, W4, blue tunnel, turn in BPs x5",
+    gbCount: 60
+  },
+  {
+    color: Color.Chunky,
+    tag: Tag.Right,
+    text: "Turn in BPs x5",
+    gbCount: 65
+  },
+  {
+    color: Color.DK,
+    tag: Tag.Right,
+    text: "Key 5, turn in BPs x4",
+    gbCount: 69
+  },
+  {
+    color: Color.DK,
+    text: "Enter mill, clip for GB",
+    gbCount: 70
+  },
+  {
+    color: Color.Diddy,
+    tag: Tag.Right,
+    text: "Exit mill, pswim to cage GB",
+    gbCount: 71
+  },
+  {
+    color: Color.Diddy,
+    text: "Thorn skew behind barn"
   },
   {
     color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
-    color: Color.Lanky,
+    color: Color.DK,
     tag: Tag.Left,
-    text: "BP"
-  },
-  {
-    color: Color.Tiny,
-    tag: Tag.Right,
-    text: "Skew into anthill GB",
-    gbCount: 55
+    text: "BP, left wall to void"
   },
   {
     color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
-    color: Color.Tiny,
-    text: "Turn in BPs, enter T&S",
-    gbCount: 61
-  },
-  {
     color: Color.DK,
-    tag: Tag.Left,
-    text: "Key 5, enter mill, clip for GB",
-    gbCount: 62
-  },
-  {
-    color: Color.Diddy,
-    tag: Tag.Right,
-    text: "Exit mill, pswim to cage GB",
-    gbCount: 63
-  },
-  {
-    color: Color.Diddy,
-    text: "Thorn skew, tag DK behind barn"
-  },
-  {
-    color: Color.DK,
-    tag: Tag.Left,
-    text: "BP, EXIT"
+    text: "EXIT"
   },
   {
     color: Color.Header,
     text: "--- FOREST DONE ---"
   },
   {
-    color: Color.DK,
-    text: "Tag in Lobby"
-  },
-  {
     color: Color.Diddy,
     tag: Tag.Right,
     text: "Exit Lobby, cage GB",
-    gbCount: 64
+    gbCount: 72
   },
   {
     color: Color.Diddy,
-    text: "Fall to W3"
+    text: "Fall down waterfall to W3"
   },
   {
     color: Color.Chunky,
-    tag: Tag.Left,
+    tag: Tag.Right,
     text: "W1, turn in Key 5, W1, W2"
   },
   {
     color: Color.Chunky,
-    text: "Triangle GB, Caves Lobby",
-    gbCount: 65
+    text: "Move rock, Triangle GB",
+    gbCount: 73
   },
   {
     color: Color.Chunky,
-    text: "Punch left wall"
+    text: "Enter Caves Lobby, Punch left wall"
   },
   {
     color: Color.Lanky,
@@ -750,7 +723,7 @@ export const nleHE: Step[] = [
     color: Color.Diddy,
     tag: Tag.Left,
     text: "Rocket to Guitar GB, ENTER Caves",
-    gbCount: 66
+    gbCount: 74
   },
   {
     color: Color.Header,
@@ -758,142 +731,140 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.Diddy,
-    text: "Gun skew, tag W4, BP"
+    text: "Tag W1, gun skew in river"
+  },
+  {
+    color: Color.Header,
+    text: "--- START SKEW ---"
   },
   {
     color: Color.Diddy,
-    text: "Rocket to tag W5, rocket to back"
+    text: "Cross river, past Funky"
+  },
+  {
+    color: Color.Diddy,
+    text: "Skew to BP, tag W4, back out"
+  },
+  {
+    color: Color.Diddy,
+    text: "Rocket to tag W5, rocket to bonus GB",
+    gbCount: 75
+  },
+  {
+    color: Color.Diddy,
+    text: "Fly to T&S over DK cabin"
   },
   {
     color: Color.DK,
     tag: Tag.Left,
-    text: "DK Cabin GB, 5DC GB",
-    gbCount: 68
+    text: "Key 6, DK cabin GB",
+    gbCount: 76
   },
   {
     color: Color.Tiny,
     tag: Tag.Left,
-    text: "5DC GB",
-    gbCount: 69
-  },
-  {
-    color: Color.Lanky,
-    tag: Tag.Left,
-    text: "W5, BP, tag at ice castle"
+    text: "BP, twirl to 5DC GB",
+    gbCount: 77
   },
   {
     color: Color.DK,
-    tag: Tag.Left,
-    text: "BP, kick down to tag"
-  },
-  {
-    color: Color.Chunky,
-    tag: Tag.Left,
-    text: "Gun skew to Gone GB, HEADPHONES",
-    gbCount: 70
-  },
-  {
-    color: Color.Chunky,
-    text: "Skew to ice shield GB, BP",
-    gbCount: 71
-  },
-  {
-    color: Color.Tiny,
     tag: Tag.Right,
-    text: "W4, Monkeyport GB",
-    gbCount: 72
-  },
-  {
-    color: Color.Tiny,
-    text: "W4, pswim to Snide"
+    text: "5DC GB",
+    gbCount: 78
   },
   {
     color: Color.Lanky,
+    tag: Tag.Right,
+    text: "W5 to BP, tag at ice castle"
+  },
+  {
+    color: Color.DK,
     tag: Tag.Left,
-    text: "Turn in BPs",
+    text: "BP, kick down right to tag"
+  },
+  {
+    color: Color.Tiny,
+    tag: Tag.Left,
+    text: "W4 to Monkeyport GB, W4 back",
     gbCount: 79
   },
   {
     color: Color.Chunky,
     tag: Tag.Right,
-    text: "Key 6, turn in BPs",
-    gbCount: 85
+    text: "BP, W1, pswim to Gone GB",
+    gbCount: 80
   },
   {
     color: Color.Chunky,
-    text: "Pfall/pwalk to void, EXIT"
+    text: "EXIT"
   },
   {
     color: Color.Header,
     text: "--- CAVES DONE ---"
   },
   {
-    color: Color.DK,
-    tag: Tag.Right,
-    text: "Lava GB, exit Lobby, W1",
-    gbCount: 86
+    color: Color.Chunky,
+    text: "Jump left, Punch other wall"
   },
   {
     color: Color.DK,
-    text: "Castle Lobby, open BP"
+    tag: Tag.Right,
+    text: "Damage boost to lava GB",
+    gbCount: 81
+  },
+  {
+    color: Color.DK,
+    text: "Leave Lobby, W1 to Castle Lobby"
+  },
+  {
+    color: Color.DK,
+    text: "Open Kasplat gate"
   },
   {
     color: Color.Diddy,
     tag: Tag.Right,
-    text: "BP, deathwarp"
-  },
-  {
-    color: Color.DK,
-    tag: Tag.Left,
-    text: "ENTER Castle"
+    text: "BP, ENTER Castle"
   },
   {
     color: Color.Header,
     text: "--- CASTLE ---"
   },
   {
-    color: Color.DK,
-    text: "Pswim/pwalk in tree, BP, GB",
-    gbCount: 87
-  },
-  {
-    color: Color.DK,
-    text: "Airswim to crypt"
-  },
-  {
     color: Color.Diddy,
-    tag: Tag.Right,
-    text: "BP, exit crypt, rocket to top"
-  },
-  {
-    color: Color.Diddy,
-    text: "Turn in BPs",
-    gbCount: 91
-  },
-  {
-    color: Color.DK,
-    tag: Tag.Left,
-    text: "Turn in BPs, library clip for GB",
-    gbCount: 98
-  },
-  {
-    color: Color.DK,
-    text: "Down to ballroom tag"
+    text: "Climb past warps to tunnel by water"
   },
   {
     color: Color.Chunky,
     tag: Tag.Left,
-    text: "Shed GB, enter T&S, start KKO",
-    gbCount: 99
+    text: "BP, back to tag"
+  },
+  {
+    color: Color.DK,
+    tag: Tag.Right,
+    text: "Leave tunnel, clip into tree for BP"
+  },
+  {
+    color: Color.DK,
+    text: "Roll clip to GB, back to warps",
+    gbCount: 82
+  },
+  {
+    color: Color.DK,
+    text: "Ledge kick to T&S by upper W2, Key 7"
+  },
+  {
+    color: Color.Lanky,
+    text: "Clockwise to BP, drop to crypt"
+  },
+  {
+    color: Color.Diddy,
+    tag: Tag.Left,
+    text: "BP, back to tag"
   },
   {
     color: Color.Tiny,
-    text: "Finish KKO as Tiny, Key 7"
-  },
-  {
-    color: Color.Tiny,
-    text: "Trash GB, death jump, EXIT",
-    gbCount: 100
+    tag: Tag.Right,
+    text: "BP, deathwarp, EXIT"
   },
   {
     color: Color.Header,
@@ -901,11 +872,86 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.Tiny,
-    text: "Turn in Keys 7 and 6"
+    text: "Deathwarp, leave Lobby"
   },
   {
     color: Color.Tiny,
-    text: "Port to Helm Lobby"
+    text: "Turn in Keys 7 & 6"
+  },
+  {
+    color: Color.Tiny,
+    text: "Monkeyport to Helm Lobby"
+  },
+  {
+    color: Color.DK,
+    tag: Tag.Right,
+    text: "Damage boost to BP, deathwarp, exit Lobby"
+  },
+  {
+    color: Color.DK,
+    text: "Kick down to warps, W2 to ENTER Aztec"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC 2 ---"
+  },
+  {
+    color: Color.DK,
+    text: "W1 to tag"
+  },
+  {
+    color: Color.Chunky,
+    tag: Tag.Left,
+    text: "Hunky Chunky, clip on wall light by bonus cage"
+  },
+  {
+    color: Color.Chunky,
+    text: "Clip in back to enter 5DT"
+  },
+  {
+    color: Color.Chunky,
+    text: "BP, leave 5DT, go to Snide"
+  },
+  {
+    color: Color.Chunky,
+    text: "Turn in BPs x3",
+    gbCount: 85
+  },
+  {
+    color: Color.DK,
+    tag: Tag.Right,
+    text: "Turn in BPs x4",
+    gbCount: 89
+  },
+  {
+    color: Color.Diddy,
+    tag: Tag.Right,
+    text: "Turn in BPs x4",
+    gbCount: 93
+  },
+  {
+    color: Color.Lanky,
+    tag: Tag.Right,
+    text: "Turn in BPs x3",
+    gbCount: 96
+  },
+  {
+    color: Color.Tiny,
+    tag: Tag.Right,
+    text: "Turn in BPs x4",
+    gbCount: 100
+  },
+  {
+    color: Color.Tiny,
+    text: "Lose Beaver Bother, pause exit"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC 2 DONE ---"
+  },
+  {
+    color: Color.Tiny,
+    text: "W2, Monkeyport to Helm Lobby"
   },
   {
     color: Color.Chunky,
@@ -919,12 +965,12 @@ export const nleHE: Step[] = [
   {
     color: Color.Tiny,
     tag: Tag.Left,
-    text: "Kickslide up hill"
+    text: "Kickslide up hills"
   },
   {
     color: Color.Chunky,
     tag: Tag.Right,
-    text: "Shoot switch, vines"
+    text: "Shoot switch, cross vines"
   },
   {
     color: Color.Chunky,
@@ -932,18 +978,22 @@ export const nleHE: Step[] = [
   },
   {
     color: Color.Chunky,
-    text: "Key 8, pfall/pwalk to escape"
+    text: "Key 8, RESET"
   },
   {
     color: Color.Header,
     text: "--- HELM DONE ---"
   },
   {
-    color: Color.Chunky,
-    text: "Leave, turn in Keys 8 & 3"
+    color: Color.DK,
+    text: "W1, turn in Keys 8 & 3"
   },
   {
-    color: Color.Chunky,
+    color: Color.DK,
+    text: "RESET on cutscene (ship)"
+  },
+  {
+    color: Color.DK,
     text: "W3, ENTER K. Rool"
   },
   ...krool

@@ -5,7 +5,7 @@ import { krool } from "./krool";
 export const allIntermediate: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START"
+    text: "--- PRE-START ---"
   },
   {
     color: Color.Header,
@@ -13,7 +13,7 @@ export const allIntermediate: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!"
+    text: "--- START! ---"
   },
   {
     color: Color.DK,
@@ -47,6 +47,10 @@ export const allIntermediate: Step[] = [
   {
     color: Color.DK,
     text: "Kick to Japes Lobby, ENTER Japes"
+  },
+  {
+    color: Color.Header,
+    text: "--- JAPES 1 ---"
   },
   {
     color: Color.DK,
@@ -128,6 +132,10 @@ export const allIntermediate: Step[] = [
   },
   {
     color: Color.Header,
+    text: "--- JAPES 1 DONE ---"
+  },
+  {
+    color: Color.Header,
     text: "Turn on Story Skip again"
   },
   {
@@ -137,6 +145,10 @@ export const allIntermediate: Step[] = [
   {
     color: Color.DK,
     text: "W1, W2, ENTER Aztec"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC 1 ---"
   },
   {
     color: Color.DK,
@@ -291,6 +303,10 @@ export const allIntermediate: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- AZTEC 1 DONE ---"
+  },
+  {
     color: Color.Diddy,
     text: "Charge gongs"
   },
@@ -312,6 +328,10 @@ export const allIntermediate: Step[] = [
     color: Color.Lanky,
     tag: Tag.Left,
     text: "ENTER Factory"
+  },
+  {
+    color: Color.Header,
+    text: "--- FACTORY ---"
   },
   {
     color: Color.Lanky,
@@ -532,6 +552,10 @@ export const allIntermediate: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- FACTORY DONE ---"
+  },
+  {
     color: Color.DK,
     text: "Bongo GB",
     gbCount: 36
@@ -560,6 +584,10 @@ export const allIntermediate: Step[] = [
   {
     color: Color.Chunky,
     text: "BP, ENTER Galleon"
+  },
+  {
+    color: Color.Header,
+    text: "--- GALLEON ---"
   },
   {
     color: Color.Chunky,
@@ -790,6 +818,10 @@ export const allIntermediate: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- GALLEON DONE ---"
+  },
+  {
     color: Color.Tiny,
     text: "Pswim for pipe GB",
     gbCount: 61
@@ -817,6 +849,10 @@ export const allIntermediate: Step[] = [
     color: Color.Tiny,
     tag: Tag.Left,
     text: "10 MORE HOMING, ENTER Helm"
+  },
+  {
+    color: Color.Header,
+    text: "--- HELM ---"
   },
   {
     color: Color.Tiny,
@@ -866,6 +902,10 @@ export const allIntermediate: Step[] = [
     text: "EXIT on fairy picture"
   },
   {
+    color: Color.Header,
+    text: "--- HELM DONE ---"
+  },
+  {
     color: Color.DK,
     text: "Damage boost to BP"
   },
@@ -891,6 +931,10 @@ export const allIntermediate: Step[] = [
     color: Color.DK,
     tag: Tag.Left,
     text: "ENTER Castle"
+  },
+  {
+    color: Color.Header,
+    text: "--- CASTLE ---"
   },
   {
     color: Color.DK,
@@ -1132,6 +1176,10 @@ export const allIntermediate: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- CASTLE DONE ---"
+  },
+  {
     color: Color.Chunky,
     text: "Move Lobby rock"
   },
@@ -1174,6 +1222,10 @@ export const allIntermediate: Step[] = [
     text: "ENTER Aztec"
   },
   {
+    color: Color.Header,
+    text: "--- AZTEC 2 ---"
+  },
+  {
     color: Color.Lanky,
     text: "Vulture GB, up to (19), BC",
     gbCount: 88
@@ -1214,7 +1266,7 @@ export const allIntermediate: Step[] = [
     gbCount: 91
   },
   {
-    color: Color.Lanky,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -1250,7 +1302,7 @@ export const allIntermediate: Step[] = [
     text: "Leave temple (50)"
   },
   {
-    color: Color.Lanky,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -1305,6 +1357,10 @@ export const allIntermediate: Step[] = [
     gbCount: 98
   },
   {
+    color: Color.Header,
+    text: "--- AZTEC 2 DONE ---"
+  },
+  {
     color: Color.Chunky,
     text: "Leave Lobby, Triangle GB",
     gbCount: 99
@@ -1323,6 +1379,10 @@ export const allIntermediate: Step[] = [
     tag: Tag.Left,
     text: "Guitar GB, ENTER Caves",
     gbCount: 100
+  },
+  {
+    color: Color.Header,
+    text: "--- CAVES ---"
   },
   {
     color: Color.Diddy,
@@ -1491,6 +1551,10 @@ export const allIntermediate: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- CAVES DONE ---"
+  },
+  {
     color: Color.Chunky,
     text: "Small island fairy, slam X"
   },
@@ -1515,6 +1579,10 @@ export const allIntermediate: Step[] = [
     text: "ENTER Japes"
   },
   {
+    color: Color.Header,
+    text: "--- JAPES 2 ---"
+  },
+  {
     color: Color.DK,
     text: "Bush push to Blast (75)",
     gbCount: 124
@@ -1534,7 +1602,7 @@ export const allIntermediate: Step[] = [
     gbCount: 126
   },
   {
-    color: Color.Chunky,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -1582,7 +1650,7 @@ export const allIntermediate: Step[] = [
     gbCount: 131
   },
   {
-    color: Color.Tiny,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -1658,6 +1726,10 @@ export const allIntermediate: Step[] = [
     text: "Balloon (75), fairy, EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- JAPES 2 DONE ---"
+  },
+  {
     color: Color.DK,
     tag: Tag.Left,
     text: "Leave Lobby for GB",
@@ -1696,6 +1768,10 @@ export const allIntermediate: Step[] = [
     color: Color.Chunky,
     tag: Tag.Right,
     text: "Gone for BC, ENTER Forest"
+  },
+  {
+    color: Color.Header,
+    text: "--- FOREST ---"
   },
   {
     color: Color.Chunky,
@@ -1743,7 +1819,7 @@ export const allIntermediate: Step[] = [
     text: "Swim to (27), damage on thorns"
   },
   {
-    color: Color.Tiny,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -1766,7 +1842,7 @@ export const allIntermediate: Step[] = [
     text: "BP, (5), enter shed"
   },
   {
-    color: Color.DK,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -1931,36 +2007,40 @@ export const allIntermediate: Step[] = [
   },
   {
     color: Color.DK,
-    text: "OH BANANA! x8",
+    text: "Turn in BPs x8",
     gbCount: 168
   },
   {
     color: Color.Chunky,
     tag: Tag.Left,
-    text: "OH BANANA! x8",
+    text: "Turn in BPs x8",
     gbCount: 176
   },
   {
     color: Color.Tiny,
     tag: Tag.Left,
-    text: "OH BANANA! x5",
+    text: "Turn in BPs x5",
     gbCount: 181
   },
   {
     color: Color.Lanky,
     tag: Tag.Left,
-    text: "OH BANANA! x8",
+    text: "Turn in BPs x8",
     gbCount: 189
   },
   {
     color: Color.Diddy,
     tag: Tag.Left,
-    text: "Balloon (75), OH BANANA! x8",
+    text: "Balloon (75), turn in BPs x8",
     gbCount: 197
   },
   {
     color: Color.Diddy,
     text: "EXIT"
+  },
+  {
+    color: Color.Header,
+    text: "--- FOREST DONE ---"
   },
   {
     color: Color.Diddy,

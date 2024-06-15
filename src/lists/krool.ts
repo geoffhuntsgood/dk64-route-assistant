@@ -3,6 +3,10 @@ import { Color } from "../enums";
 
 export const krool: Step[] = [
   {
+    color: Color.Header,
+    text: "--- K. ROOL ---"
+  },
+  {
     color: Color.DK,
     text: "DK Punches: 4, 5, 3, 7"
   },

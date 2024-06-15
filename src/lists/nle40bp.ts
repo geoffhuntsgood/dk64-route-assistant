@@ -5,7 +5,7 @@ import { krool } from "./krool";
 export const nle40bp: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START"
+    text: "--- PRE-START ---"
   },
   {
     color: Color.Header,
@@ -17,7 +17,7 @@ export const nle40bp: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!"
+    text: "--- START! ---"
   },
   {
     color: Color.Header,
@@ -97,6 +97,10 @@ export const nle40bp: Step[] = [
     text: "ENTER Japes"
   },
   {
+    color: Color.Header,
+    text: "--- JAPES 1 ---"
+  },
+  {
     color: Color.DK,
     text: "Bush push, moonkick to cannon"
   },
@@ -157,6 +161,10 @@ export const nle40bp: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- JAPES 1 DONE ---"
+  },
+  {
     color: Color.DK,
     text: "W1, turn in Key 1"
   },
@@ -167,6 +175,10 @@ export const nle40bp: Step[] = [
   {
     color: Color.DK,
     text: "ENTER Aztec"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC 1 ---"
   },
   {
     color: Color.DK,
@@ -224,7 +236,7 @@ export const nle40bp: Step[] = [
     text: "Tag W2"
   },
   {
-    color: Color.DK,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -253,12 +265,16 @@ export const nle40bp: Step[] = [
     text: "Skew to void out"
   },
   {
-    color: Color.Tiny,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
     color: Color.Tiny,
     text: "EXIT"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC 1 DONE ---"
   },
   {
     color: Color.Tiny,
@@ -277,6 +293,10 @@ export const nle40bp: Step[] = [
     color: Color.Lanky,
     tag: Tag.Left,
     text: "ENTER Factory"
+  },
+  {
+    color: Color.Header,
+    text: "--- FACTORY ---"
   },
   {
     color: Color.Lanky,
@@ -359,6 +379,10 @@ export const nle40bp: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- FACTORY DONE ---"
+  },
+  {
     color: Color.DK,
     text: "Bongos GB",
     gbCount: 24
@@ -385,11 +409,15 @@ export const nle40bp: Step[] = [
     gbCount: 25
   },
   {
+    color: Color.Header,
+    text: "--- JAPES 2 ---"
+  },
+  {
     color: Color.Lanky,
     text: "W1"
   },
   {
-    color: Color.Tiny,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -426,7 +454,7 @@ export const nle40bp: Step[] = [
     text: "Skew in painting room"
   },
   {
-    color: Color.Lanky,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -460,6 +488,10 @@ export const nle40bp: Step[] = [
     text: "W1, EXIT Japes"
   },
   {
+    color: Color.Header,
+    text: "--- JAPES 2 DONE ---"
+  },
+  {
     color: Color.DK,
     text: "W4, drop to cage GB",
     gbCount: 35
@@ -472,6 +504,10 @@ export const nle40bp: Step[] = [
     color: Color.Chunky,
     tag: Tag.Left,
     text: "BP, ENTER Galleon"
+  },
+  {
+    color: Color.Header,
+    text: "--- GALLEON ---"
   },
   {
     color: Color.Chunky,
@@ -539,6 +575,10 @@ export const nle40bp: Step[] = [
     text: "Void above T&S, EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- GALLEON DONE ---"
+  },
+  {
     color: Color.Tiny,
     text: "Pswim to pipe GB",
     gbCount: 49
@@ -582,6 +622,10 @@ export const nle40bp: Step[] = [
     color: Color.DK,
     tag: Tag.Right,
     text: "ENTER Forest"
+  },
+  {
+    color: Color.Header,
+    text: "--- FOREST ---"
   },
   {
     color: Color.DK,
@@ -655,6 +699,10 @@ export const nle40bp: Step[] = [
     text: "BP, EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- FOREST DONE ---"
+  },
+  {
     color: Color.Diddy,
     tag: Tag.Right,
     text: "Exit Forest Lobby, cage GB",
@@ -694,11 +742,15 @@ export const nle40bp: Step[] = [
     text: "ENTER Caves"
   },
   {
+    color: Color.Header,
+    text: "--- CAVES ---"
+  },
+  {
     color: Color.Diddy,
     text: "Tag W1"
   },
   {
-    color: Color.Diddy,
+    color: Color.Header,
     text: "--- START SKEW ---"
   },
   {
@@ -710,7 +762,7 @@ export const nle40bp: Step[] = [
     text: "Rocket to tag W5"
   },
   {
-    color: Color.Diddy,
+    color: Color.Header,
     text: "--- END SKEW ---"
   },
   {
@@ -767,6 +819,10 @@ export const nle40bp: Step[] = [
     text: "EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- CAVES DONE ---"
+  },
+  {
     color: Color.Chunky,
     text: "Jump left, Punch wall"
   },
@@ -788,6 +844,10 @@ export const nle40bp: Step[] = [
     color: Color.Diddy,
     tag: Tag.Right,
     text: "BP, ENTER Castle"
+  },
+  {
+    color: Color.Header,
+    text: "--- CASTLE ---"
   },
   {
     color: Color.Diddy,
@@ -831,6 +891,10 @@ export const nle40bp: Step[] = [
     text: "BP, deathwarp, EXIT"
   },
   {
+    color: Color.Header,
+    text: "--- CASTLE DONE ---"
+  },
+  {
     color: Color.Tiny,
     text: "Turn in Keys 7 & 6"
   },
@@ -850,6 +914,10 @@ export const nle40bp: Step[] = [
   {
     color: Color.DK,
     text: "ENTER Aztec"
+  },
+  {
+    color: Color.Header,
+    text: "--- AZTEC 2 ---"
   },
   {
     color: Color.DK,
@@ -902,6 +970,10 @@ export const nle40bp: Step[] = [
     text: "Lose Beaver Bother, pause exit"
   },
   {
+    color: Color.Header,
+    text: "--- AZTEC 2 DONE ---"
+  },
+  {
     color: Color.Tiny,
     text: "W2, Port to Helm Lobby"
   },
@@ -909,6 +981,10 @@ export const nle40bp: Step[] = [
     color: Color.Chunky,
     tag: Tag.Right,
     text: "Gone for vines, ENTER Helm"
+  },
+  {
+    color: Color.Header,
+    text: "--- HELM ---"
   },
   {
     color: Color.Tiny,
@@ -927,6 +1003,10 @@ export const nle40bp: Step[] = [
   {
     color: Color.Chunky,
     text: "Key 8, RESET"
+  },
+  {
+    color: Color.Header,
+    text: "--- HELM DONE ---"
   },
   {
     color: Color.DK,

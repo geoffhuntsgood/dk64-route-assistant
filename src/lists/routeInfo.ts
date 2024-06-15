@@ -4,9 +4,11 @@ import { allExpert } from "./allExpert";
 import { allIntermediate } from "./allIntermediate";
 import { any1Kong2014 } from "./any1Kong2014";
 import { any1Kong2015 } from "./any1kong2015";
+import { any5Kong } from "./any5Kong";
 import { glitchlessAny } from "./glitchlessAny";
 import { nle40bp } from "./nle40bp";
 import { nleHE } from "./nleHE";
+import { nleIntermediate } from "./nleIntermediate";
 import { taNLE } from "./taNLE";
 
 // ----- 101% -----
@@ -29,6 +31,12 @@ export const expert101: RouteInfo = {
 };
 
 // ----- any% -----
+export const anyPercent5Kong: RouteInfo = {
+  name: "5-KONG ANY%",
+  docUrl: "https://docs.google.com/document/d/1RUVlR1d1uts04_2vc1uSO4NcoKi3LMY6bad2QaWipTE/edit#heading=h.b4sluqrauq05",
+  steps: any5Kong
+};
+
 export const anyPercent2014: RouteInfo = {
   name: "2014 ANY% 1-KONG",
   docUrl: "https://docs.google.com/document/d/1GHJMfpSWSD4Ao5acqLS6hTW-f7oSsLytu9Jb8BxWGF0",
@@ -42,6 +50,12 @@ export const anyPercent2015: RouteInfo = {
 };
 
 // ----- NLE -----
+export const nleIntermediate40BP: RouteInfo = {
+  name: "INTERMEDIATE 40BP NO LEVELS EARLY",
+  docUrl: "https://docs.google.com/document/d/1FcKiAVEQmdBdrY-bf6sr0WSjzSg5KKoCVlpqhgJff7E",
+  steps: nleIntermediate
+};
+
 export const nle40: RouteInfo = {
   name: "40BP NO LEVELS EARLY",
   docUrl: "https://docs.google.com/document/d/1FcKiAVEQmdBdrY-bf6sr0WSjzSg5KKoCVlpqhgJff7E",

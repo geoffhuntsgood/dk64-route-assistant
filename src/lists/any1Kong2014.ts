@@ -5,7 +5,7 @@ import { krool } from "./krool";
 export const any1Kong2014: Step[] = [
   {
     color: Color.Header,
-    text: "PRE-START"
+    text: "--- PRE-START ---"
   },
   {
     color: Color.Header,
@@ -17,7 +17,7 @@ export const any1Kong2014: Step[] = [
   },
   {
     color: Color.Header,
-    text: "START!"
+    text: "--- START! ---"
   },
   {
     color: Color.DK,

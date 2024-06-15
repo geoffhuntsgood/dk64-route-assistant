@@ -15,7 +15,7 @@ export const LandingPage = () => {
   return (
     <Grid container sx={styles.box}>
       <Grid item xs={12}>
-        <h1 className="header">DK64 ROUTE ASSISTANT</h1>
+        <h1 className="header">DK64 ROUTE ASSISTANT (WII U VC)</h1>
       </Grid>
 
       <Grid item xs={12}>
@@ -27,6 +27,7 @@ export const LandingPage = () => {
         <CategoryDropdown
           header="101%"
           routes={[
+            routeInfo.beginner101,
             routeInfo.intermediate101,
             routeInfo.expert101
           ]}
@@ -39,6 +40,7 @@ export const LandingPage = () => {
         <CategoryDropdown
           header="ANY%"
           routes={[
+            routeInfo.anyPercent5Kong,
             routeInfo.anyPercent2014,
             routeInfo.anyPercent2015
           ]}
@@ -51,6 +53,7 @@ export const LandingPage = () => {
         <CategoryDropdown
           header="NLE"
           routes={[
+            routeInfo.nleIntermediate40BP,
             routeInfo.nle40,
             routeInfo.nleHelmEscape
           ]}
