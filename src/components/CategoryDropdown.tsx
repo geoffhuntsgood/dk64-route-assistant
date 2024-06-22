@@ -3,9 +3,11 @@ import { RouteInfo } from "../classes";
 import { LinkRow } from "./LinkRow";
 
 export const CategoryDropdown = ({
+  progTotals,
   header,
   routes
 }: {
+  progTotals: boolean,
   header: string,
   routes: RouteInfo[]
 }) => {
@@ -13,7 +15,7 @@ export const CategoryDropdown = ({
     dropdown: {
       fontFamily: "LuckiestGuy, sans-serif",
       fontSize: "1.5rem",
-      color: "#660000",
+      color: "maroon",
       backgroundColor: "goldenrod"
     },
     summary: {
@@ -30,7 +32,9 @@ export const CategoryDropdown = ({
       </AccordionSummary>
       <AccordionDetails>
         {routes.map((routeInfo: RouteInfo) => (
-          <LinkRow key={routeInfo.name}
+          <LinkRow
+            key={routeInfo.name}
+            progTotals={progTotals}
             routeInfo={routeInfo}
           />
         ))}

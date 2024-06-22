@@ -1,58 +1,57 @@
-import { Grid, Typography } from "@mui/material";
+import { ListItem } from "@mui/material";
 import { Step } from "../classes";
 import { Color } from "../enums";
 
-export const StepContainer = ({ step }: { step: Step }) => {
-  const isHeader = step.color === Color.Header;
+export const StepContainer = ({ step, progTotals }: { step: Step, progTotals: boolean }) => {
+  const {
+    color,
+    text,
+    tag,
+    link,
+    totals
+  } = step;
 
   const styles = {
-    container: {
-      border: "1px solid black",
-      backgroundColor: step.color,
-    },
     header: {
       display: "grid",
       justifyContent: "center"
     },
     text: {
+      border: "1px solid black",
+      backgroundColor: color,
       padding: "10px",
       fontFamily: "monospace",
-      fontSize: isHeader ? "1.2rem" : "1rem",
+      fontSize: color === Color.Header ? "1.2rem" : "1rem",
       fontWeight: "bold",
-      color: isHeader ? "#660000" : "black",
-      textShadow: isHeader ? "2px 2px goldenrod" : ""
+      color: "black"
     }
   };
 
-  return (
-    <Grid container sx={styles.container}>
-      {isHeader &&
-        <Grid item xs={12} sx={styles.header}>
-          <Typography sx={styles.text}>{step.text}</Typography>
-        </Grid>
-      }
-      {!isHeader &&
-        <Grid item xs={12}>
-          <Typography sx={styles.text}>
-            {step.tag ? `[${step.tag}] ` : ""}
-            {step.text}
-            {step.gbCount && <span style={{ float: "right" }}>{step.gbCount}</span>}
-            {step.gbCount &&
-              <span style={{ float: "right" }}>
-                <img src="/img/gb.png" height={22} width={16.5} />
-              </span>
-            }
-            {step.link &&
-              <span style={{ float: "right" }}>
-                <a target="_blank" rel="noopener noreferrer" href={step.link}>
-                  ↗
-                </a>
-              </span>
-            }
-          </Typography>
-        </Grid>
+  const isHeader = () => {
+    return color === Color.Header ? { ...styles.header, ...styles.text } : styles.text;
+  }
 
+  return (
+    <>
+      <ListItem sx={isHeader()}>
+        {tag ? `[${tag}] ` : ""}
+        {text}
+        {link && <a target="_blank" rel="noopener noreferrer" href={link}>↗</a>}
+      </ListItem>
+      {progTotals && totals &&
+        <ListItem sx={{ ...styles.header, ...styles.text }}>
+          {"--- "}
+          {totals.gbs && `GBs: ${totals.gbs} `}
+          {totals.bps && `BPs: ${totals.bps} `}
+          {totals.medals && `Medals: ${totals.medals} `}
+          {totals.crowns && `Crowns: ${totals.crowns} `}
+          {totals.fairies && `Fairies: ${totals.fairies} `}
+          {totals.keys && `Keys: ${totals.keys} `}
+          {totals.nCoin && "Nintendo Coin ✔ "}
+          {totals.rCoin && "Rareware Coin ✔ "}
+          ---
+        </ListItem>
       }
-    </Grid>
+    </>
   );
 };

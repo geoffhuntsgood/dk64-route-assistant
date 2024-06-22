@@ -1,14 +1,37 @@
-import { Grid } from "@mui/material";
+import { Checkbox, FormControlLabel, Grid } from "@mui/material";
+import { useState } from "react";
 import * as routeInfo from "../lists/routeInfo";
 import { CategoryDropdown } from "./CategoryDropdown";
 
 export const LandingPage = () => {
+  const [progTotals, setProgTotals] = useState(false);
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setProgTotals(event.target.checked);
+  };
+
   const styles = {
     box: {
       height: "100vh",
       width: "100vw",
       overflow: "hidden",
       paddingTop: "10px"
+    },
+    checkbox: {
+      padding: "10px",
+      fontSize: "1.3rem",
+      color: "maroon",
+      backgroundColor: "goldenrod",
+      width: "100%",
+      borderRadius: "5px",
+      "&:hover": {
+        backgroundColor: "gold"
+      }
+    },
+    checked: {
+      "&.Mui-checked": {
+        color: "maroon"
+      }
     }
   };
 
@@ -18,6 +41,16 @@ export const LandingPage = () => {
         <h1 className="header">DK64 ROUTE ASSISTANT (WII U VC)</h1>
       </Grid>
 
+      <Grid item xs={2}></Grid>
+      <Grid item xs={8}>
+        <FormControlLabel
+          sx={styles.checkbox}
+          label="Include progressive totals?"
+          control={<Checkbox value={progTotals} sx={styles.checked} onChange={handleChange} />}
+        />
+      </Grid>
+      <Grid item xs={2}></Grid>
+
       <Grid item xs={12}>
         <h2 className="header">MAIN CATEGORIES</h2>
       </Grid>
@@ -25,11 +58,12 @@ export const LandingPage = () => {
       <Grid item xs={1}></Grid>
       <Grid item xs={10}>
         <CategoryDropdown
+          progTotals={progTotals}
           header="101%"
           routes={[
             routeInfo.beginner101,
             routeInfo.intermediate101,
-            routeInfo.expert101
+            // routeInfo.expert101
           ]}
         />
       </Grid>
@@ -38,6 +72,7 @@ export const LandingPage = () => {
       <Grid item xs={1}></Grid>
       <Grid item xs={10}>
         <CategoryDropdown
+          progTotals={progTotals}
           header="ANY%"
           routes={[
             routeInfo.anyPercent5Kong,
@@ -51,6 +86,7 @@ export const LandingPage = () => {
       <Grid item xs={1}></Grid>
       <Grid item xs={10}>
         <CategoryDropdown
+          progTotals={progTotals}
           header="NLE"
           routes={[
             routeInfo.nleIntermediate40BP,
@@ -68,6 +104,7 @@ export const LandingPage = () => {
       <Grid item xs={1}></Grid>
       <Grid item xs={10}>
         <CategoryDropdown
+          progTotals={progTotals}
           header="GLITCHLESS"
           routes={[
             routeInfo.glitchlessAnyPercent
@@ -79,9 +116,11 @@ export const LandingPage = () => {
       <Grid item xs={1}></Grid>
       <Grid item xs={10}>
         <CategoryDropdown
+          progTotals={progTotals}
           header="TAG ANYWHERE"
           routes={[
-            routeInfo.tagAnywhereNLE
+            routeInfo.tagAnywhereNLE,
+            // routeInfo.tagAnywhere101,
           ]}
         />
       </Grid>

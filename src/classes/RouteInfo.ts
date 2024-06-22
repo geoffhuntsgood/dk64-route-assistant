@@ -1,9 +1,9 @@
-import { Step } from "./Step";
+import { RouteSection } from "./RouteSection";
 
 export class RouteInfo {
   constructor(
     public readonly name: string,
     public readonly docUrl: string,
-    public readonly steps: Step[]
+    public readonly sections: RouteSection[]
   ) { }
 }

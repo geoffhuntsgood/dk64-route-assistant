@@ -3,26 +3,28 @@ import { useNavigate } from "react-router-dom";
 import { RouteInfo } from "../classes";
 
 export const LinkRow = ({
+  progTotals,
   routeInfo
 }: {
+  progTotals: boolean,
   routeInfo: RouteInfo
 }
 ) => {
   const navigate = useNavigate();
 
   const click = () => {
-    navigate("/route", { state: { routeInfo } });
+    navigate("/route", { state: { routeInfo, progTotals } });
   };
 
   const styles = {
     container: {
-      border: "3px solid #660000",
+      border: "3px solid maroon",
       borderRadius: "5px"
     },
     button: {
       fontFamily: "LuckiestGuy",
       fontSize: "1.3rem",
-      color: "#660000",
+      color: "maroon",
       backgroundColor: "goldenrod",
       width: "100%",
       "&:hover": {
