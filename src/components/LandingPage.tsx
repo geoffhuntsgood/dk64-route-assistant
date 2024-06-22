@@ -63,7 +63,7 @@ export const LandingPage = () => {
           routes={[
             routeInfo.beginner101,
             routeInfo.intermediate101,
-            // routeInfo.expert101
+            routeInfo.expert101
           ]}
         />
       </Grid>
