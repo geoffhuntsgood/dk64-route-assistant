@@ -8,8 +8,7 @@ export const LinkRow = ({
 }: {
   progTotals: boolean,
   routeInfo: RouteInfo
-}
-) => {
+}) => {
   const navigate = useNavigate();
 
   const click = () => {

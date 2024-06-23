@@ -22,18 +22,28 @@ export const StepList = () => {
   }, []);
 
   useEffect(() => {
-    document.getElementById(selectOptions[selectedIndex])?.scrollIntoView({
-      block: "start"
-    });
+    document.getElementById(selectOptions[selectedIndex])?.scrollIntoView();
   }, [selectedIndex]);
 
   useKeypress(["ArrowLeft", "ArrowRight"], (event: { key: string; }) => {
     if (event.key === "ArrowLeft" && selectedIndex > 0) {
-      setSelectedIndex(selectedIndex - 1);
+      decreaseIndex();
     } else if (selectedIndex < selectOptions.length - 1) {
-      setSelectedIndex(selectedIndex + 1);
+      increaseIndex();
     }
   });
+
+  const decreaseIndex = () => {
+    if (selectedIndex > 0) {
+      setSelectedIndex(selectedIndex - 1);
+    }
+  };
+
+  const increaseIndex = () => {
+    if (selectedIndex < selectOptions.length - 1) {
+      setSelectedIndex(selectedIndex + 1);
+    }
+  };
 
   const getKey = (text: string) => {
     return `${text}-${(Math.random() + 1).toString(36).substring(7)}`;
@@ -64,8 +74,12 @@ export const StepList = () => {
       backgroundColor: "silver",
       border: "1px solid black",
       ":focus, :hover": {
-        backgroundColor: "white",
+        backgroundColor: "white"
       }
+    },
+    buttons: {
+      paddingTop: "10px",
+      cursor: "pointer"
     },
     ul: {
       padding: "0"
@@ -75,14 +89,22 @@ export const StepList = () => {
   return (
     <Box sx={styles.box}>
       <Grid container>
-        <Grid item xs={1} sx={styles.link}>
-          <a href="/dk64router" className="header">BACK</a>
+        <Grid item xs={2}>
+          <div className="header" style={{ ...styles.buttons }} onClick={decreaseIndex}>
+            prev
+          </div>
         </Grid>
-        <Grid item xs={10}>
-          <h1 className="header">{name}</h1>
+        <Grid item xs={8}>
+          <a href="/dk64router">
+            <h1 className="header">{name}</h1>
+          </a>
+        </Grid>
+        <Grid item xs={2}>
+          <div className="header" style={{ ...styles.buttons }} onClick={increaseIndex}>
+            next
+          </div>
         </Grid>
       </Grid>
-
       <List
         subheader={<li />}
         sx={styles.contents}

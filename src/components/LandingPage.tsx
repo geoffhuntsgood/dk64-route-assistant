@@ -1,4 +1,4 @@
-import { Checkbox, FormControlLabel, Grid } from "@mui/material";
+import { Checkbox, FormControlLabel, Grid, Typography } from "@mui/material";
 import { useState } from "react";
 import * as routeInfo from "../lists/routeInfo";
 import { CategoryDropdown } from "./CategoryDropdown";
@@ -6,7 +6,7 @@ import { CategoryDropdown } from "./CategoryDropdown";
 export const LandingPage = () => {
   const [progTotals, setProgTotals] = useState(false);
 
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const progTotalsChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setProgTotals(event.target.checked);
   };
 
@@ -18,8 +18,6 @@ export const LandingPage = () => {
       paddingTop: "10px"
     },
     checkbox: {
-      display: "grid",
-      justifyContent: "center",
       padding: "10px",
       fontSize: "1.3rem",
       color: "maroon",
@@ -47,8 +45,8 @@ export const LandingPage = () => {
       <Grid item xs={4}>
         <FormControlLabel
           sx={styles.checkbox}
-          label="Include progressive totals?"
-          control={<Checkbox value={progTotals} sx={styles.checked} onChange={handleChange} />}
+          label={<Typography sx={{ fontFamily: "LuckiestGuy" }}>Show prog totals</Typography>}
+          control={<Checkbox value={progTotals} sx={styles.checked} onChange={progTotalsChange} />}
         />
       </Grid>
       <Grid item xs={4}></Grid>

@@ -9,7 +9,7 @@ export const allBeginner: RouteSection[] = [
     steps: [
       {
         color: Color.Header,
-        text: "Video links available! (click ↗)"
+        text: "Video links included in this route!"
       },
       {
         color: Color.DK,

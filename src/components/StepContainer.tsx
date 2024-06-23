@@ -1,6 +1,7 @@
 import { ListItem } from "@mui/material";
 import { Step } from "../classes";
-import { Color } from "../enums";
+import { Collectible, Color } from "../enums";
+import { CollectibleLabel } from "./CollectibleLabel";
 
 export const StepContainer = ({ step, progTotals }: { step: Step, progTotals: boolean }) => {
   const {
@@ -29,29 +30,33 @@ export const StepContainer = ({ step, progTotals }: { step: Step, progTotals: bo
 
   const isHeader = () => {
     return color === Color.Header ? { ...styles.header, ...styles.text } : styles.text;
-  }
+  };
 
   return (
     <>
       <ListItem sx={isHeader()}>
-        {tag ? `[${tag}] ` : ""}
-        {text}
-        {link && <a target="_blank" rel="noopener noreferrer" href={link}>↗</a>}
+        <div style={{ width: "100%" }}>
+          {tag ? `[${tag}] ` : ""}
+          {text}
+          {link &&
+            <a target="_blank" rel="noopener noreferrer" href={link}>
+              <div style={{ float: "right" }} className="header">vid</div>
+            </a>
+          }
+          {progTotals && totals &&
+            <>
+              {totals.gbs && <CollectibleLabel type={Collectible.GB} value={totals.gbs} />}
+              {totals.bps && <CollectibleLabel type={Collectible.BP} value={totals.bps} />}
+              {totals.medals && <CollectibleLabel type={Collectible.Medal} value={totals.medals} />}
+              {totals.crowns && <CollectibleLabel type={Collectible.Crown} value={totals.crowns} />}
+              {totals.fairies && <CollectibleLabel type={Collectible.Fairy} value={totals.fairies} />}
+              {totals.keys && <CollectibleLabel type={Collectible.Key} value={totals.keys} />}
+              {totals.nCoin && <CollectibleLabel type={Collectible.NCoin} value={0} />}
+              {totals.rCoin && <CollectibleLabel type={Collectible.RCoin} value={0} />}
+            </>
+          }
+        </div>
       </ListItem>
-      {progTotals && totals &&
-        <ListItem sx={{ ...styles.header, ...styles.text }}>
-          {"--- "}
-          {totals.gbs && `GBs: ${totals.gbs} `}
-          {totals.bps && `BPs: ${totals.bps} `}
-          {totals.medals && `Medals: ${totals.medals} `}
-          {totals.crowns && `Crowns: ${totals.crowns} `}
-          {totals.fairies && `Fairies: ${totals.fairies} `}
-          {totals.keys && `Keys: ${totals.keys} `}
-          {totals.nCoin && "Nintendo Coin ✔ "}
-          {totals.rCoin && "Rareware Coin ✔ "}
-          ---
-        </ListItem>
-      }
     </>
   );
 };
