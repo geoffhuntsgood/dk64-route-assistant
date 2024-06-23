@@ -84,8 +84,8 @@ export const tagAnywhereNLE: RouteInfo = {
   sections: taNLE
 };
 
-// export const tagAnywhere101: RouteInfo = {
-//   name: "101% TAG ANYWHERE",
-//   docUrl: "",
-//   sections: ta101
-// };
+export const tagAnywhere101: RouteInfo = {
+  name: "101% TAG ANYWHERE",
+  docUrl: "",
+  sections: ta101
+};

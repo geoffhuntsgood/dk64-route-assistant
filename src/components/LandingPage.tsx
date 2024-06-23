@@ -18,6 +18,8 @@ export const LandingPage = () => {
       paddingTop: "10px"
     },
     checkbox: {
+      display: "grid",
+      justifyContent: "center",
       padding: "10px",
       fontSize: "1.3rem",
       color: "maroon",
@@ -41,15 +43,15 @@ export const LandingPage = () => {
         <h1 className="header">DK64 ROUTE ASSISTANT (WII U VC)</h1>
       </Grid>
 
-      <Grid item xs={2}></Grid>
-      <Grid item xs={8}>
+      <Grid item xs={4}></Grid>
+      <Grid item xs={4}>
         <FormControlLabel
           sx={styles.checkbox}
           label="Include progressive totals?"
           control={<Checkbox value={progTotals} sx={styles.checked} onChange={handleChange} />}
         />
       </Grid>
-      <Grid item xs={2}></Grid>
+      <Grid item xs={4}></Grid>
 
       <Grid item xs={12}>
         <h2 className="header">MAIN CATEGORIES</h2>
