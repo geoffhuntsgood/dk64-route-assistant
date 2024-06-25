@@ -120,7 +120,7 @@ export const LandingPage = () => {
           header="TAG ANYWHERE"
           routes={[
             routeInfo.tagAnywhereNLE,
-            // routeInfo.tagAnywhere101,
+            routeInfo.tagAnywhere101,
           ]}
         />
       </Grid>
