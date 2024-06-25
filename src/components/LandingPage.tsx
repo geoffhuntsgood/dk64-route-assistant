@@ -38,7 +38,7 @@ export const LandingPage = () => {
   return (
     <Grid container sx={styles.box}>
       <Grid item xs={12}>
-        <h1 className="header">DK64 ROUTE ASSISTANT (WII U VC)</h1>
+        <h1 className="header">DK64 ROUTER (WII U VC)</h1>
       </Grid>
 
       <Grid item xs={4}></Grid>
