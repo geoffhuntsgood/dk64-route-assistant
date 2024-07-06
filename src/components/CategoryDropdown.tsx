@@ -26,7 +26,7 @@ export const CategoryDropdown = ({
         justifyContent: "center"
       }
     }
-  }
+  };
 
   return (
     <Accordion sx={styles.dropdown}>

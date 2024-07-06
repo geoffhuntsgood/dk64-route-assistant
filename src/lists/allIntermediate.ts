@@ -1,6 +1,6 @@
 import { RouteSection } from "../classes";
 import { Color, Tag } from "../enums";
-import { defaultPreStart, krool } from "./sections";
+import { defaultPreStart, krool } from "../utils/sections";
 
 export const allIntermediate: RouteSection[] = [
   defaultPreStart,

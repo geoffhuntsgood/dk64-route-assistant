@@ -20,11 +20,11 @@ export const StepList = () => {
 
   useEffect(() => {
     setSelectOptions(sections.map((section: RouteSection) => section.name));
-  }, []);
+  }, [sections]);
 
   useEffect(() => {
     document.getElementById(selectOptions[selectedIndex])?.scrollIntoView();
-  }, [selectedIndex]);
+  }, [selectOptions, selectedIndex]);
 
   useKeypress(["ArrowLeft", "ArrowRight"], (event: { key: string; }) => {
     if (event.key === "ArrowLeft" && selectedIndex > 0) {

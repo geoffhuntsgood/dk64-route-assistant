@@ -1,6 +1,6 @@
 import { RouteSection } from "../classes";
 import { Color } from "../enums";
-import { isgPreStart, krool } from "./sections";
+import { isgPreStart, krool } from "../utils/sections";
 
 export const any1Kong2014: RouteSection[] = [
   isgPreStart,

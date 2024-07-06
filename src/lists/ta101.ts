@@ -1,6 +1,6 @@
 import { RouteSection } from "../classes";
 import { Color } from "../enums";
-import { krool } from "./sections";
+import { krool } from "../utils/sections";
 
 export const ta101: RouteSection[] = [
   {

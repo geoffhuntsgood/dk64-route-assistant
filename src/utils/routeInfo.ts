@@ -1,16 +1,17 @@
 import { RouteInfo } from "../classes";
-import { allBeginner } from "./allBeginner";
-import { allExpert } from "./allExpert";
-import { allIntermediate } from "./allIntermediate";
-import { any1Kong2014 } from "./any1Kong2014";
-import { any1Kong2015 } from "./any1kong2015";
-import { any5Kong } from "./any5Kong";
-import { glitchlessAny } from "./glitchlessAny";
-import { nle40bp } from "./nle40bp";
-import { nleHE } from "./nleHE";
-import { nleIntermediate } from "./nleIntermediate";
-import { ta101 } from "./ta101";
-import { taNLE } from "./taNLE";
+import { allBeginner } from "../lists/allBeginner";
+import { allExpert } from "../lists/allExpert";
+import { allIntermediate } from "../lists/allIntermediate";
+import { any1Kong2014 } from "../lists/any1Kong2014";
+import { any1Kong2015 } from "../lists/any1kong2015";
+import { any5Kong } from "../lists/any5Kong";
+import { glitchlessAll } from "../lists/WIPglitchlessAll";
+import { glitchlessAny } from "../lists/glitchlessAny";
+import { nle40bp } from "../lists/nle40bp";
+import { nleHE } from "../lists/nleHE";
+import { nleIntermediate } from "../lists/nleIntermediate";
+import { ta101 } from "../lists/ta101";
+import { taNLE } from "../lists/taNLE";
 
 // ----- 101% -----
 export const beginner101: RouteInfo = {
@@ -75,6 +76,12 @@ export const glitchlessAnyPercent: RouteInfo = {
   name: "ANY% GLITCHLESS",
   docUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRzSfCuMvYruNml5sIQm-Z6pPJr3D5TF_KjdvpJVbOlhGBCctCNb-9LVEJ96vnDeA/pubhtml#",
   sections: glitchlessAny
+};
+
+export const glitchless101: RouteInfo = {
+  name: "101% GLITCHLESS",
+  docUrl: "",
+  sections: glitchlessAll
 };
 
 // ----- Tag Anywhere -----

@@ -1,6 +1,6 @@
 import { RouteSection } from "../classes";
 import { Color, Tag } from "../enums";
-import { isgNLE, isgPreStart, krool } from "./sections";
+import { isgNLE, isgPreStart, krool } from "../utils/sections";
 
 export const nle40bp: RouteSection[] = [
   isgPreStart,

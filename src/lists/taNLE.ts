@@ -1,6 +1,6 @@
 import { RouteSection } from "../classes";
 import { Color } from "../enums";
-import { krool, taPreStart } from "./sections";
+import { krool, taPreStart } from "../utils/sections";
 
 export const taNLE: RouteSection[] = [
   taPreStart,

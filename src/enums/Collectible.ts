@@ -1,10 +1,10 @@
 export enum Collectible {
-  BP = "/img/bp.png",
-  Crown = "/img/bc.png",
-  Fairy = "/img/fairy.png",
-  GB = "/img/gb.png",
-  Key = "/img/key.png",
-  Medal = "/img/medal.png",
-  NCoin = "/img/ncoin.png",
-  RCoin = "/img/rcoin.png"
+  BP = "/img/bp.png blueprint",
+  Crown = "/img/bc.png battle-crown",
+  Fairy = "/img/fairy.png banana-fairy",
+  GB = "/img/gb.png golden-banana",
+  Key = "/img/key.png boss-key",
+  Medal = "/img/medal.png banana-medal",
+  NCoin = "/img/ncoin.png nintendo-coin",
+  RCoin = "/img/rcoin.png rareware-coin"
 }

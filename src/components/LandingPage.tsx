@@ -1,6 +1,6 @@
 import { Checkbox, FormControlLabel, Grid, Typography } from "@mui/material";
 import { useState } from "react";
-import * as routeInfo from "../lists/routeInfo";
+import * as routeInfo from "../utils/routeInfo";
 import { CategoryDropdown } from "./CategoryDropdown";
 
 export const LandingPage = () => {
