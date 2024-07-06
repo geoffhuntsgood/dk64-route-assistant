@@ -16,7 +16,10 @@ export const CategoryDropdown = ({
       fontFamily: "LuckiestGuy, sans-serif",
       fontSize: "1.5rem",
       color: "maroon",
-      backgroundColor: "goldenrod"
+      backgroundColor: "goldenrod",
+      "&:hover": {
+        backgroundColor: "gold"
+      }
     },
     summary: {
       ".MuiAccordionSummary-content": {

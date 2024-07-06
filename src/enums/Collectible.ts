@@ -6,5 +6,5 @@ export enum Collectible {
   Key = "/img/key.png",
   Medal = "/img/medal.png",
   NCoin = "/img/ncoin.png",
-  RCoin = "/img/rcoin/png"
+  RCoin = "/img/rcoin.png"
 }

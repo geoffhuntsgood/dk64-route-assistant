@@ -129,7 +129,7 @@ export const krool: RouteSection = {
       text: "Chunky Corners: R"
     },
     {
-      color: Color.Header,
+      color: Color.Chunky,
       text: "64TH ANNUAL COMMEMORATIVE BACKFLIP"
     },
     {

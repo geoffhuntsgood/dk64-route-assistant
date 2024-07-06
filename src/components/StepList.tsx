@@ -6,9 +6,6 @@ import { RouteSection, Step } from "../classes";
 import { StepContainer } from "./StepContainer";
 
 export const StepList = () => {
-  const [selectedIndex, setSelectedIndex] = useState(0);
-  const [selectOptions, setSelectOptions] = useState([] as string[]);
-
   const {
     routeInfo: {
       name,
@@ -16,6 +13,10 @@ export const StepList = () => {
     },
     progTotals
   } = useLocation().state;
+
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [selectOptions, setSelectOptions] = useState([] as string[]);
+  const [text, setText] = useState(name);
 
   useEffect(() => {
     setSelectOptions(sections.map((section: RouteSection) => section.name));
@@ -94,9 +95,9 @@ export const StepList = () => {
             prev
           </div>
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={8} onMouseEnter={() => setText("<- BACK")} onMouseLeave={() => setText(name)}>
           <a href="/dk64router">
-            <h1 className="header">{name}</h1>
+            <h1 className="header">{text}</h1>
           </a>
         </Grid>
         <Grid item xs={2}>
