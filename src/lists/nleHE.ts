@@ -9,6 +9,10 @@ export const nleHE: RouteSection[] = [
     name: "ISLES -> JAPES 1",
     steps: [
       {
+        color: Color.Header,
+        text: "NOTE: This route uses phasewalks/phasefalls."
+      },
+      {
         color: Color.DK,
         text: "Orange barrel, pswim to escape"
       },

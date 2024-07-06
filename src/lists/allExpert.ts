@@ -8,6 +8,10 @@ export const allExpert: RouteSection[] = [
     name: "START!",
     steps: [
       {
+        color: Color.Header,
+        text: "NOTE: This route uses extensive phasewalks."
+      },
+      {
         color: Color.DK,
         text: "Complete Training Barrels"
       },

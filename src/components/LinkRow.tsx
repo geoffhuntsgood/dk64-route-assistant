@@ -15,6 +15,10 @@ export const LinkRow = ({
     navigate("/route", { state: { routeInfo, progTotals } });
   };
 
+  const getLabel = (name: string): string => {
+    return name.split(" ").splice(0).join(" ");
+  };
+
   const styles = {
     container: {
       border: "3px solid maroon",
@@ -38,7 +42,7 @@ export const LinkRow = ({
         <>
           <Grid item xs={9}>
             <Button sx={styles.button} variant="contained" onClick={() => click()}>
-              {routeInfo.name.split(" ")[0]}
+              {getLabel(routeInfo.name)}
             </Button>
           </Grid>
           <Grid item xs={3}>
@@ -51,7 +55,7 @@ export const LinkRow = ({
       {routeInfo.docUrl.length === 0 &&
         <Grid item xs={12}>
           <Button sx={styles.button} variant="contained" onClick={() => click()}>
-            {routeInfo.name.split(" ")[0]}
+            {getLabel(routeInfo.name)}
           </Button>
         </Grid>
       }
