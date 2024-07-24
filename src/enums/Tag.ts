@@ -1,4 +1,4 @@
 export enum Tag {
-  Left = "L",
-  Right = "R"
+  Left = "[L] ",
+  Right = "[R] "
 }

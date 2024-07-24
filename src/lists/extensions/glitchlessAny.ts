@@ -1,6 +1,6 @@
-import { RouteSection } from "../classes";
-import { Color, Tag } from "../enums";
-import { defaultPreStart, krool } from "../utils/sections";
+import { RouteSection } from "../../classes";
+import { Color, Tag } from "../../enums";
+import { defaultPreStart, krool } from "../../utils/sections";
 
 export const glitchlessAny: RouteSection[] = [
   defaultPreStart,
@@ -22,9 +22,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.DK,
         text: "Japes entrance GB, ENTER Japes",
-        totals: {
-          gbs: 1
-        }
+        gbs: 1
       }
     ]
   },
@@ -50,9 +48,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.DK,
         text: "Cannon to GB",
-        totals: {
-          gbs: 2
-        }
+        gbs: 2
       },
       {
         color: Color.DK,
@@ -73,10 +69,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.DK,
         text: "BC, cannon to 2nd GB",
-        totals: {
-          gbs: 3,
-          crowns: 1
-        }
+        gbs: 3
       },
       {
         color: Color.DK,
@@ -85,10 +78,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Diddy,
         tag: Tag.Right,
-        text: "Tag W4, BP, 3 coins",
-        totals: {
-          bps: 1
-        }
+        text: "Tag W4, BP, 3 coins"
       },
       {
         color: Color.Diddy,
@@ -115,9 +105,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "3 river coins, cage GB",
-        totals: {
-          gbs: 4
-        }
+        gbs: 4
       },
       {
         color: Color.Diddy,
@@ -126,42 +114,29 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Mountain GB, tag W5",
-        totals: {
-          gbs: 5
-        }
+        gbs: 5
       },
       {
         color: Color.DK,
         tag: Tag.Left,
         text: "Cage GB",
-        totals: {
-          gbs: 6
-        }
+        gbs: 6
       },
       {
         color: Color.DK,
         text: "BP, Blast course GB (75)",
-        totals: {
-          gbs: 7,
-          bps: 2,
-          medals: 1
-        }
+        gbs: 7
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Tunnel GB, 2 coins, enter T&S",
-        totals: {
-          gbs: 8
-        }
+        gbs: 8
       },
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "Feed T&S, Key 1, EXIT Japes",
-        totals: {
-          keys: 1
-        }
+        text: "Feed T&S, Key 1, EXIT Japes"
       }
     ]
   },
@@ -183,10 +158,7 @@ export const glitchlessAny: RouteSection[] = [
     steps: [
       {
         color: Color.DK,
-        text: "BP, 3 coins, sand bunches (10)",
-        totals: {
-          bps: 3
-        }
+        text: "BP, 3 coins, sand bunches (10)"
       },
       {
         color: Color.DK,
@@ -208,9 +180,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "4 coins & Tiny GB",
-        totals: {
-          gbs: 9
-        }
+        gbs: 9
       },
       {
         color: Color.Diddy,
@@ -223,10 +193,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "4 oasis coins, BP, buy Mini",
-        totals: {
-          bps: 4
-        }
+        text: "4 oasis coins, BP, buy Mini"
       },
       {
         color: Color.Diddy,
@@ -253,17 +220,13 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.DK,
         text: "Free Lanky, left stairs (57), tag W1",
-        totals: {
-          gbs: 10
-        }
+        gbs: 10
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
         text: "1 coin, tag far W2, lava GB",
-        totals: {
-          gbs: 11
-        }
+        gbs: 11
       },
       {
         color: Color.Tiny,
@@ -273,25 +236,17 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.DK,
         tag: Tag.Right,
         text: "Climb 3 trees, llama GB (75)",
-        totals: {
-          gbs: 12,
-          medals: 2
-        }
+        gbs: 12
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
-        text: "BP, 2 coins, W2 (39)",
-        totals: {
-          bps: 5
-        }
+        text: "BP, 2 coins, W2 (39)"
       },
       {
         color: Color.Diddy,
         text: "6 singles (45), tower GB",
-        totals: {
-          gbs: 13
-        }
+        gbs: 13
       },
       {
         color: Color.Tiny,
@@ -306,10 +261,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Diddy,
         tag: Tag.Right,
-        text: "Feed T&S, Key 2",
-        totals: {
-          keys: 2
-        }
+        text: "Feed T&S, Key 2"
       },
       {
         color: Color.Lanky,
@@ -319,10 +271,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "W2, BP, W2, W1, matching game",
-        totals: {
-          gbs: 14,
-          bps: 6
-        }
+        gbs: 14
       },
       {
         color: Color.Lanky,
@@ -341,9 +290,7 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Right,
         text: "BFI, camera, cage GB, W5",
-        totals: {
-          gbs: 15
-        }
+        gbs: 15
       },
       {
         color: Color.DK,
@@ -371,10 +318,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Chunky,
         tag: Tag.Right,
-        text: "W1 coins, use W1 (10), BP",
-        totals: {
-          bps: 7
-        }
+        text: "W1 coins, use W1 (10), BP"
       },
       {
         color: Color.Chunky,
@@ -383,17 +327,12 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "R&D singles (15), BP, W2 (25), W1",
-        totals: {
-          bps: 8
-        }
+        text: "R&D singles (15), BP, W2 (25), W1"
       },
       {
         color: Color.Lanky,
         text: "Get Chunky GB, climb boxes, 3 coins",
-        totals: {
-          gbs: 16
-        }
+        gbs: 16
       },
       {
         color: Color.Lanky,
@@ -430,9 +369,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.DK,
         text: "Activate prod GB, 3 bunches (60)",
-        totals: {
-          gbs: 17
-        }
+        gbs: 17
       },
       {
         color: Color.Chunky,
@@ -442,9 +379,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Platform bunches (25), GB",
-        totals: {
-          gbs: 18
-        }
+        gbs: 18
       },
       {
         color: Color.Chunky,
@@ -453,57 +388,39 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Crusher GB, 2 bunches (35), tag W4",
-        totals: {
-          gbs: 19
-        }
+        gbs: 19
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Balloon (40), pipe GB (65)",
-        totals: {
-          gbs: 20
-        }
+        gbs: 20
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
-        text: "BP, prod switch, 10 singles to W4 (10)",
-        totals: {
-          bps: 9
-        }
+        text: "BP, prod switch, 10 singles to W4 (10)"
       },
       {
         color: Color.Diddy,
         text: "Spring GB (25)",
-        totals: {
-          gbs: 21
-        }
+        gbs: 21
       },
       {
         color: Color.DK,
         tag: Tag.Left,
         text: "BP, crusher room GB (75)",
-        totals: {
-          gbs: 22,
-          bps: 10,
-          medals: 3
-        }
+        gbs: 22
       },
       {
         color: Color.DK,
         text: "EXIT, Lobby Bongos GB, ENTER",
-        totals: {
-          gbs: 23
-        }
+        gbs: 23
       },
       {
         color: Color.DK,
         text: "DK Arcade x2, enter T&S",
-        totals: {
-          gbs: 24,
-          nCoin: true
-        }
+        gbs: 24
       },
       {
         color: Color.DK,
@@ -528,17 +445,11 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Left,
         text: "Exit/enter to skip CS, Key 3, cage GB",
-        totals: {
-          gbs: 25,
-          keys: 3
-        }
+        gbs: 25
       },
       {
         color: Color.Tiny,
-        text: "BP (2 coins?), EXIT Factory",
-        totals: {
-          bps: 11
-        }
+        text: "BP (2 coins?), EXIT Factory"
       },
     ]
   },
@@ -553,10 +464,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Tiny,
         tag: Tag.Left,
-        text: "BP, W4",
-        totals: {
-          bps: 12
-        }
+        text: "BP, W4"
       },
       {
         color: Color.Chunky,
@@ -567,9 +475,7 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Trombone GB, ENTER Japes",
-        totals: {
-          gbs: 26
-        }
+        gbs: 26
       }
     ]
   },
@@ -579,26 +485,18 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "W1, BP, hill bonus GB",
-        totals: {
-          gbs: 27,
-          bps: 13
-        }
+        gbs: 27
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
         text: "Cage GB, BP, up to 9 coins",
-        totals: {
-          gbs: 28,
-          bps: 14
-        }
+        gbs: 28
       },
       {
         color: Color.Tiny,
         text: "Enter hive, stump GB",
-        totals: {
-          gbs: 29
-        }
+        gbs: 29
       },
       {
         color: Color.Chunky,
@@ -608,17 +506,12 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Rock GB",
-        totals: {
-          gbs: 30
-        }
+        gbs: 30
       },
       {
         color: Color.Chunky,
         text: "Underground GB, BP, EXIT Japes",
-        totals: {
-          gbs: 31,
-          bps: 15
-        }
+        gbs: 31
       }
     ]
   },
@@ -627,34 +520,24 @@ export const glitchlessAny: RouteSection[] = [
     steps: [
       {
         color: Color.Chunky,
-        text: "W4, Snide BC",
-        totals: {
-          crowns: 2
-        }
+        text: "W4, Snide BC"
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Spring to bonus GB",
-        totals: {
-          gbs: 32
-        }
+        gbs: 32
       },
       {
         color: Color.DK,
         tag: Tag.Left,
         text: "Cage GB, enter Galleon Lobby",
-        totals: {
-          gbs: 33
-        }
+        gbs: 33
       },
       {
         color: Color.Chunky,
         tag: Tag.Left,
-        text: "BP, ENTER Galleon",
-        totals: {
-          bps: 16
-        }
+        text: "BP, ENTER Galleon"
       }
     ]
   },
@@ -668,9 +551,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Cannon game GB, balloon (10)",
-        totals: {
-          gbs: 34
-        }
+        gbs: 34
       },
       {
         color: Color.Chunky,
@@ -679,10 +560,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "BC, chest GB (20), W2 bunch (25)",
-        totals: {
-          gbs: 35,
-          crowns: 3
-        }
+        gbs: 35
       },
       {
         color: Color.Diddy,
@@ -701,10 +579,7 @@ export const glitchlessAny: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "BP, balloon (50), 5 coins max",
-        totals: {
-          bps: 17
-        }
+        text: "BP, balloon (50), 5 coins max"
       },
       {
         color: Color.Lanky,
@@ -714,9 +589,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "5DS GB & bunches (35)",
-        totals: {
-          gbs: 36
-        }
+        gbs: 36
       },
       {
         color: Color.Lanky,
@@ -724,10 +597,7 @@ export const glitchlessAny: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "BP, singles (40), BC balloons (60)",
-        totals: {
-          bps: 18
-        }
+        text: "BP, singles (40), BC balloons (60)"
       },
       {
         color: Color.DK,
@@ -737,77 +607,54 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.DK,
         text: "Lighthouse GB (45), balloon (55)",
-        totals: {
-          gbs: 37
-        }
+        gbs: 37
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Turn in BPs x3, ship switch, balloon (10)",
-        totals: {
-          gbs: 40
-        }
+        gbs: 40
       },
       {
         color: Color.Diddy,
         text: "Lighthouse GB, bunches (20), BP",
-        totals: {
-          gbs: 41
-        }
+        gbs: 41
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Enguarde, break chests: R, L, DL, GB",
-        totals: {
-          gbs: 42
-        }
+        gbs: 42
       },
       {
         color: Color.Lanky,
-        text: "Bunches: DL, L, 2 singles, R (77)",
-        totals: {
-          medals: 4
-        }
+        text: "Bunches: DL, L, 2 singles, R (77)"
       },
       {
         color: Color.Lanky,
         text: "Turn in BPs x4",
-        totals: {
-          gbs: 46
-        }
+        gbs: 46
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
         text: "Turn in BPs x4",
-        totals: {
-          gbs: 50
-        }
+        gbs: 50
       },
       {
         color: Color.Chunky,
         text: "Ship GB (75) (2 Punches), 7 coins max",
-        totals: {
-          gbs: 51,
-          medals: 5
-        }
+        gbs: 51
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
         text: "Snide balloon (10), turn in BPs x4",
-        totals: {
-          gbs: 55
-        }
+        gbs: 55
       },
       {
         color: Color.Tiny,
-        text: "W3 (20), BP, singles (23), enter T&S",
-        totals: {
-          bps: 19
-        }
+        text: "W3 (20), BP, singles (23), enter T&S"
       },
       {
         color: Color.Tiny,
@@ -831,10 +678,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Lanky,
         tag: Tag.Right,
-        text: "Feed T&S, Key 4, EXIT Galleon",
-        totals: {
-          keys: 4
-        }
+        text: "Feed T&S, Key 4, EXIT Galleon"
       }
     ]
   },
@@ -844,17 +688,13 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Cage GB, turn in Key 4, W1",
-        totals: {
-          gbs: 56
-        }
+        gbs: 56
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
         text: "Cage GB, ENTER Forest",
-        totals: {
-          gbs: 57
-        }
+        gbs: 57
       }
     ]
   },
@@ -881,10 +721,7 @@ export const glitchlessAny: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "BP, 7 singles (18), leave",
-        totals: {
-          bps: 20
-        }
+        text: "BP, 7 singles (18), leave"
       },
       {
         color: Color.DK,
@@ -898,10 +735,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Chunky,
         tag: Tag.Left,
-        text: "Singles to night door, BP, balloon",
-        totals: {
-          bps: 21
-        }
+        text: "Singles to night door, BP, balloon"
       },
       {
         color: Color.Chunky,
@@ -930,9 +764,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.DK,
         text: "Cannon to GB (41)",
-        totals: {
-          gbs: 58
-        }
+        gbs: 58
       },
       {
         color: Color.Lanky,
@@ -942,27 +774,18 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Dark room GB, bunches (35)",
-        totals: {
-          gbs: 59
-        }
+        gbs: 59
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
         text: "Face puzzle, bunch, balloon (75)",
-        totals: {
-          gbs: 60,
-          medals: 6
-        }
+        gbs: 60
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
-        text: "BC, twirl to BP, balloon (10)",
-        totals: {
-          bps: 22,
-          crowns: 4
-        }
+        text: "BC, twirl to BP, balloon (10)"
       },
       {
         color: Color.Tiny,
@@ -975,10 +798,7 @@ export const glitchlessAny: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "Yellow tunnel (57), BP",
-        totals: {
-          bps: 23
-        }
+        text: "Yellow tunnel (57), BP"
       },
       {
         color: Color.Diddy,
@@ -996,10 +816,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Attic GB, bunch when exiting (75)",
-        totals: {
-          gbs: 61,
-          medals: 7
-        }
+        gbs: 61
       },
       {
         color: Color.DK,
@@ -1010,18 +827,12 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Float to bunches, GB, singles (75)",
-        totals: {
-          gbs: 62,
-          medals: 8
-        }
+        gbs: 62
       },
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "4 singles toward thorns (55), BP",
-        totals: {
-          bps: 24
-        }
+        text: "4 singles toward thorns (55), BP"
       },
       {
         color: Color.Tiny,
@@ -1050,10 +861,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Chunky,
         tag: Tag.Right,
-        text: "Feed T&S, Key 5, EXIT Forest",
-        totals: {
-          keys: 5
-        }
+        text: "Feed T&S, Key 5, EXIT Forest"
       }
     ]
   },
@@ -1064,17 +872,13 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Cage GB, tag W3",
-        totals: {
-          gbs: 63
-        }
+        gbs: 63
       },
       {
         color: Color.Chunky,
         tag: Tag.Left,
         text: "Turn in Key 5, Triangle GB",
-        totals: {
-          gbs: 64
-        }
+        gbs: 64
       },
       {
         color: Color.Chunky,
@@ -1083,18 +887,13 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "BP",
-        totals: {
-          bps: 25
-        }
+        text: "BP"
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
         text: "Guitar GB, ENTER Caves",
-        totals: {
-          gbs: 65
-        }
+        gbs: 65
       }
     ]
   },
@@ -1118,10 +917,7 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Right,
         text: "BP, balloon (10), 5DC GB (30)",
-        totals: {
-          gbs: 66,
-          bps: 26
-        }
+        gbs: 66
       },
       {
         color: Color.DK,
@@ -1132,25 +928,17 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Diddy,
         tag: Tag.Right,
         text: "5DC balloon (20), top 5DC GB (35)",
-        totals: {
-          gbs: 67
-        }
+        gbs: 67
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
-        text: "W5, BP, bunches, castle balloon (40)",
-        totals: {
-          bps: 27
-        }
+        text: "W5, BP, bunches, castle balloon (40)"
       },
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "BP",
-        totals: {
-          bps: 28
-        }
+        text: "BP"
       },
       {
         color: Color.Chunky,
@@ -1189,10 +977,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "5DI GB, balloon (80)",
-        totals: {
-          gbs: 68,
-          medals: 9
-        }
+        gbs: 68
       },
       {
         color: Color.Tiny,
@@ -1206,16 +991,11 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "5DI GB, balloon (70)",
-        totals: {
-          gbs: 69
-        }
+        gbs: 69
       },
       {
         color: Color.Tiny,
-        text: "Singles in water (80)",
-        totals: {
-          medals: 10
-        }
+        text: "Singles in water (80)"
       },
       {
         color: Color.DK,
@@ -1225,9 +1005,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.DK,
         text: "5DI GB, balloon, singles (59)",
-        totals: {
-          gbs: 70
-        }
+        gbs: 70
       },
       {
         color: Color.DK,
@@ -1237,33 +1015,23 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Chunky,
         tag: Tag.Left,
         text: "BP, ice dome GB (29)",
-        totals: {
-          gbs: 71,
-          bps: 29
-        }
+        gbs: 71
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
         text: "5DI GB, balloon, singles (70)",
-        totals: {
-          gbs: 72
-        }
+        gbs: 72
       },
       {
         color: Color.Lanky,
-        text: "EXIT/ENTER, entry singles (75)",
-        totals: {
-          medals: 11
-        }
+        text: "EXIT/ENTER, entry singles (75)"
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
         text: "W2 bunch (34), Gone GB (42)",
-        totals: {
-          gbs: 73
-        }
+        gbs: 73
       },
       {
         color: Color.Chunky,
@@ -1273,9 +1041,7 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Left,
         text: "Exit T&S, turn in BPs x3, feed T&S",
-        totals: {
-          gbs: 76
-        }
+        gbs: 76
       },
       {
         color: Color.Lanky,
@@ -1291,10 +1057,7 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.DK,
         tag: Tag.Left,
         text: "Feed T&S, Key 6, turn in BPs x5",
-        totals: {
-          gbs: 81,
-          keys: 6
-        }
+        gbs: 81
       },
       {
         color: Color.DK,
@@ -1308,17 +1071,12 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.DK,
         text: "Lava GB, to Castle Lobby, open Kasplat",
-        totals: {
-          gbs: 83
-        }
+        gbs: 83
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
-        text: "BP, deathwarp",
-        totals: {
-          bps: 30
-        }
+        text: "BP, deathwarp"
       },
       {
         color: Color.DK,
@@ -1346,9 +1104,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Up to trash can (18), GB, bunch (23)",
-        totals: {
-          gbs: 83
-        }
+        gbs: 83
       },
       {
         color: Color.Tiny,
@@ -1366,25 +1122,18 @@ export const glitchlessAny: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "Singles to castle top (85)",
-        totals: {
-          medals: 12
-        }
+        text: "Singles to castle top (85)"
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
         text: "Drop to shed GB, balloon (10)",
-        totals: {
-          gbs: 84
-        }
+        gbs: 84
       },
       {
         color: Color.Chunky,
         text: "Museum GB, balloon, bunch (25)",
-        totals: {
-          gbs: 85
-        }
+        gbs: 85
       },
       {
         color: Color.Chunky,
@@ -1392,10 +1141,7 @@ export const glitchlessAny: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Tunnel, singles to (43), BP",
-        totals: {
-          bps: 31
-        }
+        text: "Tunnel, singles to (43), BP"
       },
       {
         color: Color.Chunky,
@@ -1405,9 +1151,7 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.DK,
         tag: Tag.Right,
         text: "Face puzzle GB (55)",
-        totals: {
-          gbs: 86
-        }
+        gbs: 86
       },
       {
         color: Color.Diddy,
@@ -1426,26 +1170,17 @@ export const glitchlessAny: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Singles through tunnel (75), W1",
-        totals: {
-          medals: 13
-        }
+        text: "Singles through tunnel (75), W1"
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Tag W3, W4 to greenhouse GB (50)",
-        totals: {
-          gbs: 87
-        }
+        gbs: 87
       },
       {
         color: Color.Lanky,
-        text: "Drop to BP, to crypt, bananas (80)",
-        totals: {
-          bps: 32,
-          medals: 14
-        }
+        text: "Drop to BP, to crypt, bananas (80)"
       },
       {
         color: Color.Tiny,
@@ -1456,10 +1191,7 @@ export const glitchlessAny: RouteSection[] = [
         color: Color.Diddy,
         tag: Tag.Left,
         text: "BP, balloon, crypt GB, balloon (70)",
-        totals: {
-          gbs: 88,
-          bps: 33
-        }
+        gbs: 88
       },
       {
         color: Color.Diddy,
@@ -1467,34 +1199,24 @@ export const glitchlessAny: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "W2, Rocket to balloon, post bunch (85)",
-        totals: {
-          medals: 15
-        }
+        text: "W2, Rocket to balloon, post bunch (85)"
       },
       {
         color: Color.Diddy,
         text: "Turn in BPs x4",
-        totals: {
-          gbs: 92
-        }
+        gbs: 92
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Tower for balloon (90), turn in BPs x4",
-        totals: {
-          gbs: 96
-        }
+        gbs: 96
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
         text: "Turn in BPs x3, Cranky for Rareware Coin",
-        totals: {
-          gbs: 99,
-          rCoin: true
-        }
+        gbs: 99
       },
       {
         color: Color.Chunky,
@@ -1518,10 +1240,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Lanky,
         tag: Tag.Right,
-        text: "Feed T&S, Key 7, EXIT Castle",
-        totals: {
-          keys: 7
-        }
+        text: "Feed T&S, Key 7, EXIT Castle"
       }
     ]
   },
@@ -1540,9 +1259,7 @@ export const glitchlessAny: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Port to Saxophone GB, Helm Lobby",
-        totals: {
-          gbs: 100
-        }
+        gbs: 100
       },
       {
         color: Color.Chunky,

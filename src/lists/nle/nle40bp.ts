@@ -1,6 +1,6 @@
-import { RouteSection } from "../classes";
-import { Color, Tag } from "../enums";
-import { isgNLE, isgPreStart, krool } from "../utils/sections";
+import { RouteSection } from "../../classes";
+import { Color, Tag } from "../../enums";
+import { isgNLE, isgPreStart, krool } from "../../utils/sections";
 
 export const nle40bp: RouteSection[] = [
   isgPreStart,
@@ -19,9 +19,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         text: "W1, entrance GB to Japes Lobby",
-        totals: {
-          gbs: 1
-        }
+        gbs: 1
       },
       {
         color: Color.DK,
@@ -39,9 +37,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         text: "Cannon to GB, tag W2",
-        totals: {
-          gbs: 2
-        }
+        gbs: 2
       },
       {
         color: Color.DK,
@@ -58,10 +54,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         text: "Pswim to GB, BP",
-        totals: {
-          gbs: 3,
-          bps: 1
-        }
+        gbs: 3
       },
       {
         color: Color.DK,
@@ -70,40 +63,28 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         text: "Note: Blast/Switch CS cancel, GB",
-        totals: {
-          gbs: 4
-        }
+        gbs: 4
       },
       {
         color: Color.DK,
         text: "W2 to GB, get ammo toward Snide",
-        totals: {
-          gbs: 5
-        }
+        gbs: 5
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Mountain GB, BP",
-        totals: {
-          gbs: 6,
-          bps: 2
-        }
+        gbs: 6
       },
       {
         color: Color.Diddy,
         text: "Pswim for cave GB, enter T&S",
-        totals: {
-          gbs: 7
-        }
+        gbs: 7
       },
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "Key 1, back to portal",
-        totals: {
-          keys: 1
-        }
+        text: "Key 1, back to portal"
       },
       {
         color: Color.DK,
@@ -133,10 +114,7 @@ export const nle40bp: RouteSection[] = [
     steps: [
       {
         color: Color.DK,
-        text: "BP, 3 crystals",
-        totals: {
-          bps: 3
-        }
+        text: "BP, 3 crystals"
       },
       {
         color: Color.Diddy,
@@ -145,17 +123,12 @@ export const nle40bp: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "BP, Enter Tiny Temple",
-        totals: {
-          bps: 4
-        }
+        text: "BP, Enter Tiny Temple"
       },
       {
         color: Color.Diddy,
         text: "Ledge clip to Tiny GB",
-        totals: {
-          gbs: 8
-        }
+        gbs: 8
       },
       {
         color: Color.Diddy,
@@ -164,41 +137,29 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "BP, tag by Snide",
-        totals: {
-          bps: 5
-        }
+        text: "BP, tag by Snide"
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
         text: "Gong tower GB, tag by Snide",
-        totals: {
-          gbs: 9
-        }
+        gbs: 9
       },
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "Enter T&S, Key 2, tag W5",
-        totals: {
-          keys: 2
-        }
+        text: "Enter T&S, Key 2, tag W5"
       },
       {
         color: Color.DK,
         text: "Bonus GB in sand tunnel",
-        totals: {
-          gbs: 10
-        }
+        gbs: 10
 
       },
       {
         color: Color.DK,
         text: "W5, clip in 5DT for GB",
-        totals: {
-          gbs: 11
-        }
+        gbs: 11
       },
       {
         color: Color.DK,
@@ -216,32 +177,23 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         text: "Free Lanky, GB, skew to tag",
-        totals: {
-          gbs: 12
-        }
+        gbs: 12
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Tag W1, skew to matching game GB",
-        totals: {
-          gbs: 13
-        }
+        gbs: 13
       },
       {
         color: Color.Lanky,
-        text: "Skew to BP, W2, W1",
-        totals: {
-          bps: 6
-        }
+        text: "Skew to BP, W2, W1"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
         text: "W1, W2, lava GB",
-        totals: {
-          gbs: 14
-        }
+        gbs: 14
       },
       {
         color: Color.Tiny,
@@ -263,9 +215,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Port to Saxohpone GB",
-        totals: {
-          gbs: 15
-        }
+        gbs: 15
       },
       {
         color: Color.Tiny,
@@ -284,17 +234,12 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Robot push, pipe GB, drop to tag",
-        totals: {
-          gbs: 16
-        }
+        gbs: 16
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
-        text: "Tag W4, drop for BP",
-        totals: {
-          bps: 7
-        }
+        text: "Tag W4, drop for BP"
       },
       {
         color: Color.Diddy,
@@ -304,62 +249,44 @@ export const nle40bp: RouteSection[] = [
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Free Chunky GB",
-        totals: {
-          gbs: 17
-        }
+        gbs: 17
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "Key 3, BP, cage GB",
-        totals: {
-          gbs: 18,
-          bps: 8,
-          keys: 3
-        }
+        text: "Key 3, BP"
       },
       {
         color: Color.Tiny,
-        text: "Clip to testing"
+        text: "Cage GB, clip to testing",
+        gbs: 18
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
-        text: "BP, go to R&D",
-        totals: {
-          bps: 9
-        }
+        text: "BP, go to R&D"
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "BP",
-        totals: {
-          bps: 10
-        }
+        text: "BP"
       },
       {
         color: Color.DK,
         tag: Tag.Left,
         text: "Drop to power shed, lever GB",
-        totals: {
-          gbs: 19
-        }
+        gbs: 19
       },
       {
         color: Color.Chunky,
         tag: Tag.Left,
         text: "Dark room GB",
-        totals: {
-          gbs: 20
-        }
+        gbs: 20
       },
       {
         color: Color.Chunky,
         text: "Slam prod switch, W4 to GB",
-        totals: {
-          gbs: 21
-        }
+        gbs: 21
       },
       {
         color: Color.Chunky,
@@ -369,24 +296,17 @@ export const nle40bp: RouteSection[] = [
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Spring GB",
-        totals: {
-          gbs: 22
-        }
+        gbs: 22
       },
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "BP, drop to crusher room",
-        totals: {
-          bps: 11
-        }
+        text: "BP, drop to crusher room"
       },
       {
         color: Color.DK,
         text: "Clip OOB for GB, clip to void out",
-        totals: {
-          gbs: 23
-        }
+        gbs: 23
       },
       {
         color: Color.DK,
@@ -400,9 +320,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         text: "Bongos GB",
-        totals: {
-          gbs: 24
-        }
+        gbs: 24
       },
       {
         color: Color.Chunky,
@@ -412,10 +330,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Tiny,
         tag: Tag.Left,
-        text: "BP, W4",
-        totals: {
-          bps: 12
-        }
+        text: "BP, W4"
       },
       {
         color: Color.Chunky,
@@ -426,9 +341,7 @@ export const nle40bp: RouteSection[] = [
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Trombone GB, ENTER Japes",
-        totals: {
-          gbs: 25
-        }
+        gbs: 25
       },
     ]
   },
@@ -448,41 +361,30 @@ export const nle40bp: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Right,
         text: "Cage GB",
-        totals: {
-          gbs: 26
-        }
+        gbs: 26
       },
       {
         color: Color.Tiny,
         text: "W3, BP, Stump GB",
-        totals: {
-          gbs: 27,
-          bps: 13
-        }
+        gbs: 27
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
         text: "Wall skew for cage GB",
-        totals: {
-          gbs: 28
-        }
+        gbs: 28
       },
       {
         color: Color.Chunky,
         tag: Tag.Left,
         text: "Cage GB",
-        totals: {
-          gbs: 29
-        }
+        gbs: 29
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Cage GB",
-        totals: {
-          gbs: 30
-        }
+        gbs: 30
       },
       {
         color: Color.Lanky,
@@ -496,17 +398,12 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Clip for painting GB",
-        totals: {
-          gbs: 31
-        }
+        gbs: 31
       },
       {
         color: Color.Lanky,
         text: "BP, bonus GB",
-        totals: {
-          gbs: 32,
-          bps: 14
-        }
+        gbs: 32
       },
       {
         color: Color.Chunky,
@@ -516,17 +413,12 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Underground BP, GB",
-        totals: {
-          gbs: 33,
-          bps: 15
-        }
+        gbs: 33
       },
       {
         color: Color.Chunky,
         text: "Deathwarp, rock GB",
-        totals: {
-          gbs: 34
-        }
+        gbs: 34
       },
       {
         color: Color.DK,
@@ -541,9 +433,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         text: "W4, drop to cage GB",
-        totals: {
-          gbs: 35
-        }
+        gbs: 35
       },
       {
         color: Color.DK,
@@ -552,10 +442,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Chunky,
         tag: Tag.Left,
-        text: "BP, ENTER Galleon",
-        totals: {
-          bps: 16
-        }
+        text: "BP, ENTER Galleon"
       },
     ]
   },
@@ -565,40 +452,28 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Open gate, chest GB",
-        totals: {
-          gbs: 36
-        }
+        gbs: 36
       },
       {
         color: Color.Chunky,
-        text: "Tag W3, Key 4, OOB to BP",
-        totals: {
-          bps: 17,
-          keys: 4
-        }
+        text: "Tag W3, Key 4, OOB to BP"
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
         text: "Pswim to 5DS GB",
-        totals: {
-          gbs: 37
-        }
+        gbs: 37
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Pswim to 5DS GB",
-        totals: {
-          gbs: 38
-        }
+        gbs: 38
       },
       {
         color: Color.Lanky,
         text: "Pswim to 2DS GB, again to void",
-        totals: {
-          gbs: 39
-        }
+        gbs: 39
       },
       {
         color: Color.Lanky,
@@ -607,18 +482,12 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "Ledge kick from chest to BP",
-        totals: {
-          bps: 18
-        }
+        text: "Ledge kick from chest to BP"
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
-        text: "Pswim to void, BP",
-        totals: {
-          bps: 19
-        }
+        text: "Pswim to void, BP"
       },
       {
         color: Color.Lanky,
@@ -627,27 +496,19 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Enguarde GB, tag at mermaid",
-        totals: {
-          gbs: 40
-        }
+        gbs: 40
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
         text: "BP, raise water, turn in BPs x4",
-        totals: {
-          gbs: 44,
-          bps: 20
-        }
+        gbs: 44
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
         text: "Turn in BPs x4, W3, BP",
-        totals: {
-          gbs: 48,
-          bps: 21
-        }
+        gbs: 48
       },
       {
         color: Color.Tiny,
@@ -661,9 +522,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Pswim to pipe GB",
-        totals: {
-          gbs: 49
-        }
+        gbs: 49
       },
       {
         color: Color.Tiny,
@@ -672,24 +531,18 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "STS to BFI GB, W5",
-        totals: {
-          gbs: 50
-        }
+        gbs: 50
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Pswim to cage GB",
-        totals: {
-          gbs: 51
-        }
+        gbs: 51
       },
       {
         color: Color.Lanky,
         text: "K. Lumsy Sprint GB",
-        totals: {
-          gbs: 52
-        }
+        gbs: 52
       },
       {
         color: Color.Lanky,
@@ -699,16 +552,12 @@ export const nle40bp: RouteSection[] = [
         color: Color.Chunky,
         tag: Tag.Right,
         text: "W5, slam big X, STS to cage GB",
-        totals: {
-          gbs: 53
-        }
+        gbs: 53
       },
       {
         color: Color.Chunky,
         text: "Big X GB, enter Forest Lobby",
-        totals: {
-          gbs: 54
-        }
+        gbs: 54
       },
       {
         color: Color.DK,
@@ -737,73 +586,50 @@ export const nle40bp: RouteSection[] = [
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Slam switch, dark room GB",
-        totals: {
-          gbs: 55
-        }
+        gbs: 55
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
-        text: "Fall to BP, fall to Blast platform",
-        totals: {
-          bps: 22
-        }
+        text: "Fall to BP, fall to Blast platform"
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
-        text: "Climb ladder for BP, back out to tag",
-        totals: {
-          bps: 23
-        }
+        text: "Climb ladder for BP, back out to tag"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "BP, drop to pswim to Owl",
-        totals: {
-          bps: 24
-        }
+        text: "BP, drop to pswim to Owl"
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
         text: "BP, W4, turn in BPs x5",
-        totals: {
-          gbs: 60,
-          bps: 25
-        }
+        gbs: 60
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
         text: "Turn in BPs x5",
-        totals: {
-          gbs: 65
-        }
+        gbs: 65
       },
       {
         color: Color.DK,
-        text: "Key 5, turn in BPs",
-        totals: {
-          gbs: 69,
-          keys: 5
-        }
+        text: "Key 5, turn in BPs x4",
+        gbs: 69
       },
       {
         color: Color.DK,
         text: "Enter mill, clip for GB",
-        totals: {
-          gbs: 70
-        }
+        gbs: 70
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Exit mill, pswim to cage GB",
-        totals: {
-          gbs: 71
-        }
+        gbs: 71
       },
       {
         color: Color.Diddy,
@@ -812,10 +638,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "BP, EXIT Forest",
-        totals: {
-          bps: 26
-        }
+        text: "BP, EXIT Forest"
       },
     ]
   },
@@ -826,9 +649,7 @@ export const nle40bp: RouteSection[] = [
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Exit Forest Lobby, cage GB",
-        totals: {
-          gbs: 72
-        }
+        gbs: 72
       },
       {
         color: Color.Diddy,
@@ -842,9 +663,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Triangle GB, Caves Lobby",
-        totals: {
-          gbs: 73
-        }
+        gbs: 73
       },
       {
         color: Color.Chunky,
@@ -853,18 +672,13 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "BP",
-        totals: {
-          bps: 27
-        }
+        text: "BP"
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
         text: "Rocket to Guitar GB",
-        totals: {
-          gbs: 74
-        }
+        gbs: 74
       },
       {
         color: Color.Diddy,
@@ -881,10 +695,7 @@ export const nle40bp: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "Cross river, BP, tag W4",
-        totals: {
-          bps: 28
-        }
+        text: "Cross river, BP, tag W4"
       },
       {
         color: Color.Diddy,
@@ -898,9 +709,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Rocket to bonus GB",
-        totals: {
-          gbs: 75
-        }
+        gbs: 75
       },
       {
         color: Color.Diddy,
@@ -910,60 +719,41 @@ export const nle40bp: RouteSection[] = [
         color: Color.DK,
         tag: Tag.Left,
         text: "Key 6, DK cabin GB",
-        totals: {
-          gbs: 76,
-          keys: 6
-        }
+        gbs: 76
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
         text: "BP, 5DC GB",
-        totals: {
-          gbs: 77,
-          bps: 29
-        }
+        gbs: 77
       },
       {
         color: Color.DK,
         tag: Tag.Right,
         text: "5DC GB",
-        totals: {
-          gbs: 78
-        }
+        gbs: 78
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
-        text: "W5, BP, tag at ice castle",
-        totals: {
-          bps: 30
-        }
+        text: "W5, BP, tag at ice castle"
       },
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "BP, kick down to tag",
-        totals: {
-          bps: 31
-        }
+        text: "BP, kick down to tag"
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
         text: "W4 to ice shield GB, W4",
-        totals: {
-          gbs: 79
-        }
+        gbs: 79
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
         text: "BP, W1, pswim for Gone GB",
-        totals: {
-          gbs: 80,
-          bps: 32
-        }
+        gbs: 80
       },
       {
         color: Color.Chunky,
@@ -982,9 +772,7 @@ export const nle40bp: RouteSection[] = [
         color: Color.DK,
         tag: Tag.Right,
         text: "Damage boost to lava GB",
-        totals: {
-          gbs: 81
-        }
+        gbs: 81
       },
       {
         color: Color.DK,
@@ -997,10 +785,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Diddy,
         tag: Tag.Right,
-        text: "BP, ENTER Castle",
-        totals: {
-          bps: 33
-        }
+        text: "BP, ENTER Castle"
       }
     ]
   },
@@ -1014,25 +799,17 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.Chunky,
         tag: Tag.Left,
-        text: "BP",
-        totals: {
-          bps: 34
-        }
+        text: "BP"
       },
       {
         color: Color.DK,
         tag: Tag.Right,
-        text: "Clip in tree for BP",
-        totals: {
-          bps: 35
-        }
+        text: "Clip in tree for BP"
       },
       {
         color: Color.DK,
         text: "Roll clip for GB",
-        totals: {
-          gbs: 82
-        }
+        gbs: 82
       },
       {
         color: Color.DK,
@@ -1040,33 +817,21 @@ export const nle40bp: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "KKO as Lanky, Key 7",
-        totals: {
-          keys: 7
-        }
+        text: "KKO as Lanky, Key 7"
       },
       {
         color: Color.Lanky,
-        text: "Clockwise to BP, drop to crypt",
-        totals: {
-          bps: 36
-        }
+        text: "Clockwise to BP, drop to crypt"
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
-        text: "BP",
-        totals: {
-          bps: 37
-        }
+        text: "BP"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "BP, deathwarp, EXIT Castle",
-        totals: {
-          bps: 38
-        }
+        text: "BP, deathwarp, EXIT Castle"
       }
     ]
   },
@@ -1084,10 +849,7 @@ export const nle40bp: RouteSection[] = [
       {
         color: Color.DK,
         tag: Tag.Right,
-        text: "Damage boost to BP",
-        totals: {
-          bps: 39
-        }
+        text: "Damage boost to BP"
       },
       {
         color: Color.DK,
@@ -1117,49 +879,36 @@ export const nle40bp: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "BP, leave 5DT, Snide's",
-        totals: {
-          bps: 40
-        }
+        text: "BP, leave 5DT, Snide's"
       },
       {
         color: Color.Chunky,
         text: "Turn in BPs x3",
-        totals: {
-          gbs: 85
-        }
+        gbs: 85
       },
       {
         color: Color.DK,
         tag: Tag.Right,
         text: "Turn in BPs x4",
-        totals: {
-          gbs: 89
-        }
+        gbs: 89
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Turn in BPs x4",
-        totals: {
-          gbs: 93
-        }
+        gbs: 93
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Turn in BPs x3",
-        totals: {
-          gbs: 96
-        }
+        gbs: 96
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
         text: "Turn in BPs x4",
-        totals: {
-          gbs: 100
-        }
+        gbs: 100
       },
       {
         color: Color.Tiny,

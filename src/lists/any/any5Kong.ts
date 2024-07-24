@@ -1,6 +1,6 @@
-import { RouteSection } from "../classes";
-import { Color, Tag } from "../enums";
-import { isgPreStart, krool } from "../utils/sections";
+import { RouteSection } from "../../classes";
+import { Color, Tag } from "../../enums";
+import { isgPreStart, krool } from "../../utils/sections";
 
 export const any5Kong: RouteSection[] = [
   isgPreStart,
@@ -54,7 +54,7 @@ export const any5Kong: RouteSection[] = [
       {
         color: Color.DK,
         text: "Phaseswim from pool, or leave through tunnel"
-      },
+      }
     ]
   },
   {
@@ -94,10 +94,7 @@ export const any5Kong: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Roll to Japes Lobby, dance skip GB",
-        totals: {
-          gbs: 1
-        }
+        text: "Roll to Japes Lobby, dance skip GB"
       },
       {
         color: Color.DK,
@@ -122,10 +119,7 @@ export const any5Kong: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Tree moonkick or climb to Diddy GB",
-        totals: {
-          gbs: 2
-        }
+        text: "Tree moonkick or climb to Diddy GB"
       },
       {
         color: Color.DK,
@@ -134,7 +128,7 @@ export const any5Kong: RouteSection[] = [
       {
         color: Color.DK,
         text: "Pause exit"
-      },
+      }
     ]
   },
   {
@@ -167,7 +161,7 @@ export const any5Kong: RouteSection[] = [
       {
         color: Color.DK,
         text: "W2, W1, turn in Key 1, W1, W2, ENTER Aztec"
-      },
+      }
     ]
   },
   {
@@ -232,7 +226,7 @@ export const any5Kong: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Factory Early (see doc for details)"
-      },
+      }
     ]
   },
   {
@@ -304,7 +298,7 @@ export const any5Kong: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "ENTER Helm"
-      },
+      }
     ]
   },
   {
@@ -326,7 +320,7 @@ export const any5Kong: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Get Key 8, RESET on 2nd 'Donk'"
-      },
+      }
     ]
   },
   {
@@ -347,7 +341,7 @@ export const any5Kong: RouteSection[] = [
       {
         color: Color.Header,
         text: "Note: see doc for K. Rool strategies"
-      },
+      }
     ]
   },
   krool

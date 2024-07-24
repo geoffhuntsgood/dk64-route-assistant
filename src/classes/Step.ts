@@ -1,5 +1,4 @@
 import { Color, Tag } from "../enums";
-import { Totals } from "./Totals";
 
 export class Step {
   constructor(
@@ -7,6 +6,6 @@ export class Step {
     public readonly text: string,
     public readonly tag?: Tag,
     public readonly link?: string,
-    public readonly totals?: Totals
+    public readonly gbs?: number
   ) { }
 }

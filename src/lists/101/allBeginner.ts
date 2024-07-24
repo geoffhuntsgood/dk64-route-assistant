@@ -1,6 +1,6 @@
-import { RouteSection } from "../classes/RouteSection";
-import { Color, Tag } from "../enums";
-import { defaultPreStart, krool } from "../utils/sections";
+import { RouteSection } from "../../classes";
+import { Color, Tag } from "../../enums";
+import { defaultPreStart, krool } from "../../utils/sections";
 
 export const allBeginner: RouteSection[] = [
   defaultPreStart,
@@ -78,9 +78,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Tag W1, collect Japes GB",
-        totals: {
-          gbs: 1
-        }
+        gbs: 1
       },
       {
         color: Color.DK,
@@ -99,9 +97,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Phaseswim to cage GB",
-        totals: {
-          gbs: 2
-        }
+        gbs: 2
       },
       {
         color: Color.DK,
@@ -113,10 +109,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Blueprint, 3 coins",
-        totals: {
-          bps: 1
-        }
+        text: "Blueprint, 3 coins"
       },
       {
         color: Color.DK,
@@ -124,10 +117,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Climb vine for Battle Crown",
-        totals: {
-          crowns: 1
-        }
+        text: "Climb vine for Battle Crown"
       },
       {
         color: Color.DK,
@@ -152,9 +142,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "2nd hill (26), Diddy GB",
-        totals: {
-          gbs: 3
-        }
+        gbs: 3
       },
       {
         color: Color.DK,
@@ -183,9 +171,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Cross vines, cannon to GB",
-        totals: {
-          gbs: 4
-        }
+        gbs: 4
       },
       {
         color: Color.DK,
@@ -223,9 +209,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Jump in bounds, GB, balloon (20)",
-        totals: {
-          gbs: 5
-        }
+        gbs: 5
       },
       {
         color: Color.Diddy,
@@ -239,10 +223,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "2nd 'Donk' RESET on Key 1",
-        totals: {
-          keys: 1
-        }
+        text: "2nd 'Donk' RESET on Key 1"
       }
     ]
   },
@@ -272,10 +253,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Blueprint, 3 coins",
-        totals: {
-          bps: 2
-        }
+        text: "Blueprint, 3 coins"
       },
       {
         color: Color.DK,
@@ -288,10 +266,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "Climb tree, Rocket to Blueprint",
-        totals: {
-          bps: 3
-        }
+        text: "Climb tree, Rocket to Blueprint"
       },
       {
         color: Color.Diddy,
@@ -312,9 +287,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Phaseswim through right wall to GB",
-        totals: {
-          gbs: 6
-        }
+        gbs: 6
       },
       {
         color: Color.Diddy,
@@ -356,10 +329,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "Back to Blueprint",
-        totals: {
-          bps: 4
-        }
+        text: "Back to Blueprint"
       },
       {
         color: Color.Tiny,
@@ -372,10 +342,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Key 5 early",
-        link: "https://youtu.be/icw4KVavWjI?t=8m27s",
-        totals: {
-          keys: 2
-        }
+        link: "https://youtu.be/icw4KVavWjI?t=8m27s"
       },
       {
         color: Color.DK,
@@ -385,9 +352,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Bonus GB (left, then right)",
-        totals: {
-          gbs: 7
-        }
+        gbs: 7
       },
       {
         color: Color.DK,
@@ -401,9 +366,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Left, 2 coins, right, GB",
-        totals: {
-          gbs: 8
-        }
+        gbs: 8
       },
       {
         color: Color.DK,
@@ -421,9 +384,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.DK,
         text: "Phaseswim in lava, free Lanky",
         link: "https://youtu.be/GvD0qnR8aeE?t=35m7s",
-        totals: {
-          gbs: 9
-        }
+        gbs: 9
       },
       {
         color: Color.DK,
@@ -436,9 +397,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Llama cage GB (67), 1 coin",
-        totals: {
-          gbs: 10
-        }
+        gbs: 10
       },
       {
         color: Color.Tiny,
@@ -452,9 +411,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Swim right to Klaptrap room GB",
-        totals: {
-          gbs: 11
-        }
+        gbs: 11
       },
       {
         color: Color.Tiny,
@@ -482,9 +439,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Diddy,
         text: "Charge gongs for GB",
         link: "https://youtu.be/UzXzScGj_Wo?t=8m4s",
-        totals: {
-          gbs: 12
-        }
+        gbs: 12
       },
       {
         color: Color.Diddy,
@@ -521,9 +476,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Collect vulture race GB",
-        totals: {
-          gbs: 13
-        }
+        gbs: 13
       },
       {
         color: Color.Diddy,
@@ -532,10 +485,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Right, balloon (75), left",
-        totals: {
-          gbs: 14,
-          medals: 1
-        }
+        gbs: 14
       },
       {
         color: Color.Diddy,
@@ -554,9 +504,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Right,
         text: "Twirl to bonus GB",
-        totals: {
-          gbs: 15
-        }
+        gbs: 15
       },
       {
         color: Color.Tiny,
@@ -568,10 +516,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "Fairy, drop in front",
-        totals: {
-          fairies: 1
-        }
+        text: "Fairy, drop in front"
       },
       {
         color: Color.Tiny,
@@ -604,9 +549,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Continue OOB to pipe GB",
-        totals: {
-          gbs: 16
-        }
+        gbs: 16
       },
       {
         color: Color.Lanky,
@@ -623,9 +566,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Free Chunky GB (35)",
-        totals: {
-          gbs: 17
-        }
+        gbs: 17
       },
       {
         color: Color.Lanky,
@@ -674,16 +615,12 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Fall through box left for GB",
-        totals: {
-          gbs: 18
-        }
+        gbs: 18
       },
       {
         color: Color.Chunky,
         text: "Tag W1 (20), pole to bonus GB",
-        totals: {
-          gbs: 19
-        }
+        gbs: 19
       },
       {
         color: Color.Chunky,
@@ -697,32 +634,21 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Leave, Arcade x2, enter T&S",
-        totals: {
-          gbs: 20,
-          nCoin: true
-        }
+        gbs: 20
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
-        text: "Key 3 (jumps: 9, 11, 12, 13, 15)",
-        totals: {
-          keys: 3
-        }
+        text: "Key 3 (jumps: 9, 11, 12, 13, 15)"
       },
       {
         color: Color.Tiny,
         text: "Pipe bunch (5), cage GB",
-        totals: {
-          gbs: 21
-        }
+        gbs: 21
       },
       {
         color: Color.Tiny,
-        text: "Down pole to Blueprint",
-        totals: {
-          bps: 5
-        }
+        text: "Down pole to Blueprint"
       },
       {
         color: Color.Tiny,
@@ -739,9 +665,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Dart board GB (25)",
-        totals: {
-          gbs: 22
-        }
+        gbs: 22
       },
       {
         color: Color.Tiny,
@@ -749,10 +673,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "Balloon (35), fairy",
-        totals: {
-          fairies: 2
-        }
+        text: "Balloon (35), fairy"
       },
       {
         color: Color.Lanky,
@@ -766,10 +687,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Back to testing for Blueprint",
-        totals: {
-          bps: 6
-        }
+        text: "Back to testing for Blueprint"
       },
       {
         color: Color.Chunky,
@@ -783,16 +701,11 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Numbers game GB, balloon (40)",
-        totals: {
-          gbs: 23
-        }
+        gbs: 23
       },
       {
         color: Color.DK,
-        text: "Fairy, back to tag",
-        totals: {
-          fairies: 3
-        }
+        text: "Fairy, back to tag"
       },
       {
         color: Color.Diddy,
@@ -802,17 +715,13 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Bonus GB, jump left to tag",
-        totals: {
-          gbs: 24
-        }
+        gbs: 24
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Jump to bonus GB above R&D",
-        totals: {
-          gbs: 25
-        }
+        gbs: 25
       },
       {
         color: Color.Lanky,
@@ -821,24 +730,16 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Ladder Push to Battle Crown",
-        link: "https://www.youtube.com/watch?v=0Zg1P7mvxYQ&feature=youtu.be",
-        totals: {
-          crowns: 2
-        }
+        link: "https://www.youtube.com/watch?v=0Zg1P7mvxYQ&feature=youtu.be"
       },
       {
         color: Color.Lanky,
-        text: "Blueprint, to piano game (54)",
-        totals: {
-          bps: 7
-        }
+        text: "Blueprint, to piano game (54)"
       },
       {
         color: Color.Lanky,
         text: "Balloon (64), piano GB: CBCDECA",
-        totals: {
-          gbs: 26
-        }
+        gbs: 26
       },
       {
         color: Color.Lanky,
@@ -848,9 +749,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Right,
         text: "Tunnel to car race GB (45)",
-        totals: {
-          gbs: 27
-        }
+        gbs: 27
       },
       {
         color: Color.Tiny,
@@ -868,9 +767,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Toy monster GB, balloon (55)",
-        totals: {
-          gbs: 28
-        }
+        gbs: 28
       },
       {
         color: Color.DK,
@@ -884,9 +781,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Pull lever, 2 bunches (60), GB",
-        totals: {
-          gbs: 29
-        }
+        gbs: 29
       },
       {
         color: Color.DK,
@@ -900,9 +795,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Charge switches: 3124, 4231, 1342",
-        totals: {
-          gbs: 30
-        }
+        gbs: 30
       },
       {
         color: Color.Diddy,
@@ -915,9 +808,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Slam switch for bonus GB",
-        totals: {
-          gbs: 31
-        }
+        gbs: 31
       },
       {
         color: Color.Diddy,
@@ -925,10 +816,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "Blueprint, singles to (60), W4",
-        totals: {
-          bps: 8
-        }
+        text: "Blueprint, singles to (60), W4"
       },
       {
         color: Color.Chunky,
@@ -938,10 +826,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "W4, GB, bunches (75)",
-        totals: {
-          gbs: 32,
-          medals: 2
-        }
+        gbs: 32
       },
       {
         color: Color.Tiny,
@@ -951,10 +836,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Conveyors (75) to bonus GB",
-        totals: {
-          gbs: 33,
-          medals: 3
-        }
+        gbs: 33
       },
       {
         color: Color.Tiny,
@@ -963,19 +845,13 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "Balloon (75)",
-        totals: {
-          medals: 4
-        }
+        text: "Balloon (75)"
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
         text: "Cylinders, Spring GB (75)",
-        totals: {
-          gbs: 34,
-          medals: 5
-        }
+        gbs: 34
       },
       {
         color: Color.Diddy,
@@ -984,10 +860,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "Cylinders to Blueprint",
-        totals: {
-          bps: 9
-        }
+        text: "Cylinders to Blueprint"
       },
       {
         color: Color.DK,
@@ -996,10 +869,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "3 bunches (75), GB",
-        totals: {
-          gbs: 35,
-          medals: 6
-        }
+        gbs: 35
       },
       {
         color: Color.DK,
@@ -1013,9 +883,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Pull lever for Bongos GB",
-        totals: {
-          gbs: 36
-        }
+        gbs: 36
       },
       {
         color: Color.Chunky,
@@ -1025,11 +893,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         tag: Tag.Left,
-        text: "Blueprint, fairy",
-        totals: {
-          bps: 10,
-          fairies: 4
-        }
+        text: "Blueprint, fairy"
       },
       {
         color: Color.Diddy,
@@ -1039,17 +903,12 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Spring to bonus GB",
-        totals: {
-          gbs: 37
-        }
+        gbs: 37
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
-        text: "Battle Crown, drop right",
-        totals: {
-          crowns: 3
-        }
+        text: "Battle Crown, drop right"
       },
       {
         color: Color.Chunky,
@@ -1057,10 +916,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Blueprint, ENTER Galleon",
-        totals: {
-          bps: 11
-        }
+        text: "Blueprint, ENTER Galleon"
       }
     ]
   },
@@ -1077,10 +933,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Drop left, Battle Crown",
-        totals: {
-          crowns: 4
-        }
+        text: "Drop left, Battle Crown"
       },
       {
         color: Color.Chunky,
@@ -1089,16 +942,11 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Punch right chest for GB",
-        totals: {
-          gbs: 38
-        }
+        gbs: 38
       },
       {
         color: Color.Chunky,
-        text: "Punch left chest for fairy",
-        totals: {
-          fairies: 5
-        }
+        text: "Punch left chest for fairy"
       },
       {
         color: Color.Chunky,
@@ -1119,9 +967,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Cannon game GB, balloon (25)",
-        totals: {
-          gbs: 39
-        }
+        gbs: 39
       },
       {
         color: Color.Chunky,
@@ -1155,9 +1001,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Lever (45), drop behind to GB",
-        totals: {
-          gbs: 40
-        }
+        gbs: 40
       },
       {
         color: Color.DK,
@@ -1166,9 +1010,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Snide, turn in Blueprints x3",
-        totals: {
-          gbs: 43
-        }
+        gbs: 43
       },
       {
         color: Color.Tiny,
@@ -1179,16 +1021,11 @@ export const allBeginner: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Left,
         text: "Turn in Blueprints x3",
-        totals: {
-          gbs: 46
-        }
+        gbs: 46
       },
       {
         color: Color.Tiny,
-        text: "W3 to Blueprint (20)",
-        totals: {
-          bps: 12
-        }
+        text: "W3 to Blueprint (20)"
       },
       {
         color: Color.Tiny,
@@ -1197,10 +1034,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Ledge clip for Key 4",
-        link: "https://youtu.be/25w6CnhRkeY?t=14m49s",
-        totals: {
-          keys: 4
-        }
+        link: "https://youtu.be/25w6CnhRkeY?t=14m49s"
       },
       {
         color: Color.Header,
@@ -1243,10 +1077,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         tag: Tag.Left,
-        text: "Cactus balloon (35), Blueprint",
-        totals: {
-          bps: 13
-        }
+        text: "Cactus balloon (35), Blueprint"
       },
       {
         color: Color.Tiny,
@@ -1256,9 +1087,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Sub bonus GB",
-        totals: {
-          gbs: 47
-        }
+        gbs: 47
       },
       {
         color: Color.Tiny,
@@ -1280,16 +1109,11 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "5 singles, 2 bunches (50), GB",
-        totals: {
-          gbs: 48
-        }
+        gbs: 48
       },
       {
         color: Color.Tiny,
-        text: "Fairy, EXIT/ENTER on disappear",
-        totals: {
-          fairies: 6
-        }
+        text: "Fairy, EXIT/ENTER on disappear"
       },
       {
         color: Color.Tiny,
@@ -1299,9 +1123,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Upper 2-Door Ship, bonus GB",
-        totals: {
-          gbs: 49
-        }
+        gbs: 49
       },
       {
         color: Color.Tiny,
@@ -1315,9 +1137,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Phaseswim to Diddy's bonus GB",
-        totals: {
-          gbs: 50
-        }
+        gbs: 50
       },
       {
         color: Color.Diddy,
@@ -1333,17 +1153,12 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "Jump off for Blueprint",
-        totals: {
-          bps: 14
-        }
+        text: "Jump off for Blueprint"
       },
       {
         color: Color.Diddy,
         text: "Rocket to lighthouse top for GB",
-        totals: {
-          gbs: 51
-        }
+        gbs: 51
       },
       {
         color: Color.Diddy,
@@ -1353,9 +1168,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Diddy,
         text: "W5 to mech fish GB",
         link: "https://youtu.be/3e2koLLglVM",
-        totals: {
-          gbs: 52
-        }
+        gbs: 52
       },
       {
         color: Color.Diddy,
@@ -1371,32 +1184,22 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "Balloon (75)",
-        totals: {
-          medals: 7
-        }
+        text: "Balloon (75)"
       },
       {
         color: Color.Diddy,
         text: "Spring to bonus GB",
-        totals: {
-          gbs: 53
-        }
+        gbs: 53
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "Bunch and balloon (75)",
-        totals: {
-          medals: 8
-        }
+        text: "Bunch and balloon (75)"
       },
       {
         color: Color.Lanky,
         text: "Float to bonus GB (5)",
-        totals: {
-          gbs: 54
-        }
+        gbs: 54
       },
       {
         color: Color.Lanky,
@@ -1417,9 +1220,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Phaseswim on right for GB (35)",
-        totals: {
-          gbs: 55
-        }
+        gbs: 55
       },
       {
         color: Color.Lanky,
@@ -1436,9 +1237,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "3 bunches (65), GB",
-        totals: {
-          gbs: 56
-        }
+        gbs: 56
       },
       {
         color: Color.Lanky,
@@ -1456,9 +1255,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Bonus GB, leave, W5",
-        totals: {
-          gbs: 57
-        }
+        gbs: 57
       },
       {
         color: Color.Chunky,
@@ -1466,17 +1263,12 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "All bunches (75)",
-        totals: {
-          medals: 9
-        }
+        text: "All bunches (75)"
       },
       {
         color: Color.Chunky,
         text: "Punch barrels for GB",
-        totals: {
-          gbs: 58
-        }
+        gbs: 58
       },
       {
         color: Color.Chunky,
@@ -1490,9 +1282,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "5 singles (60), bonus GB",
-        totals: {
-          gbs: 59
-        }
+        gbs: 59
       },
       {
         color: Color.DK,
@@ -1500,24 +1290,16 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Tunnel bunches on bottom (75)",
-        totals: {
-          medals: 10
-        }
+        text: "Tunnel bunches on bottom (75)"
       },
       {
         color: Color.DK,
-        text: "W4 for Blueprint, W4 back",
-        totals: {
-          bps: 15
-        }
+        text: "W4 for Blueprint, W4 back"
       },
       {
         color: Color.DK,
         text: "Collect Seal GB",
-        totals: {
-          gbs: 60
-        }
+        gbs: 60
       },
       {
         color: Color.Lanky,
@@ -1527,9 +1309,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Back right ship for race GB",
-        totals: {
-          gbs: 61
-        }
+        gbs: 61
       },
       {
         color: Color.Lanky,
@@ -1537,10 +1317,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "Cannon room for Blueprint",
-        totals: {
-          bps: 16
-        }
+        text: "Cannon room for Blueprint"
       },
       {
         color: Color.Lanky,
@@ -1548,17 +1325,12 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "Phaseswim in chest front (75)",
-        totals: {
-          medals: 11
-        }
+        text: "Phaseswim in chest front (75)"
       },
       {
         color: Color.Lanky,
         text: "Enguarde chest GB at bottom",
-        totals: {
-          gbs: 62
-        }
+        gbs: 62
       },
       {
         color: Color.Tiny,
@@ -1568,9 +1340,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Get GB before 2nd cutscene",
-        totals: {
-          gbs: 63
-        }
+        gbs: 63
       },
       {
         color: Color.Tiny,
@@ -1584,9 +1354,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Phaseswim in Lobby pipe for GB",
-        totals: {
-          gbs: 64
-        }
+        gbs: 64
       },
       {
         color: Color.Tiny,
@@ -1603,9 +1371,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Saxophone GB",
-        totals: {
-          gbs: 65
-        }
+        gbs: 65
       },
       {
         color: Color.Tiny,
@@ -1620,9 +1386,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Gone bonus GB, deathwarp",
-        totals: {
-          gbs: 66
-        }
+        gbs: 66
       },
       {
         color: Color.Tiny,
@@ -1676,10 +1440,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         tag: Tag.Right,
-        text: "DK's room, medal",
-        totals: {
-          medals: 12
-        }
+        text: "DK's room, medal"
       },
       {
         color: Color.Chunky,
@@ -1688,26 +1449,17 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Drop left, Chunky's room, medal",
-        totals: {
-          medals: 13
-        }
+        text: "Drop left, Chunky's room, medal"
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
-        text: "Tiny's room, medal",
-        totals: {
-          medals: 14
-        }
+        text: "Tiny's room, medal"
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "Lanky's room, medal",
-        totals: {
-          medals: 15
-        }
+        text: "Lanky's room, medal"
       },
       {
         color: Color.Lanky,
@@ -1716,17 +1468,11 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         tag: Tag.Left,
-        text: "Rocket, Diddy's room, medal",
-        totals: {
-          medals: 16
-        }
+        text: "Rocket, Diddy's room, medal"
       },
       {
         color: Color.Diddy,
-        text: "Rocket, top center, Crown",
-        totals: {
-          crowns: 5
-        }
+        text: "Rocket, top center, Crown"
       },
       {
         color: Color.DK,
@@ -1740,17 +1486,11 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Get Key 8 facing window",
-        totals: {
-          keys: 5
-        }
+        text: "Get Key 8 facing window"
       },
       {
         color: Color.DK,
-        text: "Fairies, EXIT on disappear",
-        totals: {
-          fairies: 8
-        }
+        text: "Fairies, EXIT on disappear"
       }
     ]
   },
@@ -1759,10 +1499,7 @@ export const allBeginner: RouteSection[] = [
     steps: [
       {
         color: Color.DK,
-        text: "Orange damage boost to Blueprint",
-        totals: {
-          bps: 17
-        }
+        text: "Orange damage boost to Blueprint"
       },
       {
         color: Color.DK,
@@ -1771,9 +1508,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Drop right under W4 to cage GB",
-        totals: {
-          gbs: 67
-        }
+        gbs: 67
       },
       {
         color: Color.DK,
@@ -1786,10 +1521,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         tag: Tag.Right,
-        text: "Blueprint, deathwarp",
-        totals: {
-          bps: 18
-        }
+        text: "Blueprint, deathwarp"
       },
       {
         color: Color.DK,
@@ -1807,24 +1539,16 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Switch, Blueprint, balloon (15)",
-        totals: {
-          bps: 19
-        }
+        text: "Switch, Blueprint, balloon (15)"
       },
       {
         color: Color.DK,
-        text: "Roll clip to fairy",
-        totals: {
-          fairies: 9
-        }
+        text: "Roll clip to fairy"
       },
       {
         color: Color.DK,
         text: "Kick jump to GB",
-        totals: {
-          gbs: 68
-        }
+        gbs: 68
       },
       {
         color: Color.DK,
@@ -1850,9 +1574,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Bonus GB, drop to tag",
-        totals: {
-          gbs: 69
-        }
+        gbs: 69
       },
       {
         color: Color.DK,
@@ -1866,9 +1588,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Switch/GB cutscene overlap",
-        totals: {
-          gbs: 70
-        }
+        gbs: 70
       },
       {
         color: Color.DK,
@@ -1876,10 +1596,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "5,000 in Jetpac for Rareware Coin",
-        totals: {
-          rCoin: true
-        }
+        text: "5,000 in Jetpac for Rareware Coin"
       },
       {
         color: Color.DK,
@@ -1897,17 +1614,12 @@ export const allBeginner: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Left,
         text: "Twirl to bonus GB",
-        totals: {
-          gbs: 71
-        }
+        gbs: 71
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
-        text: "Singles to (15), Blueprint",
-        totals: {
-          bps: 20
-        }
+        text: "Singles to (15), Blueprint"
       },
       {
         color: Color.Chunky,
@@ -1925,9 +1637,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.DK,
         tag: Tag.Right,
         text: "Face puzzle GB (60)",
-        totals: {
-          gbs: 72
-        }
+        gbs: 72
       },
       {
         color: Color.Lanky,
@@ -1937,9 +1647,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Float to bonus GB, 2nd balloon (20)",
-        totals: {
-          gbs: 73
-        }
+        gbs: 73
       },
       {
         color: Color.Lanky,
@@ -1954,9 +1662,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Diddy,
         text: "Balloon (25), moontail for GB",
         link: "https://youtu.be/XbR_FXuZ1FU?t=4109",
-        totals: {
-          gbs: 74
-        }
+        gbs: 74
       },
       {
         color: Color.Diddy,
@@ -1977,9 +1683,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Bonus GB, leave ballroom",
-        totals: {
-          gbs: 75
-        }
+        gbs: 75
       },
       {
         color: Color.Tiny,
@@ -1992,17 +1696,12 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "Fairy when Mini",
-        totals: {
-          fairies: 10
-        }
+        text: "Fairy when Mini"
       },
       {
         color: Color.Tiny,
         text: "Car GB, Port to balloon (32)",
-        totals: {
-          gbs: 76
-        }
+        gbs: 76
       },
       {
         color: Color.Tiny,
@@ -2014,10 +1713,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "Hang left, swim to Blueprint",
-        totals: {
-          bps: 21
-        }
+        text: "Hang left, swim to Blueprint"
       },
       {
         color: Color.Tiny,
@@ -2030,9 +1726,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Trash GB, Saxophone for GB (60)",
-        totals: {
-          gbs: 77
-        }
+        gbs: 77
       },
       {
         color: Color.Tiny,
@@ -2040,10 +1734,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Ledge clip/moonkick for Key 7",
-        totals: {
-          keys: 6
-        }
+        text: "Ledge clip/moonkick for Key 7"
       },
       {
         color: Color.Lanky,
@@ -2056,9 +1747,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Float up x2 for bonus GB",
-        totals: {
-          gbs: 78
-        }
+        gbs: 78
       },
       {
         color: Color.Lanky,
@@ -2067,23 +1756,15 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Greenhouse GB (50)",
-        totals: {
-          gbs: 79
-        }
+        gbs: 79
       },
       {
         color: Color.Lanky,
-        text: "Battle Crown, leave",
-        totals: {
-          crowns: 6
-        }
+        text: "Battle Crown, leave"
       },
       {
         color: Color.Lanky,
-        text: "Drop right to Blueprint",
-        totals: {
-          bps: 22
-        }
+        text: "Drop right to Blueprint"
       },
       {
         color: Color.Lanky,
@@ -2096,9 +1777,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Sprint left, jump across to GB",
-        totals: {
-          gbs: 80
-        }
+        gbs: 80
       },
       {
         color: Color.Lanky,
@@ -2106,10 +1785,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "(75) on way to tag",
-        totals: {
-          medals: 17
-        }
+        text: "(75) on way to tag"
       },
       {
         color: Color.Tiny,
@@ -2119,10 +1795,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Twirl across for GB (75)",
-        totals: {
-          gbs: 81,
-          medals: 18
-        }
+        gbs: 81
       },
       {
         color: Color.Tiny,
@@ -2131,10 +1804,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         tag: Tag.Right,
-        text: "Blueprint, balloon (60)",
-        totals: {
-          bps: 23
-        }
+        text: "Blueprint, balloon (60)"
       },
       {
         color: Color.Diddy,
@@ -2143,9 +1813,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Tag W1, left, crypt GB",
-        totals: {
-          gbs: 82
-        }
+        gbs: 82
       },
       {
         color: Color.Diddy,
@@ -2153,10 +1821,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "W1 back, leave (75)",
-        totals: {
-          medals: 19
-        }
+        text: "W1 back, leave (75)"
       },
       {
         color: Color.DK,
@@ -2174,10 +1839,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Minecart GB, W2 out (75)",
-        totals: {
-          gbs: 83,
-          medals: 20
-        }
+        gbs: 83
       },
       {
         color: Color.Chunky,
@@ -2187,9 +1849,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Punch right coffin for bonus GB",
-        totals: {
-          gbs: 84
-        }
+        gbs: 84
       },
       {
         color: Color.Chunky,
@@ -2210,9 +1870,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Shoot switch, bonus GB",
-        totals: {
-          gbs: 85
-        }
+        gbs: 85
       },
       {
         color: Color.Chunky,
@@ -2225,9 +1883,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Play Triangle, Punch box, GB",
-        totals: {
-          gbs: 86
-        }
+        gbs: 86
       },
       {
         color: Color.Chunky,
@@ -2239,17 +1895,12 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Balloon (70), move rock (75)",
-        totals: {
-          medals: 21
-        }
+        text: "Balloon (70), move rock (75)"
       },
       {
         color: Color.Chunky,
         text: "Museum GB, EXIT",
-        totals: {
-          gbs: 87
-        }
+        gbs: 87
       }
     ]
   },
@@ -2264,16 +1915,12 @@ export const allBeginner: RouteSection[] = [
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Float to bonus GB, leave Lobby",
-        totals: {
-          gbs: 88
-        }
+        gbs: 88
       },
       {
         color: Color.Lanky,
         text: "K. Lumsy cage GB",
-        totals: {
-          gbs: 89
-        }
+        gbs: 89
       },
       {
         color: Color.Lanky,
@@ -2286,9 +1933,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Press switch, cage GB",
-        totals: {
-          gbs: 90
-        }
+        gbs: 90
       },
       {
         color: Color.Lanky,
@@ -2316,16 +1961,11 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Vulture GB with homing ammo",
-        totals: {
-          gbs: 91
-        }
+        gbs: 91
       },
       {
         color: Color.Lanky,
-        text: "Battle Crown, singles to (19)",
-        totals: {
-          crowns: 7
-        }
+        text: "Battle Crown, singles to (19)"
       },
       {
         color: Color.Lanky,
@@ -2340,17 +1980,13 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Bonus GB, Snide steps (6)",
-        totals: {
-          gbs: 92
-        }
+        gbs: 92
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
         text: "Mini (20) to beetle race GB",
-        totals: {
-          gbs: 93
-        }
+        gbs: 93
       },
       {
         color: Color.DK,
@@ -2359,19 +1995,13 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "Tag W2, climb to tag W1 (75)",
-        totals: {
-          medals: 22
-        }
+        text: "Tag W2, climb to tag W1 (75)"
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Fairy, Trombone, bonus GB",
-        totals: {
-          gbs: 94,
-          fairies: 11
-        }
+        gbs: 94
       },
       {
         color: Color.Lanky,
@@ -2399,9 +2029,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Lava GB, bunches (35), W2",
-        totals: {
-          gbs: 95
-        }
+        gbs: 95
       },
       {
         color: Color.Tiny,
@@ -2412,16 +2040,11 @@ export const allBeginner: RouteSection[] = [
         tag: Tag.Left,
         text: "Skew to matching game GB",
         link: "https://youtu.be/UzXzScGj_Wo?t=19m45s",
-        totals: {
-          gbs: 96
-        }
+        gbs: 96
       },
       {
         color: Color.Lanky,
-        text: "Skew left wall to Blueprint",
-        totals: {
-          bps: 24
-        }
+        text: "Skew left wall to Blueprint"
       },
       {
         color: Color.Lanky,
@@ -2438,17 +2061,12 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "Enter 5DT, balloon (75)",
-        totals: {
-          medals: 23
-        }
+        text: "Enter 5DT, balloon (75)"
       },
       {
         color: Color.Lanky,
         text: "Right to GB, back to tag",
-        totals: {
-          gbs: 97
-        }
+        gbs: 97
       },
       {
         color: Color.Tiny,
@@ -2457,34 +2075,22 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "Enter 5DT, left, fairy",
-        totals: {
-          fairies: 12
-        }
+        text: "Enter 5DT, left, fairy"
       },
       {
         color: Color.Tiny,
         text: "Left, GB, 2 trees (75), enter T&S",
-        totals: {
-          gbs: 98,
-          medals: 24
-        }
+        gbs: 98
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
-        text: "Key 2, 5DT, 2 balloons (26)",
-        totals: {
-          keys: 7
-        }
+        text: "Key 2, 5DT, 2 balloons (26)"
       },
       {
         color: Color.Chunky,
         text: "Left, Blueprint, right, bonus GB",
-        totals: {
-          gbs: 99,
-          bps: 25
-        }
+        gbs: 99
       },
       {
         color: Color.Chunky,
@@ -2493,9 +2099,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Shoot switches, vase GB (47)",
-        totals: {
-          gbs: 100
-        }
+        gbs: 100
       },
       {
         color: Color.Chunky,
@@ -2507,17 +2111,12 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Phaseswim to door (75)",
-        totals: {
-          medals: 25
-        }
+        text: "Phaseswim to door (75)"
       },
       {
         color: Color.Chunky,
         text: "Phaseswim in door to GB",
-        totals: {
-          gbs: 101
-        }
+        gbs: 101
       },
       {
         color: Color.Chunky,
@@ -2531,9 +2130,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Leave, 2nd rock, Triangle GB",
-        totals: {
-          gbs: 102
-        }
+        gbs: 102
       },
       {
         color: Color.Chunky,
@@ -2544,25 +2141,18 @@ export const allBeginner: RouteSection[] = [
         tag: Tag.Right,
         text: "Damage boost to lava GB",
         link: "https://youtu.be/0MFpugQPM88?t=17m7s",
-        totals: {
-          gbs: 103
-        }
+        gbs: 103
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
-        text: "Blueprint in left alcove",
-        totals: {
-          bps: 26
-        }
+        text: "Blueprint in left alcove"
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
         text: "Rocket to Guitar GB",
-        totals: {
-          gbs: 104
-        }
+        gbs: 104
       },
       {
         color: Color.Diddy,
@@ -2584,9 +2174,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Drop, Rocket to bonus GB (10)",
-        totals: {
-          gbs: 105
-        }
+        gbs: 105
       },
       {
         color: Color.Diddy,
@@ -2595,10 +2183,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "Ledge clip/moonkick to Key 6",
-        totals: {
-          keys: 8
-        }
+        text: "Ledge clip/moonkick to Key 6"
       },
       {
         color: Color.DK,
@@ -2608,10 +2193,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.DK,
         text: "Cabin GB, Battle Crown",
         link: "https://youtu.be/0MFpugQPM88?t=10m26s",
-        totals: {
-          gbs: 106,
-          crowns: 8
-        }
+        gbs: 106
       },
       {
         color: Color.Chunky,
@@ -2622,9 +2204,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Chunky,
         tag: Tag.Left,
         text: "Phaseswim to Gone GB (18)",
-        totals: {
-          gbs: 107
-        }
+        gbs: 107
       },
       {
         color: Color.Chunky,
@@ -2659,10 +2239,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Balloon (20), GB, fairy",
-        totals: {
-          gbs: 108,
-          fairies: 13
-        }
+        gbs: 108
       },
       {
         color: Color.Tiny,
@@ -2672,9 +2249,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Tiny,
         text: "Ice shield clip for GB (25)",
         link: "https://www.youtube.com/watch?v=JS8O2AMHiRA",
-        totals: {
-          gbs: 109
-        }
+        gbs: 109
       },
       {
         color: Color.Tiny,
@@ -2683,9 +2258,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Mini to bonus GB (40), W3 to tag (45)",
-        totals: {
-          gbs: 110
-        }
+        gbs: 110
       },
       {
         color: Color.Lanky,
@@ -2696,9 +2269,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Backflip to balloon (15), GB",
-        totals: {
-          gbs: 111
-        }
+        gbs: 111
       },
       {
         color: Color.Lanky,
@@ -2715,9 +2286,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Sprint switch for GB (30)",
-        totals: {
-          gbs: 112
-        }
+        gbs: 112
       },
       {
         color: Color.Lanky,
@@ -2726,10 +2295,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "Blueprint, balloon (55)",
-        totals: {
-          bps: 27
-        }
+        text: "Blueprint, balloon (55)"
       },
       {
         color: Color.Tiny,
@@ -2742,10 +2308,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Balloon, bunches (75), GB",
-        totals: {
-          gbs: 113,
-          medals: 26
-        }
+        gbs: 113
       },
       {
         color: Color.Chunky,
@@ -2755,9 +2318,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Slam 3 targets, bonus GB (50)",
-        totals: {
-          gbs: 114
-        }
+        gbs: 114
       },
       {
         color: Color.DK,
@@ -2767,9 +2328,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Bunch (15), GB",
-        totals: {
-          gbs: 115
-        }
+        gbs: 115
       },
       {
         color: Color.Diddy,
@@ -2787,25 +2346,17 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "GB, fairy, leave",
-        totals: {
-          gbs: 116,
-          fairies: 14
-        }
+        gbs: 116
       },
       {
         color: Color.Diddy,
         text: "Lower 5DC GB (42)",
-        totals: {
-          gbs: 117
-        }
+        gbs: 117
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
-        text: "W5 to Blueprint (60), climb to ice castle",
-        totals: {
-          bps: 28
-        }
+        text: "W5 to Blueprint (60), climb to ice castle"
       },
       {
         color: Color.Lanky,
@@ -2814,25 +2365,17 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Ice tomato tile GB, leave",
-        totals: {
-          gbs: 118
-        }
+        gbs: 118
       },
       {
         color: Color.Lanky,
         text: "Float to beetle race GB (75)",
-        totals: {
-          gbs: 119,
-          medals: 27
-        }
+        gbs: 119
       },
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "Blueprint, drop to W1 (25)",
-        totals: {
-          bps: 29
-        }
+        text: "Blueprint, drop to W1 (25)"
       },
       {
         color: Color.DK,
@@ -2850,9 +2393,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Kick jump in maze (50), GB",
-        totals: {
-          gbs: 120
-        }
+        gbs: 120
       },
       {
         color: Color.DK,
@@ -2865,10 +2406,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "4 Blast bunches (75), bonus GB",
-        totals: {
-          gbs: 121,
-          medals: 28
-        }
+        gbs: 121
       },
       {
         color: Color.Diddy,
@@ -2877,10 +2415,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "W4 (65), Blueprint, W4 back",
-        totals: {
-          bps: 30
-        }
+        text: "W4 (65), Blueprint, W4 back"
       },
       {
         color: Color.Diddy,
@@ -2890,10 +2425,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Balloon (75), GB",
-        totals: {
-          gbs: 122,
-          medals: 29
-        }
+        gbs: 122
       },
       {
         color: Color.Chunky,
@@ -2908,25 +2440,17 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Balloon (70), GB",
-        totals: {
-          gbs: 123
-        }
+        gbs: 123
       },
       {
         color: Color.Chunky,
-        text: "Blueprint on igloo",
-        totals: {
-          bps: 31
-        }
+        text: "Blueprint on igloo"
       },
       {
         color: Color.Chunky,
         text: "Ice shield GB (75)",
         link: "https://youtu.be/ERraNh9SJn0?t=14079",
-        totals: {
-          gbs: 124,
-          medals: 30
-        }
+        gbs: 124
       },
       {
         color: Color.Chunky,
@@ -2939,10 +2463,7 @@ export const allBeginner: RouteSection[] = [
     steps: [
       {
         color: Color.Chunky,
-        text: "Swim to small island, fairy",
-        totals: {
-          fairies: 15
-        }
+        text: "Swim to small island, fairy"
       },
       {
         color: Color.Chunky,
@@ -2951,16 +2472,12 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Swim Through Shores for cage GB",
-        totals: {
-          gbs: 125
-        }
+        gbs: 125
       },
       {
         color: Color.Chunky,
         text: "Rock GB, enter Japes Lobby",
-        totals: {
-          gbs: 126
-        }
+        gbs: 126
       },
       {
         color: Color.Chunky,
@@ -2970,9 +2487,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Trombone GB",
-        totals: {
-          gbs: 127
-        }
+        gbs: 127
       },
       {
         color: Color.DK,
@@ -2991,10 +2506,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Baboon Blast GB (75)",
-        totals: {
-          gbs: 128,
-          medals: 31
-        }
+        gbs: 128
       },
       {
         color: Color.Chunky,
@@ -3004,17 +2516,12 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Blueprint, GB (15)",
-        totals: {
-          gbs: 129,
-          bps: 32
-        }
+        gbs: 129
       },
       {
         color: Color.Chunky,
         text: "Deathwarp, leave, rock GB",
-        totals: {
-          gbs: 130
-        }
+        gbs: 130
       },
       {
         color: Color.Chunky,
@@ -3036,25 +2543,19 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Cage GB",
-        totals: {
-          gbs: 131
-        }
+        gbs: 131
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Drop to cage GB, up to tag",
-        totals: {
-          gbs: 132
-        }
+        gbs: 132
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Bunch (5), drop past W2 to cage GB",
-        totals: {
-          gbs: 133
-        }
+        gbs: 133
       },
       {
         color: Color.Lanky,
@@ -3076,16 +2577,11 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Through wall for cage GB, W3",
-        totals: {
-          gbs: 134
-        }
+        gbs: 134
       },
       {
         color: Color.Tiny,
-        text: "Blueprint, skew to hive area",
-        totals: {
-          bps: 33
-        }
+        text: "Blueprint, skew to hive area"
       },
       {
         color: Color.Tiny,
@@ -3094,9 +2590,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Skew for stump GB",
-        totals: {
-          gbs: 135
-        }
+        gbs: 135
       },
       {
         color: Color.Tiny,
@@ -3115,9 +2609,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Tiny,
         text: "Torch clip, across to GB (68)",
         link: "https://www.youtube.com/watch?v=eDDLzmORNXM&feature=youtu.be&t=5h1m28s",
-        totals: {
-          gbs: 136
-        }
+        gbs: 136
       },
       {
         color: Color.Tiny,
@@ -3126,18 +2618,13 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "W1, bonus GB (75), enter T&S",
-        totals: {
-          gbs: 137,
-          medals: 32
-        }
+        gbs: 137
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
         text: "Leave T&S, bonus GB (20)",
-        totals: {
-          gbs: 138
-        }
+        gbs: 138
       },
       {
         color: Color.Diddy,
@@ -3163,9 +2650,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Balloon, minecart GB (49)",
-        totals: {
-          gbs: 139
-        }
+        gbs: 139
       },
       {
         color: Color.Diddy,
@@ -3173,10 +2658,7 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "Blueprint (52), 2 trees (62)",
-        totals: {
-          bps: 34
-        }
+        text: "Blueprint (52), 2 trees (62)"
       },
       {
         color: Color.Diddy,
@@ -3185,10 +2667,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Mountain GB, balloon (75)",
-        totals: {
-          gbs: 140,
-          medals: 33
-        }
+        gbs: 140
       },
       {
         color: Color.Diddy,
@@ -3198,9 +2677,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Chunky,
         tag: Tag.Left,
         text: "Hunky Chunky for bonus GB",
-        totals: {
-          gbs: 141
-        }
+        gbs: 141
       },
       {
         color: Color.Chunky,
@@ -3213,25 +2690,16 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Rambi wall clip, pond fairy",
-        totals: {
-          fairies: 16
-        }
+        text: "Rambi wall clip, pond fairy"
       },
       {
         color: Color.Chunky,
-        text: "3 balloons (75), tag by Cranky",
-        totals: {
-          medals: 34
-        }
+        text: "3 balloons (75), tag by Cranky"
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "Tsunnel to Blueprint (21)",
-        totals: {
-          bps: 35
-        }
+        text: "Tsunnel to Blueprint (21)"
       },
       {
         color: Color.Lanky,
@@ -3240,9 +2708,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Left slope, bonus GB (42)",
-        totals: {
-          gbs: 142
-        }
+        gbs: 142
       },
       {
         color: Color.Lanky,
@@ -3250,25 +2716,17 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "All bananas, balloon (75)",
-        totals: {
-          medals: 35
-        }
+        text: "All bananas, balloon (75)"
       },
       {
         color: Color.Lanky,
         text: "Clip or kill Zingers for GB",
         link: "https://youtu.be/cWLJs3mwU_8?t=27",
-        totals: {
-          gbs: 143
-        }
+        gbs: 143
       },
       {
         color: Color.Lanky,
-        text: "Fairy, EXIT on fairy disappear",
-        totals: {
-          fairies: 17
-        }
+        text: "Fairy, EXIT on fairy disappear"
       }
     ]
   },
@@ -3307,10 +2765,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         tag: Tag.Right,
-        text: "Gone pad for Battle Crown",
-        totals: {
-          crowns: 9
-        }
+        text: "Gone pad for Battle Crown"
       },
       {
         color: Color.Chunky,
@@ -3328,9 +2783,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Minecart GB",
-        totals: {
-          gbs: 144
-        }
+        gbs: 144
       },
       {
         color: Color.Chunky,
@@ -3363,16 +2816,12 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Left OOB to conveyor GB",
-        totals: {
-          gbs: 145
-        }
+        gbs: 145
       },
       {
         color: Color.Chunky,
         text: "2 kegs on spike wheel for GB",
-        totals: {
-          gbs: 146
-        }
+        gbs: 146
       },
       {
         color: Color.Tiny,
@@ -3382,9 +2831,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Ledge clip to spider GB (15)",
-        totals: {
-          gbs: 147
-        }
+        gbs: 147
       },
       {
         color: Color.Tiny,
@@ -3432,9 +2879,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Carry apple to main area for GB",
-        totals: {
-          gbs: 148
-        }
+        gbs: 148
       },
       {
         color: Color.Chunky,
@@ -3443,10 +2888,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         tag: Tag.Right,
-        text: "Blueprint, through thorns (5)",
-        totals: {
-          bps: 36
-        }
+        text: "Blueprint, through thorns (5)"
       },
       {
         color: Color.DK,
@@ -3464,16 +2906,11 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Climb, kick jump to bonus GB",
-        totals: {
-          gbs: 149
-        }
+        gbs: 149
       },
       {
         color: Color.DK,
-        text: "Climb again, slam box for fairy",
-        totals: {
-          fairies: 18
-        }
+        text: "Climb again, slam box for fairy"
       },
       {
         color: Color.DK,
@@ -3491,9 +2928,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.Diddy,
         tag: Tag.Right,
         text: "Rocket to bonus GB at top (10)",
-        totals: {
-          gbs: 150
-        }
+        gbs: 150
       },
       {
         color: Color.Diddy,
@@ -3507,9 +2942,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Dark room GB, 2 bunches (15)",
-        totals: {
-          gbs: 151
-        }
+        gbs: 151
       },
       {
         color: Color.Lanky,
@@ -3518,9 +2951,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Bonus GB (20), CCW to tag",
-        totals: {
-          gbs: 152
-        }
+        gbs: 152
       },
       {
         color: Color.Chunky,
@@ -3531,16 +2962,11 @@ export const allBeginner: RouteSection[] = [
         color: Color.Chunky,
         text: "Face puzzle GB, balloon (44)",
         link: "https://i.imgur.com/JQewhI6.png",
-        totals: {
-          gbs: 153
-        }
+        gbs: 153
       },
       {
         color: Color.Chunky,
-        text: "CCW, drop to Blueprint",
-        totals: {
-          bps: 37
-        }
+        text: "CCW, drop to Blueprint"
       },
       {
         color: Color.Chunky,
@@ -3550,9 +2976,7 @@ export const allBeginner: RouteSection[] = [
         color: Color.DK,
         tag: Tag.Right,
         text: "Baboon Blast bonus GB (25)",
-        totals: {
-          gbs: 154
-        }
+        gbs: 154
       },
       {
         color: Color.DK,
@@ -3575,10 +2999,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         tag: Tag.Left,
-        text: "Drop to Blueprint, 2 singles (15)",
-        totals: {
-          bps: 38
-        }
+        text: "Drop to Blueprint, 2 singles (15)"
       },
       {
         color: Color.Diddy,
@@ -3597,17 +3018,12 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Climb for bonus GB, drop",
-        totals: {
-          gbs: 155
-        }
+        gbs: 155
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
-        text: "Bananas up to (75), drop back down",
-        totals: {
-          medals: 36
-        }
+        text: "Bananas up to (75), drop back down"
       },
       {
         color: Color.DK,
@@ -3617,9 +3033,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.DK,
         text: "Cannon up to GB (60)",
-        totals: {
-          gbs: 156
-        }
+        gbs: 156
       },
       {
         color: Color.DK,
@@ -3628,17 +3042,11 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         tag: Tag.Left,
-        text: "Drop to Battle Crown",
-        totals: {
-          crowns: 10
-        }
+        text: "Drop to Battle Crown"
       },
       {
         color: Color.Tiny,
-        text: "Jump/twirl to Blueprint",
-        totals: {
-          bps: 39
-        }
+        text: "Jump/twirl to Blueprint"
       },
       {
         color: Color.Tiny,
@@ -3656,16 +3064,11 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Rabbit race x2 for GB",
-        totals: {
-          gbs: 157
-        }
+        gbs: 157
       },
       {
         color: Color.Lanky,
-        text: "Blueprint, tag W4",
-        totals: {
-          bps: 40
-        }
+        text: "Blueprint, tag W4"
       },
       {
         color: Color.Tiny,
@@ -3679,9 +3082,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Kill Klaptraps for GB",
-        totals: {
-          gbs: 158
-        }
+        gbs: 158
       },
       {
         color: Color.Tiny,
@@ -3689,24 +3090,16 @@ export const allBeginner: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "W2, climb 1 mushroom (75)",
-        totals: {
-          medals: 37
-        }
+        text: "W2, climb 1 mushroom (75)"
       },
       {
         color: Color.Tiny,
         text: "Plant bean for GB",
-        totals: {
-          gbs: 159
-        }
+        gbs: 159
       },
       {
         color: Color.Tiny,
-        text: "EXIT, fairy, ENTER",
-        totals: {
-          fairies: 19
-        }
+        text: "EXIT, fairy, ENTER"
       },
       {
         color: Color.Tiny,
@@ -3724,9 +3117,7 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Rocket, Owl race bonus GB (45)",
-        totals: {
-          gbs: 160
-        }
+        gbs: 160
       },
       {
         color: Color.Diddy,
@@ -3740,24 +3131,17 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Slam switch, kill bats for GB",
-        totals: {
-          gbs: 161
-        }
+        gbs: 161
       },
       {
         color: Color.Lanky,
-        text: "Roof (75), tag at blue tunnel",
-        totals: {
-          medals: 38
-        }
+        text: "Roof (75), tag at blue tunnel"
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
         text: "Phaseswim for cage GB",
-        totals: {
-          gbs: 162
-        }
+        gbs: 162
       },
       {
         color: Color.Diddy,
@@ -3770,24 +3154,16 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Inside, 2 bunches (60), GB",
-        totals: {
-          gbs: 163
-        }
+        gbs: 163
       },
       {
         color: Color.Diddy,
-        text: "Fairy, deathwarp, bunch (65)",
-        totals: {
-          fairies: 20
-        }
+        text: "Fairy, deathwarp, bunch (65)"
       },
       {
         color: Color.DK,
         tag: Tag.Left,
-        text: "Balloon (75)",
-        totals: {
-          medals: 39
-        }
+        text: "Balloon (75)"
       },
       {
         color: Color.Tiny,
@@ -3802,48 +3178,35 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Turn in Blueprints x5",
-        totals: {
-          gbs: 168
-        }
+        gbs: 168
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
         text: "Turn in Blueprints x8",
-        totals: {
-          gbs: 176
-        }
+        gbs: 176
       },
       {
         color: Color.DK,
         tag: Tag.Right,
         text: "Turn in Blueprints x5",
-        totals: {
-          gbs: 181
-        }
+        gbs: 181
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
         text: "Turn in Blueprints x8",
-        totals: {
-          gbs: 189
-        }
+        gbs: 189
       },
       {
         color: Color.Diddy,
-        text: "Balloon (75)",
-        totals: {
-          medals: 40
-        }
+        text: "Balloon (75)"
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
         text: "Turn in Blueprints x8",
-        totals: {
-          gbs: 197
-        }
+        gbs: 197
       },
       {
         color: Color.Diddy,
@@ -3857,16 +3220,12 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Rocket to bonus GB on island",
-        totals: {
-          gbs: 198
-        }
+        gbs: 198
       },
       {
         color: Color.Diddy,
         text: "Down to cage GB above waterfall",
-        totals: {
-          gbs: 199
-        }
+        gbs: 199
       },
       {
         color: Color.Diddy,
@@ -3876,16 +3235,12 @@ export const allBeginner: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Right,
         text: "W5, STS to cage GB",
-        totals: {
-          gbs: 200
-        }
+        gbs: 200
       },
       {
         color: Color.Tiny,
         text: "Inside BFI, get Rare GB",
-        totals: {
-          gbs: 201
-        }
+        gbs: 201
       },
       {
         color: Color.Tiny,

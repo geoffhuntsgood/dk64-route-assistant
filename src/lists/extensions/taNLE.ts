@@ -1,6 +1,6 @@
-import { RouteSection } from "../classes";
-import { Color } from "../enums";
-import { krool, taPreStart } from "../utils/sections";
+import { RouteSection } from "../../classes";
+import { Color } from "../../enums";
+import { krool, taPreStart } from "../../utils/sections";
 
 export const taNLE: RouteSection[] = [
   taPreStart,
@@ -14,9 +14,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "W1 to Japes Lobby, ENTER Japes",
-        totals: {
-          gbs: 1
-        }
+        gbs: 1
       }
     ]
   },
@@ -26,9 +24,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "Bush push, pswim to cage GB",
-        totals: {
-          gbs: 2
-        }
+        gbs: 2
       },
       {
         color: Color.DK,
@@ -37,17 +33,12 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "BP, GB",
-        totals: {
-          gbs: 3,
-          bps: 1
-        }
+        gbs: 3
       },
       {
         color: Color.Chunky,
         text: "Deathwarp, rock GB",
-        totals: {
-          gbs: 4
-        }
+        gbs: 4
       },
       {
         color: Color.Diddy,
@@ -61,9 +52,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Backflip in bounds, tunnel cave GB",
-        totals: {
-          gbs: 5
-        }
+        gbs: 5
       },
       {
         color: Color.Diddy,
@@ -72,9 +61,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Kickslide/jump/twirl to cage GB",
-        totals: {
-          gbs: 6
-        }
+        gbs: 6
       },
       {
         color: Color.DK,
@@ -82,46 +69,32 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "BP",
-        totals: {
-          bps: 2
-        }
+        text: "BP"
       },
       {
         color: Color.Tiny,
         text: "BP, stump GB",
-        totals: {
-          gbs: 7,
-          bps: 3
-        }
+        gbs: 7
       },
       {
         color: Color.Diddy,
         text: "Wall skew to cage GB",
-        totals: {
-          gbs: 8
-        }
+        gbs: 8
       },
       {
         color: Color.Chunky,
         text: "Cage GB",
-        totals: {
-          gbs: 9
-        }
+        gbs: 9
       },
       {
         color: Color.DK,
         text: "Both Diddy GBs",
-        totals: {
-          gbs: 11
-        }
+        gbs: 11
       },
       {
         color: Color.Lanky,
         text: "Fall to cage GB",
-        totals: {
-          gbs: 12
-        }
+        gbs: 12
       },
       {
         color: Color.Lanky,
@@ -139,31 +112,20 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Painting room GB",
-        totals: {
-          gbs: 13
-        }
+        gbs: 13
       },
       {
         color: Color.Diddy,
-        text: "BP",
-        totals: {
-          bps: 4
-        }
+        text: "BP"
       },
       {
         color: Color.Lanky,
         text: "BP, bonus GB",
-        totals: {
-          gbs: 14,
-          bps: 5
-        }
+        gbs: 14
       },
       {
         color: Color.DK,
-        text: "Vines for T&S, Key 1",
-        totals: {
-          keys: 1
-        }
+        text: "Vines for T&S, Key 1"
       },
       {
         color: Color.DK,
@@ -181,9 +143,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Trombone GB",
-        totals: {
-          gbs: 15
-        }
+        gbs: 15
       },
       {
         color: Color.DK,
@@ -204,45 +164,30 @@ export const taNLE: RouteSection[] = [
     steps: [
       {
         color: Color.DK,
-        text: "Pwalk to BP",
-        totals: {
-          bps: 6
-        }
+        text: "Pwalk to BP"
       },
       {
         color: Color.DK,
-        text: "Enter T&S, Key 2, tag W1",
-        totals: {
-          keys: 2
-        }
+        text: "Enter T&S, Key 2, tag W1"
       },
       {
         color: Color.Diddy,
-        text: "Rocket to BP, enter Tiny Temple",
-        totals: {
-          bps: 7
-        }
+        text: "Rocket to BP, enter Tiny Temple"
       },
       {
         color: Color.Tiny,
         text: "Torch clip, snag Klaptrap GB",
-        totals: {
-          gbs: 16
-        }
+        gbs: 16
       },
       {
         color: Color.Diddy,
         text: "Tiny GB",
-        totals: {
-          gbs: 17
-        }
+        gbs: 17
       },
       {
         color: Color.Chunky,
         text: "Pswim to Klaptrap GB",
-        totals: {
-          gbs: 18
-        }
+        gbs: 18
       },
       {
         color: Color.Chunky,
@@ -254,10 +199,7 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "BP, tunnel skip",
-        totals: {
-          bps: 8
-        }
+        text: "BP, tunnel skip"
       },
       {
         color: Color.DK,
@@ -275,30 +217,21 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "Lanky GB, backflip in bounds",
-        totals: {
-          gbs: 19
-        }
+        gbs: 19
       },
       {
         color: Color.Lanky,
         text: "Skew to matching game GB",
-        totals: {
-          gbs: 20
-        }
+        gbs: 20
       },
       {
         color: Color.Lanky,
-        text: "Corner skew to BP",
-        totals: {
-          bps: 9
-        }
+        text: "Corner skew to BP"
       },
       {
         color: Color.Tiny,
         text: "Lava GB, EXIT Aztec",
-        totals: {
-          gbs: 21
-        }
+        gbs: 21
       }
     ]
   },
@@ -312,16 +245,12 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Cage GB",
-        totals: {
-          gbs: 22
-        }
+        gbs: 22
       },
       {
         color: Color.Tiny,
         text: "Port to Saxophone GB",
-        totals: {
-          gbs: 23
-        }
+        gbs: 23
       },
       {
         color: Color.DK,
@@ -333,10 +262,7 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "BP",
-        totals: {
-          bps: 10
-        }
+        text: "BP"
       },
       {
         color: Color.Diddy,
@@ -345,9 +271,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "Bongos GB, ENTER Factory",
-        totals: {
-          gbs: 24
-        }
+        gbs: 24
       }
     ]
   },
@@ -361,96 +285,64 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Pipe GB, drop to tag W4",
-        totals: {
-          gbs: 25
-        }
+        gbs: 25
       },
       {
         color: Color.Diddy,
-        text: "Drop to BP, slam prod switch",
-        totals: {
-          bps: 11
-        }
+        text: "Drop to BP, slam prod switch"
       },
       {
         color: Color.Lanky,
         text: "Chunky GB, enter T&S",
-        totals: {
-          gbs: 26
-        }
+        gbs: 26
       },
       {
         color: Color.Tiny,
         text: "Key 3, BP, cage GB",
-        totals: {
-          gbs: 27,
-          bps: 12,
-          keys: 3
-        }
+        gbs: 27
       },
       {
         color: Color.Chunky,
-        text: "Pwalk to testing, BP",
-        totals: {
-          bps: 13
-        }
+        text: "Pwalk to testing, BP"
       },
       {
         color: Color.Tiny,
         text: "Pwalk to Wheel GB, pwalk out",
-        totals: {
-          gbs: 28
-        }
+        gbs: 28
       },
       {
         color: Color.Lanky,
         text: "Orangstand TBS for piano GB",
-        totals: {
-          gbs: 29
-        }
+        gbs: 29
       },
       {
         color: Color.Lanky,
-        text: "BP",
-        totals: {
-          bps: 14
-        }
+        text: "BP"
       },
       {
         color: Color.DK,
         text: "Fall to power shed GB",
-        totals: {
-          gbs: 30
-        }
+        gbs: 30
       },
       {
         color: Color.Chunky,
         text: "Tag midair for dark room GB",
-        totals: {
-          gbs: 31
-        }
+        gbs: 31
       },
       {
         color: Color.Chunky,
         text: "Slam prod switch, W4 to GB",
-        totals: {
-          gbs: 32
-        }
+        gbs: 32
       },
       {
         color: Color.Diddy,
         text: "Spring GB",
-        totals: {
-          gbs: 33
-        }
+        gbs: 33
       },
       {
         color: Color.DK,
         text: "BP, drop to crusher GB",
-        totals: {
-          gbs: 34,
-          bps: 15
-        }
+        gbs: 34
       },
       {
         color: Color.DK,
@@ -464,16 +356,11 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "Drop to cage GB",
-        totals: {
-          gbs: 35
-        }
+        gbs: 35
       },
       {
         color: Color.Chunky,
-        text: "Galleon Lobby BP, ENTER Galleon",
-        totals: {
-          bps: 16
-        }
+        text: "Galleon Lobby BP, ENTER Galleon"
       }
     ]
   },
@@ -483,30 +370,20 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Pwalk for cannon game snag GB",
-        totals: {
-          gbs: 36
-        }
+        gbs: 36
       },
       {
         color: Color.Lanky,
-        text: "BP, pswim to lighthouse",
-        totals: {
-          bps: 17
-        }
+        text: "BP, pswim to lighthouse"
       },
       {
         color: Color.Lanky,
         text: "Enguarde GB",
-        totals: {
-          gbs: 37
-        }
+        gbs: 37
       },
       {
         color: Color.Diddy,
-        text: "BP",
-        totals: {
-          bps: 18
-        }
+        text: "BP"
       },
       {
         color: Color.Chunky,
@@ -515,9 +392,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Turn in BPs x4",
-        totals: {
-          gbs: 41
-        }
+        gbs: 41
       },
       {
         color: Color.DK,
@@ -526,17 +401,11 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Chest GB",
-        totals: {
-          gbs: 42
-        }
+        gbs: 42
       },
       {
         color: Color.Tiny,
-        text: "BP, enter T&S, Key 4",
-        totals: {
-          bps: 19,
-          keys: 4
-        }
+        text: "BP, enter T&S, Key 4"
       },
       {
         color: Color.Tiny,
@@ -544,38 +413,27 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "BP",
-        totals: {
-          bps: 20
-        }
+        text: "BP"
       },
       {
         color: Color.Lanky,
         text: "Pswim to 5DS GB",
-        totals: {
-          gbs: 43
-        }
+        gbs: 43
       },
       {
         color: Color.Tiny,
         text: "Pswim to 5DS GB",
-        totals: {
-          gbs: 44
-        }
+        gbs: 44
       },
       {
         color: Color.Lanky,
         text: "Pswim to 2DS GB",
-        totals: {
-          gbs: 45
-        }
+        gbs: 45
       },
       {
         color: Color.Tiny,
         text: "Pswim to bonus GB, EXIT Galleon",
-        totals: {
-          gbs: 46
-        }
+        gbs: 46
       }
     ]
   },
@@ -585,37 +443,27 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Pswim to pipe GB",
-        totals: {
-          gbs: 47
-        }
+        gbs: 47
       },
       {
         color: Color.Tiny,
         text: "BFI cage GB",
-        totals: {
-          gbs: 48
-        }
+        gbs: 48
       },
       {
         color: Color.Chunky,
         text: "Slam X, cage GB",
-        totals: {
-          gbs: 49
-        }
+        gbs: 49
       },
       {
         color: Color.Chunky,
         text: "Rock GB, tag W3, W3/W1, turn in Key 4",
-        totals: {
-          gbs: 50
-        }
+        gbs: 50
       },
       {
         color: Color.Lanky,
         text: "Pwalk to Sprint GB, void out",
-        totals: {
-          gbs: 51
-        }
+        gbs: 51
       },
       {
         color: Color.DK,
@@ -655,16 +503,11 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "Dark room GB",
-        totals: {
-          gbs: 52
-        }
+        gbs: 52
       },
       {
         color: Color.Chunky,
-        text: "Drop to BP",
-        totals: {
-          bps: 21
-        }
+        text: "Drop to BP"
       },
       {
         color: Color.Tiny,
@@ -672,10 +515,7 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "BP, drop, exit mushroom",
-        totals: {
-          bps: 22
-        }
+        text: "BP, drop, exit mushroom"
       },
       {
         color: Color.Diddy,
@@ -688,10 +528,7 @@ export const taNLE: RouteSection[] = [
     steps: [
       {
         color: Color.Lanky,
-        text: "To Owl area, BP",
-        totals: {
-          bps: 23
-        }
+        text: "To Owl area, BP"
       },
       {
         color: Color.Tiny,
@@ -705,9 +542,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Stump GB, deathwarp",
-        totals: {
-          gbs: 53
-        }
+        gbs: 53
       },
       {
         color: Color.DK,
@@ -716,30 +551,21 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Turn in BP x6",
-        totals: {
-          gbs: 59
-        }
+        gbs: 59
       },
       {
         color: Color.DK,
-        text: "Enter T&S, DDQ Key 5",
-        totals: {
-          keys: 5
-        }
+        text: "Enter T&S, DDQ Key 5"
       },
       {
         color: Color.DK,
         text: "Mill clip for GB",
-        totals: {
-          gbs: 60
-        }
+        gbs: 60
       },
       {
         color: Color.Diddy,
         text: "Pswim to cage GB",
-        totals: {
-          gbs: 61
-        }
+        gbs: 61
       },
       {
         color: Color.Diddy,
@@ -747,10 +573,7 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "BP, EXIT Forest",
-        totals: {
-          bps: 24
-        }
+        text: "BP, EXIT Forest"
       }
     ]
   },
@@ -760,9 +583,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Cage GB",
-        totals: {
-          gbs: 62
-        }
+        gbs: 62
       },
       {
         color: Color.DK,
@@ -771,9 +592,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "W2, move rock, Triangle GB",
-        totals: {
-          gbs: 63
-        }
+        gbs: 63
       },
       {
         color: Color.Chunky,
@@ -782,9 +601,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "Damage boost to lava GB, deathwarp",
-        totals: {
-          gbs: 64
-        }
+        gbs: 64
       },
       {
         color: Color.Chunky,
@@ -792,17 +609,12 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "BP",
-        totals: {
-          bps: 25
-        }
+        text: "BP"
       },
       {
         color: Color.Diddy,
         text: "Rocket to Guitar GB",
-        totals: {
-          gbs: 65
-        }
+        gbs: 65
       },
       {
         color: Color.DK,
@@ -820,9 +632,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Gone GB",
-        totals: {
-          gbs: 66
-        }
+        gbs: 66
       },
       {
         color: Color.Tiny,
@@ -830,10 +640,7 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "Skew Tiny Tunnel for BP, tag W4",
-        totals: {
-          bps: 26
-        }
+        text: "Skew Tiny Tunnel for BP, tag W4"
       },
       {
         color: Color.Diddy,
@@ -841,10 +648,7 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "Collect BP",
-        totals: {
-          bps: 27
-        }
+        text: "Collect BP"
       },
       {
         color: Color.Diddy,
@@ -852,10 +656,7 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Tiny,
-        text: "Collect BP",
-        totals: {
-          bps: 28
-        }
+        text: "Collect BP"
       },
       {
         color: Color.Tiny,
@@ -863,10 +664,7 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.DK,
-        text: "BP",
-        totals: {
-          bps: 29
-        }
+        text: "BP"
       },
       {
         color: Color.Chunky,
@@ -875,9 +673,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Long jump skew into ice shield GB",
-        totals: {
-          gbs: 67
-        }
+        gbs: 67
       }
     ]
   },
@@ -886,17 +682,12 @@ export const taNLE: RouteSection[] = [
     steps: [
       {
         color: Color.Chunky,
-        text: "BP",
-        totals: {
-          bps: 30
-        }
+        text: "BP"
       },
       {
         color: Color.Tiny,
         text: "Ice shield clip for GB",
-        totals: {
-          gbs: 68
-        }
+        gbs: 68
       },
       {
         color: Color.Tiny,
@@ -909,9 +700,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "Ice maze GB, deathwarp",
-        totals: {
-          gbs: 69
-        }
+        gbs: 69
       },
       {
         color: Color.DK,
@@ -920,9 +709,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Lanky,
         text: "5DI GB, pwalk out",
-        totals: {
-          gbs: 70
-        }
+        gbs: 70
       },
       {
         color: Color.Lanky,
@@ -930,24 +717,17 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "Continue to Snide T&S, Key 6",
-        totals: {
-          keys: 6
-        }
+        text: "Continue to Snide T&S, Key 6"
       },
       {
         color: Color.Lanky,
         text: "Turn in BPs x7",
-        totals: {
-          gbs: 77
-        }
+        gbs: 77
       },
       {
         color: Color.Chunky,
         text: "Turn in BPs x6, EXIT Caves",
-        totals: {
-          gbs: 83
-        }
+        gbs: 83
       }
     ]
   },
@@ -964,10 +744,7 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "BP",
-        totals: {
-          bps: 31
-        }
+        text: "BP"
       },
       {
         color: Color.DK,
@@ -981,10 +758,7 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "Pwalk in tree, BP, GB",
-        totals: {
-          gbs: 84,
-          bps: 32
-        }
+        gbs: 84
       },
       {
         color: Color.Diddy,
@@ -992,17 +766,11 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "BP",
-        totals: {
-          bps: 33
-        }
+        text: "BP"
       },
       {
         color: Color.Tiny,
-        text: "BP, climb to Rocketbarrel",
-        totals: {
-          bps: 34
-        }
+        text: "BP, climb to Rocketbarrel"
       },
       {
         color: Color.Diddy,
@@ -1011,30 +779,22 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Turn in BPs x2",
-        totals: {
-          gbs: 86
-        }
+        gbs: 86
       },
       {
         color: Color.Diddy,
         text: "Turn in BPs x4",
-        totals: {
-          gbs: 90
-        }
+        gbs: 90
       },
       {
         color: Color.DK,
         text: "Turn in BPs x6",
-        totals: {
-          gbs: 96
-        }
+        gbs: 96
       },
       {
         color: Color.DK,
         text: "Library clip for GB",
-        totals: {
-          gbs: 97
-        }
+        gbs: 97
       },
       {
         color: Color.DK,
@@ -1042,17 +802,12 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Lanky,
-        text: "Key 7",
-        totals: {
-          keys: 7
-        }
+        text: "Key 7"
       },
       {
         color: Color.Chunky,
         text: "Shed GB",
-        totals: {
-          gbs: 98
-        }
+        gbs: 98
       },
       {
         color: Color.DK,
@@ -1061,16 +816,12 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Trash GB",
-        totals: {
-          gbs: 99
-        }
+        gbs: 99
       },
       {
         color: Color.Lanky,
         text: "Tag midair to skip greenhouse GB, EXIT Castle",
-        totals: {
-          gbs: 100
-        }
+        gbs: 100
       }
     ]
   },

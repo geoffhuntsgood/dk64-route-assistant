@@ -1,6 +1,6 @@
-import { RouteSection } from "../classes";
-import { Color } from "../enums";
-import { krool } from "../utils/sections";
+import { RouteSection } from "../../classes";
+import { Color } from "../../enums";
+import { krool } from "../../utils/sections";
 
 export const any1Kong2015: RouteSection[] = [
   {

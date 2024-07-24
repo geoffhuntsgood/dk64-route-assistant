@@ -1,129 +1,124 @@
-import { Checkbox, FormControlLabel, Grid, Typography } from "@mui/material";
-import { useState } from "react";
-import * as routeInfo from "../utils/routeInfo";
-import { CategoryDropdown } from "./CategoryDropdown";
+import { Button, Grid, Typography } from "@mui/material";
+import { useNavigate } from "react-router";
+import { RouteSection } from "../classes";
+import { allBeginner, allExpert, allIntermediate, any1Kong2014, any1Kong2015, any5Kong, glitchless101, glitchlessAny, nle40bp, nleHE, nleIntermediate, taNLE } from "../lists";
+import { styles } from "../utils/styles";
 
 export const LandingPage = () => {
-  const [progTotals, setProgTotals] = useState(false);
+  const navigate = useNavigate();
 
-  const progTotalsChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setProgTotals(event.target.checked);
-  };
-
-  const styles = {
-    box: {
-      height: "100vh",
-      width: "100vw",
-      overflow: "hidden",
-      paddingTop: "10px"
-    },
-    checkbox: {
-      padding: "10px",
-      fontSize: "1.3rem",
-      color: "maroon",
-      backgroundColor: "goldenrod",
-      width: "100%",
-      borderRadius: "5px",
-      "&:hover": {
-        backgroundColor: "gold"
-      }
-    },
-    checked: {
-      "&.Mui-checked": {
-        color: "maroon"
-      }
-    }
+  const select = (name: string, route: RouteSection[]) => {
+    navigate("/route", { state: { name, route } });
   };
 
   return (
-    <Grid container sx={styles.box}>
+    <Grid container spacing={0.2} style={{ overflowX: "hidden", overflowY: "auto" }}>
       <Grid item xs={12}>
-        <h1 className="header">DK64 ROUTER (WII U VC)</h1>
+        <Typography sx={styles.header}>DK64 ROUTER</Typography>
       </Grid>
-
-      <Grid item xs={4}></Grid>
-      <Grid item xs={4}>
-        <FormControlLabel
-          sx={styles.checkbox}
-          label={<Typography sx={{ fontFamily: "LuckiestGuy" }}>Show prog totals</Typography>}
-          control={<Checkbox value={progTotals} sx={styles.checked} onChange={progTotalsChange} />}
-        />
-      </Grid>
-      <Grid item xs={4}></Grid>
 
       <Grid item xs={12}>
-        <h2 className="header">MAIN CATEGORIES</h2>
+        <Typography sx={styles.header}>101 PERCENT</Typography>
       </Grid>
-
-      <Grid item xs={1}></Grid>
-      <Grid item xs={10}>
-        <CategoryDropdown
-          progTotals={progTotals}
-          header="101%"
-          routes={[
-            routeInfo.beginner101,
-            routeInfo.intermediate101,
-            routeInfo.expert101
-          ]}
-        />
+      <Grid item md={1.5} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("101 BEGINNER", allBeginner)}>
+          BEGINNER
+        </Button>
       </Grid>
-      <Grid item xs={1}></Grid>
-
-      <Grid item xs={1}></Grid>
-      <Grid item xs={10}>
-        <CategoryDropdown
-          progTotals={progTotals}
-          header="ANY%"
-          routes={[
-            routeInfo.anyPercent5Kong,
-            routeInfo.anyPercent2014,
-            routeInfo.anyPercent2015
-          ]}
-        />
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("101 INTERMEDIATE", allIntermediate)}>
+          INTERMEDIATE
+        </Button>
       </Grid>
-      <Grid item xs={1}></Grid>
-
-      <Grid item xs={1}></Grid>
-      <Grid item xs={10}>
-        <CategoryDropdown
-          progTotals={progTotals}
-          header="NLE"
-          routes={[
-            routeInfo.nleIntermediate40BP,
-            routeInfo.nle40,
-            routeInfo.nleHelmEscape
-          ]}
-        />
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("101 EXPERT", allExpert)}>
+          EXPERT
+        </Button>
       </Grid>
-      <Grid item xs={1}></Grid>
+      <Grid item md={1.5} xs={1}></Grid>
 
       <Grid item xs={12}>
-        <h2 className="header">CATEGORY EXTENSIONS</h2>
+        <Typography sx={styles.header}>ANY PERCENT</Typography>
+      </Grid>
+      <Grid item md={1.5} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("ANY 5 KONG", any5Kong)}>
+          5 KONG
+        </Button>
+      </Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("ANY 1 KONG 2014", any1Kong2014)}>
+          1 KONG 2014
+        </Button>
+      </Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("ANY 1 KONG 2015", any1Kong2015)}>
+          1 KONG 2015
+        </Button>
+      </Grid>
+      <Grid item md={1.5} xs={1}></Grid>
+
+      <Grid item xs={12}>
+        <Typography sx={styles.header}>NO LEVELS EARLY</Typography>
+      </Grid>
+      <Grid item md={1.5} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("NLE INTERMEDIATE", nleIntermediate)}>
+          INTERMEDIATE
+        </Button>
+      </Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("NLE 40 BP", nle40bp)}>
+          40 BP
+        </Button>
+      </Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("NLE HELM ESCAPE", nleHE)}>
+          HELM ESCAPE
+        </Button>
+      </Grid>
+      <Grid item md={1.5} xs={1}></Grid>
+
+      <Grid item xs={12}>
+        <Typography sx={styles.header}>GLITCHLESS</Typography>
+      </Grid>
+      <Grid item md={3} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("ANY GLITCHLESS", glitchlessAny)}>
+          ANY PERCENT
+        </Button>
+      </Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={0.01} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("101 GLITCHLESS", glitchless101)}>
+          101 PERCENT
+        </Button>
       </Grid>
 
-      <Grid item xs={1}></Grid>
-      <Grid item xs={10}>
-        <CategoryDropdown
-          progTotals={progTotals}
-          header="GLITCHLESS"
-          routes={[
-            routeInfo.glitchlessAnyPercent
-          ]}
-        />
+      <Grid item xs={12}>
+        <Typography sx={styles.header}>TAG ANYWHERE</Typography>
       </Grid>
-      <Grid item xs={1}></Grid>
-
-      <Grid item xs={1}></Grid>
-      <Grid item xs={10}>
-        <CategoryDropdown
-          progTotals={progTotals}
-          header="TAG ANYWHERE"
-          routes={[
-            routeInfo.tagAnywhereNLE,
-            routeInfo.tagAnywhere101,
-          ]}
-        />
+      <Grid item md={4.5} xs={1}></Grid>
+      <Grid item md={3} xs={10}>
+        <Button sx={styles.button} variant="contained" onClick={() => select("NLE TAG ANYWHERE", taNLE)}>
+          NLE
+        </Button>
       </Grid>
+      <Grid item md={4.5} xs={1}></Grid>
     </Grid>
   );
 };

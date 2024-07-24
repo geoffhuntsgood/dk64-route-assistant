@@ -1,32 +1,16 @@
 @font-face {
-  font-family: "LuckiestGuy";
-  src: url("/font/LuckiestGuy-Regular.ttf");
+  font-family: "ArcadeClassic";
+  src: url("/font/arcadeclassic.ttf");
 }
 
 body {
   margin: 0;
-  background-image: url("/img/trees.jpg");
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-
-h2 { 
-  font-size: 2rem;
-}
-
-.header {
-  margin: 0;
-  text-align: center;
-  font-family: "LuckiestGuy", sans-serif;
-  letter-spacing: 2px;
-  color: maroon;
-  text-shadow: 1px 1px goldenrod;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/img/trees.jpg");
 }
 
 a {
   text-decoration: none;
+
   &:focus {
     cursor: pointer;
   }
