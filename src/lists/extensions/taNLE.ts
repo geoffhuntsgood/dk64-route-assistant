@@ -43,68 +43,64 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Pswim/tag to skew"
-      }
-    ]
-  },
-  {
-    name: "JAPES SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.Diddy,
+        isSkewed: true,
         text: "Backflip in bounds, tunnel cave GB",
         gbs: 5
       },
       {
         color: Color.Diddy,
-        text: "Skew through T&S wall back to main"
+        isSkewed: true,
+        text: "Through T&S wall back to main"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Kickslide/jump/twirl to cage GB",
         gbs: 6
       },
       {
         color: Color.DK,
-        text: "Tag W4, wall skew to hive tunnel"
-      },
-      {
-        color: Color.DK,
-        text: "BP"
+        isSkewed: true,
+        text: "Through wall to hive tunnel, BP"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "BP, stump GB",
         gbs: 7
       },
       {
         color: Color.Diddy,
-        text: "Wall skew to cage GB",
+        isSkewed: true,
+        text: "Through wall to cage GB",
         gbs: 8
       },
       {
         color: Color.Chunky,
+        isSkewed: true,
         text: "Cage GB",
         gbs: 9
       },
       {
         color: Color.DK,
+        isSkewed: true,
         text: "Both Diddy GBs",
         gbs: 11
       },
       {
         color: Color.Lanky,
+        isSkewed: true,
         text: "Fall to cage GB",
         gbs: 12
       },
       {
         color: Color.Lanky,
-        text: "Skew in painting room"
-      }
-    ]
-  },
-  {
-    name: "JAPES (CONT)",
-    steps: [
+        isSkewed: true,
+        text: "Enter painting room"
+      },
       {
         color: Color.Chunky,
         text: "Skid jump/jump aerial clip"
@@ -208,25 +204,23 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "Pswim/tag to skew"
-      }
-    ]
-  },
-  {
-    name: "AZTEC SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.DK,
+        isSkewed: true,
         text: "Lanky GB, backflip in bounds",
         gbs: 19
       },
       {
         color: Color.Lanky,
-        text: "Skew to matching game GB",
+        isSkewed: true,
+        text: "Climb to matching game GB",
         gbs: 20
       },
       {
         color: Color.Lanky,
-        text: "Corner skew to BP"
+        isSkewed: true,
+        text: "Through wall to BP"
       },
       {
         color: Color.Tiny,
@@ -484,22 +478,13 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "Pswim/tag to skew"
-      }
-    ]
-  },
-  {
-    name: "FOREST SKEW SECTION 1",
-    steps: [
+        text: "Tag skew"
+      },
       {
         color: Color.Diddy,
+        isSkewed: true,
         text: "Rocket to dark room door"
-      }
-    ]
-  },
-  {
-    name: "FOREST (CONT)",
-    steps: [
+      },
       {
         color: Color.Lanky,
         text: "Dark room GB",
@@ -519,26 +504,18 @@ export const taNLE: RouteSection[] = [
       },
       {
         color: Color.Diddy,
-        text: "Pswim/tag to skew"
-      }
-    ]
-  },
-  {
-    name: "FOREST SKEW SECTION 2",
-    steps: [
+        text: "Tag skew"
+      },
       {
         color: Color.Lanky,
+        isSkewed: true,
         text: "To Owl area, BP"
       },
       {
         color: Color.Tiny,
-        text: "Skew in right wall, backflip under stump"
-      }
-    ]
-  },
-  {
-    name: "FOREST (CONT 2)",
-    steps: [
+        isSkewed: true,
+        text: "Enter stump"
+      },
       {
         color: Color.Tiny,
         text: "Stump GB, deathwarp",
@@ -619,67 +596,68 @@ export const taNLE: RouteSection[] = [
       {
         color: Color.DK,
         text: "ENTER Caves"
-      }
-    ]
-  },
-  {
-    name: "CAVES SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.Diddy,
         text: "Tag W2"
       },
       {
         color: Color.Chunky,
+        isSkewed: true,
         text: "Gone GB",
         gbs: 66
       },
       {
         color: Color.Tiny,
-        text: "Kickslide/jump/twirl to cross river"
+        isSkewed: true,
+        text: "Twirl across river"
       },
       {
         color: Color.Diddy,
-        text: "Skew Tiny Tunnel for BP, tag W4"
+        isSkewed: true,
+        text: "BP, tag W4"
       },
       {
         color: Color.Diddy,
+        isSkewed: true,
         text: "Rocket to Lanky BP"
       },
       {
         color: Color.Lanky,
+        isSkewed: true,
         text: "Collect BP"
       },
       {
         color: Color.Diddy,
+        isSkewed: true,
         text: "Rocket to Tiny BP"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Collect BP"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "W2, cross river again"
       },
       {
         color: Color.DK,
+        isSkewed: true,
         text: "BP"
       },
       {
         color: Color.Chunky,
-        text: "Skew in Snide cave, left wall"
+        isSkewed: true,
+        text: "Enter Snide cave, through left wall"
       },
       {
         color: Color.Chunky,
-        text: "Long jump skew into ice shield GB",
+        isSkewed: true,
+        text: "Long jump to ice shield GB",
         gbs: 67
-      }
-    ]
-  },
-  {
-    name: "CAVES (CONT)",
-    steps: [
+      },
       {
         color: Color.Chunky,
         text: "BP"

@@ -9,7 +9,7 @@ export const allBeginner: RouteSection[] = [
     steps: [
       {
         color: Color.Header,
-        text: "Video links -> click (VID)"
+        text: "Video links available, click **"
       },
       {
         color: Color.DK,
@@ -2007,54 +2007,51 @@ export const allBeginner: RouteSection[] = [
         color: Color.Lanky,
         text: "Gun skew to balloons (39)",
         link: "https://youtu.be/UzXzScGj_Wo?t=16m51s"
-      }
-    ]
-  },
-  {
-    name: "AZTEC 2 SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.Lanky,
+        isSkewed: true,
         text: "In bounds by stairs"
       },
       {
         color: Color.Lanky,
+        isSkewed: true,
         text: "Stairs (42), W1 (47)"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "Skew through pipe (25)"
+        isSkewed: true,
+        text: "Through pipe (25)"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Lava GB, bunches (35), W2",
         gbs: 95
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Balloon over lava (45), W1"
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "Skew to matching game GB",
+        isSkewed: true,
+        text: "Matching game GB",
         link: "https://youtu.be/UzXzScGj_Wo?t=19m45s",
         gbs: 96
       },
       {
         color: Color.Lanky,
-        text: "Skew left wall to Blueprint"
+        isSkewed: true,
+        text: "Through left wall to Blueprint"
       },
       {
         color: Color.Lanky,
         text: "W2, leave (50)"
-      }
-    ]
-  },
-  {
-    name: "AZTEC 2 (CONT)",
-    steps: [
+      },
       {
         color: Color.Lanky,
         text: "3 trees toward 5-Door Temple (65)"
@@ -2526,81 +2523,85 @@ export const allBeginner: RouteSection[] = [
       {
         color: Color.Chunky,
         text: "Gun skew in water"
-      }
-    ]
-  },
-  {
-    name: "JAPES 2 SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.Chunky,
+        isSkewed: true,
         text: "Use Diddy cutscene to warp up"
       },
       {
         color: Color.Chunky,
+        isSkewed: true,
         text: "Tag W1, W2, Funky's roof (25)"
       },
       {
         color: Color.Chunky,
+        isSkewed: true,
         text: "Cage GB",
         gbs: 131
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Drop to cage GB, up to tag",
         gbs: 132
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Bunch (5), drop past W2 to cage GB",
         gbs: 133
       },
       {
         color: Color.Lanky,
+        isSkewed: true,
         text: "Through left wall, fall into tunnel"
       },
       {
         color: Color.Lanky,
+        isSkewed: true,
         text: "W4, balloon by back left hut (15)"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Balloon by front left hut (10)"
       },
       {
         color: Color.Tiny,
-        text: "Skew in hut (15), W4"
+        isSkewed: true,
+        text: "Through Tiny hut (15), W4"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Through wall for cage GB, W3",
         gbs: 134
       },
       {
         color: Color.Tiny,
-        text: "Blueprint, skew to hive area"
+        isSkewed: true,
+        text: "Blueprint, continue to hive area"
       },
       {
         color: Color.Tiny,
-        text: "Tag W5, skew through both logs (45)"
+        isSkewed: true,
+        text: "Tag W5, through both logs (45)"
       },
       {
         color: Color.Tiny,
-        text: "Skew for stump GB",
+        isSkewed: true,
+        text: "Stump GB",
         gbs: 135
       },
       {
         color: Color.Tiny,
-        text: "Skew into shell (50)"
-      }
-    ]
-  },
-  {
-    name: "JAPES 2 (CONT)",
-    steps: [
+        isSkewed: true,
+        text: "Enter shell (50)"
+      },
       {
         color: Color.Tiny,
         text: "Left to balloon (60)"
@@ -2845,60 +2846,60 @@ export const allBeginner: RouteSection[] = [
         color: Color.Tiny,
         text: "Phaseswim to thorns, damage skew",
         link: "https://youtu.be/icw4KVavWjI?t=14m51s"
-      }
-    ]
-  },
-  {
-    name: "FOREST SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Balloon in back (37)"
       },
       {
         color: Color.Tiny,
-        text: "Skew in wall behind T&S"
+        isSkewed: true,
+        text: "Through wall behind T&S"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Backflip in bounds to tag"
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Tag W2 (20), Hunky Chunky"
       },
       {
         color: Color.Chunky,
+        isSkewed: true,
         text: "Singles around apple (29)"
       },
       {
         color: Color.Chunky,
+        isSkewed: true,
         text: "Backflip to kill tomatoes"
       },
       {
         color: Color.Chunky,
+        isSkewed: true,
         text: "Carry apple to main area for GB",
         gbs: 148
       },
       {
         color: Color.Chunky,
-        text: "Skew through blue wall"
+        isSkewed: true,
+        text: "Through blue part of wall"
       },
       {
         color: Color.DK,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Blueprint, through thorns (5)"
       },
       {
         color: Color.DK,
+        isSkewed: true,
         text: "Roll in back of shed to enter"
-      }
-    ]
-  },
-  {
-    name: "FOREST (CONT)",
-    steps: [
+      },
       {
         color: Color.DK,
         text: "Slam lower box, slam switch (10)"

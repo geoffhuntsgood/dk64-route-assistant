@@ -1240,45 +1240,41 @@ export const allExpert: RouteSection[] = [
         tag: Tag.Right,
         text: "Fairy, Trombone for bonus GB",
         gbs: 92
-      }
-    ]
-  },
-  {
-    name: "AZTEC 2 SKEW SECTION",
-    steps: [
-      {
-        color: Color.Lanky,
-        text: "Skew to balloons (39)"
       },
       {
         color: Color.Lanky,
+        isSkewed: true,
+        text: "Cage room balloons (39)"
+      },
+      {
+        color: Color.Lanky,
+        isSkewed: true,
         text: "Stairs singles (42), W1 (47)"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Lava room GB (35)",
         gbs: 93
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "W2, balloon (45), W1"
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "Skew to matching game GB",
+        isSkewed: true,
+        text: "Matching game GB",
         gbs: 94
       },
       {
         color: Color.Lanky,
+        isSkewed: true,
         text: "Skew to BP, W2, leave (50)"
-      }
-    ]
-  },
-  {
-    name: "AZTEC 2 (CONT)",
-    steps: [
+      },
       {
         color: Color.Lanky,
         text: "3 trees (65), 5DT GB (75)",
@@ -1586,57 +1582,55 @@ export const allExpert: RouteSection[] = [
       },
       {
         color: Color.Chunky,
-        text: "Rock GB",
+        text: "Rock GB, gun skew",
         gbs: 127
-      }
-    ]
-  },
-  {
-    name: "JAPES 2 SKEW SECTION",
-    steps: [
-      {
-        color: Color.Chunky,
-        text: "CS to ground, tag W1, W2"
       },
       {
         color: Color.Chunky,
+        isSkewed: true,
+        text: "CS to warp up, tag W1, W2"
+      },
+      {
+        color: Color.Chunky,
+        isSkewed: true,
         text: "Funky bunches (25), cage GB",
         gbs: 128
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
+        isSkewed: true,
         text: "Snide bunch (5), cage GB",
         gbs: 129
       },
       {
         color: Color.Lanky,
-        text: "Wall skew, W4 to balloon (15)"
+        isSkewed: true,
+        text: "Through wall, W4 to balloon (15)"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "Hut skew (5), balloon (15)"
+        isSkewed: true,
+        text: "Hut bunch (5), balloon (15)"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "W4 to cage GB, W3, BP",
         gbs: 130
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Tag W5, logs (45), stump GB",
         gbs: 131
       },
       {
         color: Color.Tiny,
-        text: "Skew into shell"
-      }
-    ]
-  },
-  {
-    name: "JAPES 2 (CONT)",
-    steps: [
+        isSkewed: true,
+        text: "Enter shell"
+      },
       {
         color: Color.Tiny,
         text: "Shell GB (67)",
@@ -1786,50 +1780,47 @@ export const allExpert: RouteSection[] = [
         color: Color.Diddy,
         tag: Tag.Left,
         text: "Tag, gun skew"
-      }
-    ]
-  },
-  {
-    name: "FOREST SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.Diddy,
+        isSkewed: true,
         text: "Rocket (10), tag Tiny"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Rocket as Tiny to beanstalk GB",
         gbs: 146
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "2 mushrooms (32)"
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Tag W2 (20), save apple GB (29)",
         gbs: 147
       },
       {
         color: Color.Chunky,
-        text: "Skew through blue wall"
+        isSkewed: true,
+        text: "Through blue wall"
       },
       {
         color: Color.Tiny,
         tag: Tag.Left,
+        isSkewed: true,
         text: "Balloon (42)"
       },
       {
         color: Color.DK,
         tag: Tag.Right,
+        isSkewed: true,
         text: "BP, bunch (15), enter shed"
-      }
-    ]
-  },
-  {
-    name: "FOREST (CONT)",
-    steps: [
+      },
       {
         color: Color.DK,
         text: "Fairy, bonus GB (20)",

@@ -3,23 +3,21 @@ export const styles = {
     width: "100%",
     padding: "10px 0",
     textAlign: "center",
-    fontFamily: "ArcadeClassic",
-    fontSize: "3rem",
-    color: "goldenrod"
+    fontFamily: "SixtyfourConvergence",
+    fontSize: "2rem",
   },
   button: {
     width: "95%",
     textAlign: "center",
-    fontFamily: "ArcadeClassic",
-    fontSize: "2rem",
-    color: "goldenrod",
-    backgroundColor: "maroon",
+    fontFamily: "SixtyfourConvergence",
+    fontSize: "1.2rem",
+    backgroundColor: "rgba(0, 0, 0, 0.5)",
     "&:hover": {
-      backgroundColor: "red"
+      backgroundColor: "navy"
     }
   },
   contents: {
-    height: "calc(100vh - 7rem)",
+    height: "calc(100vh - 9rem)",
     overflowX: "hidden",
     overflowY: "auto"
   },

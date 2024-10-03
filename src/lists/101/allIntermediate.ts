@@ -1263,51 +1263,47 @@ export const allIntermediate: RouteSection[] = [
       {
         color: Color.Lanky,
         tag: Tag.Right,
-        text: "Fairy, bonus GB",
+        text: "Fairy, bonus GB, gun skew",
         gbs: 91
-      }
-    ]
-  },
-  {
-    name: "AZTEC 2 SKEW SECTION",
-    steps: [
-      {
-        color: Color.Lanky,
-        text: "Skew to balloons (39)"
       },
       {
         color: Color.Lanky,
+        isSkewed: true,
+        text: "Cage room balloons (39)"
+      },
+      {
+        color: Color.Lanky,
+        isSkewed: true,
         text: "Climb stairs (42), W1 (47)"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Lava room GB (35)",
         gbs: 92
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "W2, balloon (45), W1"
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
+        isSkewed: true,
         text: "Matching game GB",
         gbs: 93
       },
       {
         color: Color.Lanky,
-        text: "Skew to BP, W2"
+        isSkewed: true,
+        text: "Through wall to BP, W2"
       },
       {
         color: Color.Lanky,
         text: "Leave temple (50)"
-      }
-    ]
-  },
-  {
-    name: "AZTEC 2 (CONT)",
-    steps: [
+      },
       {
         color: Color.Lanky,
         text: "Climb 3 trees (65)"
@@ -1607,61 +1603,60 @@ export const allIntermediate: RouteSection[] = [
         color: Color.Chunky,
         text: "Deathwarp to rock GB",
         gbs: 126
-      }
-    ]
-  },
-  {
-    name: "JAPES 2 SKEW SECTION",
-    steps: [
-      {
-        color: Color.Chunky,
-        text: "CS to ground, tag W1/W2"
       },
       {
         color: Color.Chunky,
+        isSkewed: true,
+        text: "CS to warp up, tag W1/W2"
+      },
+      {
+        color: Color.Chunky,
+        isSkewed: true,
         text: "Funky bunches (30), cage GB",
         gbs: 127
       },
       {
         color: Color.Diddy,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Cage GB",
         gbs: 128
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Snide bunch (5), cage GB",
         gbs: 129
       },
       {
         color: Color.Lanky,
-        text: "Wall skew to W4, balloon (15)"
+        isSkewed: true,
+        text: "Through wall to W4, balloon (15)"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "Hut skew, balloon (15)"
+        isSkewed: true,
+        text: "Hut bunch (5), balloon (15)"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "W4, cage GB, W3",
         gbs: 130
       },
       {
         color: Color.Tiny,
-        text: "BP, tag W5, log skew (45)"
+        isSkewed: true,
+        text: "BP, tag W5, both logs (45)"
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Stump GB, enter shell",
         gbs: 131
-      }
-    ]
-  },
-  {
-    name: "JAPES 2 (CONT)",
-    steps: [
+      },
       {
         color: Color.Tiny,
         text: "Shell GB (67)",
@@ -1828,36 +1823,30 @@ export const allIntermediate: RouteSection[] = [
       {
         color: Color.Tiny,
         text: "Swim to (27), thorn skew"
-      }
-    ]
-  },
-  {
-    name: "FOREST SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Balloon by T&S (37)"
       },
       {
         color: Color.Chunky,
         tag: Tag.Right,
+        isSkewed: true,
         text: "Tag W2, save apple (29)",
         gbs: 145
       },
       {
         color: Color.Chunky,
-        text: "Clip through blue wall"
+        isSkewed: true,
+        text: "Through blue wall"
       },
       {
         color: Color.DK,
         tag: Tag.Right,
+        isSkewed: true,
         text: "BP, (5), enter shed"
-      }
-    ]
-  },
-  {
-    name: "FOREST (CONT)",
-    steps: [
+      },
       {
         color: Color.DK,
         text: "Bonus GB (10), fairy",

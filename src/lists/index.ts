@@ -6,6 +6,8 @@ export * from "./any/any1Kong2014";
 export * from "./any/any1kong2015";
 export * from "./any/any5Kong";
 
+export * from "./extensions/anyAllKeys";
+export * from "./extensions/anyNoISG";
 export * from "./extensions/glitchless101";
 export * from "./extensions/glitchlessAny";
 export * from "./extensions/taNLE";

@@ -52,11 +52,11 @@ export const isgNLE: RouteSection = {
     },
     {
       color: Color.DK,
-      text: "Dive barrel @0:55, cancel fadeout"
+      text: "Enter dive barrel at 0:55"
     },
     {
       color: Color.DK,
-      text: "Vine barrel @1:24.5, cancel fadeout"
+      text: "Enter vine barrel at 1:24.5"
     },
     {
       color: Color.DK,
@@ -88,7 +88,7 @@ export const isgNLE: RouteSection = {
     },
     {
       color: Color.Header,
-      text: "Galleon Boss, ISG fadeout @ 3:23"
+      text: "Galleon Boss, ISG fadeout at 3:23"
     },
     {
       color: Color.Header,
@@ -100,7 +100,7 @@ export const isgNLE: RouteSection = {
     },
     {
       color: Color.Header,
-      text: "Main menu, pulled in @ 4:23.8"
+      text: "Main menu, pulled in at 4:23.8"
     }
   ]
 };

@@ -167,31 +167,30 @@ export const nleIntermediate: RouteSection[] = [
       {
         color: Color.DK,
         text: "Tag W2, gun skew"
-      }
-    ]
-  },
-  {
-    name: "AZTEC 1 SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.DK,
-        text: "Free Lanky for GB, skew to main area",
+        isSkewed: true,
+        text: "Free Lanky for GB, climb to tag W1",
         gbs: 12
       },
       {
         color: Color.Lanky,
         tag: Tag.Right,
-        text: "Tag W1, skew to matching game GB",
+        isSkewed: true,
+        text: "Matching game GB",
         gbs: 13
       },
       {
         color: Color.Lanky,
-        text: "Skew to BP, W2, W1"
+        isSkewed: true,
+        text: "Through wall to BP, W2, W1"
       },
       {
         color: Color.Tiny,
         tag: Tag.Right,
-        text: "W1, W2, lava GB, skew to void out",
+        isSkewed: true,
+        text: "W1, W2, lava GB, void out",
         gbs: 14
       },
       {
@@ -351,45 +350,40 @@ export const nleIntermediate: RouteSection[] = [
         color: Color.Tiny,
         tag: Tag.Right,
         text: "Gun skew in river"
-      }
-    ]
-  },
-  {
-    name: "JAPES 2 SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "Twirl to cage GB, W3",
         gbs: 26
       },
       {
         color: Color.Tiny,
+        isSkewed: true,
         text: "BP, stump GB",
         gbs: 27
       },
       {
         color: Color.Diddy,
         tag: Tag.Left,
-        text: "Wall skew through right log to cage GB",
+        isSkewed: true,
+        text: "Through right log to cage GB",
         gbs: 28
       },
       {
         color: Color.Chunky,
         tag: Tag.Left,
+        isSkewed: true,
         text: "Cage GB",
         gbs: 29
       },
       {
         color: Color.Lanky,
         tag: Tag.Left,
-        text: "Cage GB, skew in painting room",
+        isSkewed: true,
+        text: "Cage GB, enter painting room",
         gbs: 30
-      }
-    ]
-  },
-  {
-    name: "JAPES 2 (CONT)",
-    steps: [
+      },
       {
         color: Color.Lanky,
         text: "Clip through wall for GB, leave",
@@ -619,14 +613,10 @@ export const nleIntermediate: RouteSection[] = [
         color: Color.Diddy,
         text: "Thorn skew behind barn"
       },
-    ]
-  },
-  {
-    name: "FOREST SKEW SECTION",
-    steps: [
       {
         color: Color.DK,
         tag: Tag.Left,
+        isSkewed: true,
         text: "BP, left wall to void"
       },
       {
@@ -681,25 +671,17 @@ export const nleIntermediate: RouteSection[] = [
       {
         color: Color.Diddy,
         text: "Tag W1, gun skew in river"
-      }
-    ]
-  },
-  {
-    name: "CAVES SKEW SECTION",
-    steps: [
+      },
       {
         color: Color.Diddy,
+        isSkewed: true,
         text: "Cross river, past Funky"
       },
       {
         color: Color.Diddy,
-        text: "Skew to BP, tag W4, back out"
-      }
-    ]
-  },
-  {
-    name: "CAVES (CONT)",
-    steps: [
+        isSkewed: true,
+        text: "Through Tiny tunnel, BP, tag W4, back out"
+      },
       {
         color: Color.Diddy,
         text: "Rocket to tag W5, rocket to bonus GB",

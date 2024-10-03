@@ -1,21 +1,16 @@
 import { Grid, List, ListItem, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useNavigate } from "react-router";
 import useKeypress from "react-use-keypress";
 import { RouteSection, Step } from "../classes";
 import { styles } from "../utils/styles";
 
-export const StepList = () => {
-  const {
-    name,
-    route
-  }: {
-    name: string,
-    route: RouteSection[]
-  } = useLocation().state;
+export const StepList = ({ name, route }: { name: string, route: RouteSection[] }) => {
+  const navigate = useNavigate();
 
   const [index, setIndex] = useState(0);
   const [headers, setHeaders] = useState([] as string[]);
+  const [title, setTitle] = useState(name);
 
   useEffect(() => {
     setHeaders(route.map((section: RouteSection) => section.name));
@@ -55,7 +50,9 @@ export const StepList = () => {
         <Typography sx={styles.header} style={{ cursor: "pointer" }} onClick={decreaseIndex}>{`<`}</Typography>
       </Grid>
       <Grid item xs={10}>
-        <Typography sx={styles.header}>{name}</Typography>
+        <Typography sx={styles.header} style={{ cursor: "pointer" }} onClick={() => navigate("/")} onMouseEnter={() => setTitle("BACK")} onMouseLeave={() => setTitle(name)}>
+          {title}
+        </Typography>
       </Grid>
       <Grid item xs={1}>
         <Typography sx={styles.header} style={{ cursor: "pointer" }} onClick={increaseIndex}>{`>`}</Typography>
@@ -71,7 +68,10 @@ export const StepList = () => {
                 </ListItem>
                 {section.steps.map((step: Step) => (
                   <ListItem key={getKey(step.text)} style={{ backgroundColor: step.color, border: "1px solid black" }}>
-                    {step.tag}{step.text}
+                    {step.tag}{step.isSkewed ? <i>Skew: {step.text}</i> : step.text}
+                    {step.link &&
+                      <a target="_blank" rel="noopener noreferrer" href={step.link}>**</a>
+                    }
                     {step.gbs &&
                       <>
                         <img src="/img/gb.png" height="20" style={{ position: "absolute", right: "30px" }} />
