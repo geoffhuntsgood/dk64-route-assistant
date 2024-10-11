@@ -18,7 +18,7 @@ export const anyNoISG: RouteSection[] = [
     ]
   },
   {
-    name: "ISLES -> HELM",
+    name: "ISLES TO HELM",
     steps: [
       {
         color: Color.DK,
@@ -48,7 +48,7 @@ export const anyNoISG: RouteSection[] = [
     ]
   },
   {
-    name: "HELM -> AZTEC",
+    name: "HELM TO AZTEC",
     steps: [
       {
         color: Color.DK,
@@ -98,7 +98,7 @@ export const anyNoISG: RouteSection[] = [
     ]
   },
   {
-    name: "ISLES -> CASTLE",
+    name: "ISLES TO CASTLE",
     steps: [
       {
         color: Color.DK,
@@ -136,7 +136,7 @@ export const anyNoISG: RouteSection[] = [
     ]
   },
   {
-    name: "ISLES -> FACTORY",
+    name: "ISLES TO FACTORY",
     steps: [
       {
         color: Color.DK,
@@ -196,7 +196,7 @@ export const anyNoISG: RouteSection[] = [
     ]
   },
   {
-    name: "FACTORY -> K. ROOL",
+    name: "FACTORY TO K. ROOL",
     steps: [
       {
         color: Color.DK,

@@ -4,6 +4,7 @@ import { useNavigate } from "react-router";
 import useKeypress from "react-use-keypress";
 import { RouteSection, Step } from "../classes";
 import { styles } from "../utils/styles";
+import gb from "/public/img/gb.png";
 
 export const StepList = ({ name, route }: { name: string, route: RouteSection[] }) => {
   const navigate = useNavigate();
@@ -40,6 +41,26 @@ export const StepList = ({ name, route }: { name: string, route: RouteSection[] 
     }
   };
 
+  const getItemColor = (color: string | string[]) => {
+    let style = {
+      border: "1px solid black",
+      backgroundImage: "",
+      backgroundColor: ""
+    };
+
+    if (Array.isArray(color)) {
+      let gradString = "linear-gradient(to right, ";
+      color.forEach((c: string) => {
+        gradString += `${c}, `;
+      });
+      style.backgroundImage = `${gradString.substring(0, gradString.length - 2)})`;
+    } else {
+      style.backgroundColor = color;
+    }
+    
+    return style;
+  };
+
   const getKey = (text: string) => {
     return `${text}-${Math.random()}`;
   };
@@ -67,14 +88,14 @@ export const StepList = ({ name, route }: { name: string, route: RouteSection[] 
                   {section.name}
                 </ListItem>
                 {section.steps.map((step: Step) => (
-                  <ListItem key={getKey(step.text)} style={{ backgroundColor: step.color, border: "1px solid black" }}>
+                  <ListItem key={getKey(step.text)} style={getItemColor(step.color)}>
                     {step.tag}{step.isSkewed ? <i>Skew: {step.text}</i> : step.text}
                     {step.link &&
                       <a target="_blank" rel="noopener noreferrer" href={step.link}>**</a>
                     }
                     {step.gbs &&
                       <>
-                        <img src="/img/gb.png" height="20" style={{ position: "absolute", right: "30px" }} />
+                        <img src={gb} height="20" style={{ position: "absolute", right: "30px" }} />
                         <Typography sx={styles.item} style={{ position: "absolute", right: "5px" }}>
                           {step.gbs}
                         </Typography>

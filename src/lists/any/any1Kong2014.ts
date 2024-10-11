@@ -132,7 +132,7 @@ export const any1Kong2014: RouteSection[] = [
     ]
   },
   {
-    name: "ISLES -> FACTORY",
+    name: "ISLES TO FACTORY",
     steps: [
       {
         color: Color.DK,
@@ -174,7 +174,7 @@ export const any1Kong2014: RouteSection[] = [
     ]
   },
   {
-    name: "FACTORY -> K. ROOL",
+    name: "FACTORY TO K. ROOL",
     steps: [
       {
         color: Color.DK,

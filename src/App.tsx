@@ -8,14 +8,16 @@ import {
   any1Kong2014,
   any1Kong2015,
   any5Kong,
+  anyAllKeys,
+  anyNoISG,
   glitchless101,
   glitchlessAny,
+  moveless100GB,
   nle40bp,
   nleHE,
   nleIntermediate,
-  anyNoISG,
-  taNLE,
-  anyAllKeys
+  ta101,
+  taNLE
 } from "./lists";
 
 const App = () => {
@@ -44,8 +46,10 @@ const App = () => {
       <Route path="/route/anyglitchless" element={<StepList name="ANY% GLITCHLESS" route={glitchlessAny} />} />
       <Route path="/route/101glitchless" element={<StepList name="101% GLITCHLESS" route={glitchless101} />} />
       <Route path="/route/nletaganywhere" element={<StepList name="NLE TAG ANYWHERE" route={taNLE} />} />
+      <Route path="/route/101taganywhere" element={<StepList name="101% TAG ANYWHERE" route={ta101} />} />
       <Route path="/route/anynoisg" element={<StepList name="ANY% NO ISG" route={anyNoISG} />} />
       <Route path="/route/anyallkeys" element={<StepList name="ANY% ALL KEYS" route={anyAllKeys} />} />
+      <Route path="/route/moveless100gb" element={<StepList name="100 GB MOVELESS" route={moveless100GB} />} />
     </Routes>
   )
 };

@@ -228,7 +228,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 1 -> AZTEC 1",
+    name: "JAPES 1 TO AZTEC 1",
     steps: [
       {
         color: Color.Header,
@@ -494,7 +494,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC 1 -> FACTORY",
+    name: "AZTEC 1 TO FACTORY",
     steps: [
       {
         color: Color.Diddy,
@@ -878,7 +878,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "FACTORY -> GALLEON",
+    name: "FACTORY TO GALLEON",
     steps: [
       {
         color: Color.DK,
@@ -1349,7 +1349,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "GALLEON -> HELM",
+    name: "GALLEON TO HELM",
     steps: [
       {
         color: Color.Tiny,
@@ -1495,7 +1495,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "HELM -> CASTLE",
+    name: "HELM TO CASTLE",
     steps: [
       {
         color: Color.DK,
@@ -1905,7 +1905,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "CASTLE -> AZTEC 2",
+    name: "CASTLE TO AZTEC 2",
     steps: [
       {
         color: Color.Chunky,
@@ -2122,7 +2122,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC 2 -> CAVES",
+    name: "AZTEC 2 TO CAVES",
     steps: [
       {
         color: Color.Chunky,
@@ -2456,7 +2456,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "CAVES -> JAPES 2",
+    name: "CAVES TO JAPES 2",
     steps: [
       {
         color: Color.Chunky,
@@ -2732,7 +2732,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 2 -> FOREST",
+    name: "JAPES 2 TO FOREST",
     steps: [
       {
         color: Color.Lanky,
@@ -3216,7 +3216,7 @@ export const allBeginner: RouteSection[] = [
     ]
   },
   {
-    name: "FOREST -> K. ROOL",
+    name: "FOREST TO K. ROOL",
     steps: [
       {
         color: Color.Diddy,

@@ -141,7 +141,7 @@ export const glitchlessAny: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 1 -> AZTEC",
+    name: "JAPES 1 TO AZTEC",
     steps: [
       {
         color: Color.DK,
@@ -280,7 +280,7 @@ export const glitchlessAny: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC -> FACTORY",
+    name: "AZTEC TO FACTORY",
     steps: [
       {
         color: Color.Lanky,
@@ -454,7 +454,7 @@ export const glitchlessAny: RouteSection[] = [
     ]
   },
   {
-    name: "FACTORY -> JAPES 2",
+    name: "FACTORY TO JAPES 2",
     steps: [
       {
         color: Color.Chunky,
@@ -516,7 +516,7 @@ export const glitchlessAny: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 2 -> GALLEON",
+    name: "JAPES 2 TO GALLEON",
     steps: [
       {
         color: Color.Chunky,
@@ -683,7 +683,7 @@ export const glitchlessAny: RouteSection[] = [
     ]
   },
   {
-    name: "GALLEON -> FOREST",
+    name: "GALLEON TO FOREST",
     steps: [
       {
         color: Color.Lanky,
@@ -866,7 +866,7 @@ export const glitchlessAny: RouteSection[] = [
     ]
   },
   {
-    name: "FOREST -> CAVES",
+    name: "FOREST TO CAVES",
     steps: [
       {
         color: Color.Diddy,
@@ -1066,7 +1066,7 @@ export const glitchlessAny: RouteSection[] = [
     ]
   },
   {
-    name: "CAVES -> CASTLE",
+    name: "CAVES TO CASTLE",
     steps: [
       {
         color: Color.DK,
@@ -1245,7 +1245,7 @@ export const glitchlessAny: RouteSection[] = [
     ]
   },
   {
-    name: "CASTLE -> HELM",
+    name: "CASTLE TO HELM",
     steps: [
       {
         color: Color.Lanky,
@@ -1327,7 +1327,7 @@ export const glitchlessAny: RouteSection[] = [
     ]
   },
   {
-    name: "HELM -> K. ROOL",
+    name: "HELM TO K. ROOL",
     steps: [
       {
         color: Color.DK,

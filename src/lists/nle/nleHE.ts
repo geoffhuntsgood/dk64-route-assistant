@@ -6,7 +6,7 @@ export const nleHE: RouteSection[] = [
   isgPreStart,
   isgNLE,
   {
-    name: "ISLES -> JAPES 1",
+    name: "ISLES TO JAPES 1",
     steps: [
       {
         color: Color.Header,
@@ -97,7 +97,7 @@ export const nleHE: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 1 -> AZTEC",
+    name: "JAPES 1 TO AZTEC",
     steps: [
       {
         color: Color.DK,
@@ -200,7 +200,7 @@ export const nleHE: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC -> FACTORY",
+    name: "AZTEC TO FACTORY",
     steps: [
       {
         color: Color.Tiny,
@@ -319,7 +319,7 @@ export const nleHE: RouteSection[] = [
     ]
   },
   {
-    name: "FACTORY -> JAPES 2",
+    name: "FACTORY TO JAPES 2",
     steps: [
       {
         color: Color.DK,
@@ -419,7 +419,7 @@ export const nleHE: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 2 -> GALLEON",
+    name: "JAPES 2 TO GALLEON",
     steps: [
       {
         color: Color.DK,
@@ -504,7 +504,7 @@ export const nleHE: RouteSection[] = [
     ]
   },
   {
-    name: "GALLEON -> FOREST",
+    name: "GALLEON TO FOREST",
     steps: [
       {
         color: Color.Tiny,
@@ -667,7 +667,7 @@ export const nleHE: RouteSection[] = [
     ]
   },
   {
-    name: "FOREST -> CAVES",
+    name: "FOREST TO CAVES",
     steps: [
       {
         color: Color.Diddy,
@@ -800,7 +800,7 @@ export const nleHE: RouteSection[] = [
     ]
   },
   {
-    name: "CAVES -> CASTLE",
+    name: "CAVES TO CASTLE",
     steps: [
       {
         color: Color.DK,
@@ -879,7 +879,7 @@ export const nleHE: RouteSection[] = [
     ]
   },
   {
-    name: "CASTLE -> HELM",
+    name: "CASTLE TO HELM",
     steps: [
       {
         color: Color.Tiny,
@@ -920,7 +920,7 @@ export const nleHE: RouteSection[] = [
     ]
   },
   {
-    name: "HELM -> K. ROOL",
+    name: "HELM TO K. ROOL",
     steps: [
       {
         color: Color.Chunky,

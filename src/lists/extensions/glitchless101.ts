@@ -196,7 +196,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 1 -> AZTEC 1",
+    name: "JAPES 1 TO AZTEC 1",
     steps: [
       {
         color: Color.DK,
@@ -413,7 +413,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC 1 -> FACTORY",
+    name: "AZTEC 1 TO FACTORY",
     steps: [
       {
         color: Color.Diddy,
@@ -745,7 +745,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "FACTORY -> GALLEON",
+    name: "FACTORY TO GALLEON",
     steps: [
       {
         color: Color.Diddy,
@@ -1056,7 +1056,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "GALLEON -> JAPES 2",
+    name: "GALLEON TO JAPES 2",
     steps: [
       {
         color: Color.Lanky,
@@ -1215,7 +1215,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 2 -> FOREST 1",
+    name: "JAPES 2 TO FOREST 1",
     steps: [
       {
         color: Color.DK,
@@ -1587,7 +1587,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "FOREST 1 -> CAVES",
+    name: "FOREST 1 TO CAVES",
     steps: [
       {
         color: Color.Tiny,
@@ -1910,7 +1910,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "CAVES -> CASTLE",
+    name: "CAVES TO CASTLE",
     steps: [
       {
         color: Color.DK,
@@ -2242,7 +2242,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "CASTLE -> AZTEC 2",
+    name: "CASTLE TO AZTEC 2",
     steps: [
       {
         color: Color.Lanky,
@@ -2444,7 +2444,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC 2 -> HELM",
+    name: "AZTEC 2 TO HELM",
     steps: [
       {
         color: Color.Diddy,
@@ -2550,7 +2550,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "HELM -> FOREST 2",
+    name: "HELM TO FOREST 2",
     steps: [
       {
         color: Color.DK,
@@ -2660,7 +2660,7 @@ export const glitchless101: RouteSection[] = [
     ]
   },
   {
-    name: "FOREST 2 -> K. ROOL",
+    name: "FOREST 2 TO K. ROOL",
     steps: [
       {
         color: Color.Diddy,

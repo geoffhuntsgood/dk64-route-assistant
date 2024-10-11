@@ -6,7 +6,7 @@ export const nle40bp: RouteSection[] = [
   isgPreStart,
   isgNLE,
   {
-    name: "ISLES -> JAPES 1",
+    name: "ISLES TO JAPES 1",
     steps: [
       {
         color: Color.DK,
@@ -93,7 +93,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 1 -> AZTEC 1",
+    name: "JAPES 1 TO AZTEC 1",
     steps: [
       {
         color: Color.DK,
@@ -206,7 +206,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC 1 -> FACTORY",
+    name: "AZTEC 1 TO FACTORY",
     steps: [
       {
         color: Color.Tiny,
@@ -315,7 +315,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "FACTORY -> JAPES 2",
+    name: "FACTORY TO JAPES 2",
     steps: [
       {
         color: Color.DK,
@@ -424,7 +424,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES 2 -> GALLEON",
+    name: "JAPES 2 TO GALLEON",
     steps: [
       {
         color: Color.DK,
@@ -513,7 +513,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "GALLEON -> FOREST",
+    name: "GALLEON TO FOREST",
     steps: [
       {
         color: Color.Tiny,
@@ -639,7 +639,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "FOREST -> CAVES",
+    name: "FOREST TO CAVES",
     steps: [
       {
         color: Color.Diddy,
@@ -755,7 +755,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "CAVES -> CASTLE",
+    name: "CAVES TO CASTLE",
     steps: [
       {
         color: Color.Chunky,
@@ -829,7 +829,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "CASTLE -> AZTEC 2",
+    name: "CASTLE TO AZTEC 2",
     steps: [
       {
         color: Color.Tiny,
@@ -910,7 +910,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC 2 -> HELM",
+    name: "AZTEC 2 TO HELM",
     steps: [
       {
         color: Color.Tiny,
@@ -947,7 +947,7 @@ export const nle40bp: RouteSection[] = [
     ]
   },
   {
-    name: "ISLES -> K. ROOL",
+    name: "ISLES TO K. ROOL",
     steps: [
       {
         color: Color.DK,

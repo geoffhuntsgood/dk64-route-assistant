@@ -10,6 +10,8 @@ export * from "./extensions/anyAllKeys";
 export * from "./extensions/anyNoISG";
 export * from "./extensions/glitchless101";
 export * from "./extensions/glitchlessAny";
+export * from "./extensions/moveless100gb";
+export * from "./extensions/ta101";
 export * from "./extensions/taNLE";
 
 export * from "./nle/nle40bp";

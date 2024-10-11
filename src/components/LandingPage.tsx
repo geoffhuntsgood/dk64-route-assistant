@@ -35,7 +35,9 @@ export const LandingPage = () => (
     <LandingPageButton name="ANY% NO ISG" path="anynoisg" />
     <LandingPageButton name="ANY% ALL KEYS" path="anyallkeys" />
     <LandingPageButton name="TAG ANYWHERE NLE" path="nletaganywhere" />
+    <LandingPageButton name="TAG ANYWHERE 101%" path="101taganywhere" />
     <LandingPageButton name="GLITCHLESS ANY%" path="anyglitchless" />
     <LandingPageButton name="GLITCHLESS 101%" path="101glitchless" />
+    <LandingPageButton name="100 GB MOVELESS" path="moveless100gb" />
   </Grid>
 );

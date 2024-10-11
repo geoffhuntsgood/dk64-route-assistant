@@ -58,7 +58,7 @@ export const any5Kong: RouteSection[] = [
     ]
   },
   {
-    name: "START -> JAPES",
+    name: "START TO JAPES",
     steps: [
       {
         color: Color.DK,
@@ -132,7 +132,7 @@ export const any5Kong: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES -> AZTEC",
+    name: "JAPES TO AZTEC",
     steps: [
       {
         color: Color.DK,
@@ -217,7 +217,7 @@ export const any5Kong: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC -> FACTORY",
+    name: "AZTEC TO FACTORY",
     steps: [
       {
         color: Color.Diddy,
@@ -285,7 +285,7 @@ export const any5Kong: RouteSection[] = [
     ]
   },
   {
-    name: "FACTORY -> HELM",
+    name: "FACTORY TO HELM",
     steps: [
       {
         color: Color.Tiny,
@@ -324,7 +324,7 @@ export const any5Kong: RouteSection[] = [
     ]
   },
   {
-    name: "HELM -> K. ROOL",
+    name: "HELM TO K. ROOL",
     steps: [
       {
         color: Color.Header,

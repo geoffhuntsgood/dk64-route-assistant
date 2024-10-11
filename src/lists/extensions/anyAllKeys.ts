@@ -22,7 +22,7 @@ export const anyAllKeys: RouteSection[] = [
     ]
   },
   {
-    name: "ISLES -> AZTEC",
+    name: "ISLES TO AZTEC",
     steps: [
       {
         color: Color.DK,

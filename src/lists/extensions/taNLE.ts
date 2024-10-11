@@ -130,7 +130,7 @@ export const taNLE: RouteSection[] = [
     ]
   },
   {
-    name: "JAPES -> AZTEC",
+    name: "JAPES TO AZTEC",
     steps: [
       {
         color: Color.Chunky,
@@ -230,7 +230,7 @@ export const taNLE: RouteSection[] = [
     ]
   },
   {
-    name: "AZTEC -> FACTORY",
+    name: "AZTEC TO FACTORY",
     steps: [
       {
         color: Color.DK,
@@ -345,7 +345,7 @@ export const taNLE: RouteSection[] = [
     ]
   },
   {
-    name: "FACTORY -> GALLEON",
+    name: "FACTORY TO GALLEON",
     steps: [
       {
         color: Color.DK,
@@ -432,7 +432,7 @@ export const taNLE: RouteSection[] = [
     ]
   },
   {
-    name: "GALLEON -> FOREST",
+    name: "GALLEON TO FOREST",
     steps: [
       {
         color: Color.Tiny,
@@ -555,7 +555,7 @@ export const taNLE: RouteSection[] = [
     ]
   },
   {
-    name: "FOREST -> CAVES",
+    name: "FOREST TO CAVES",
     steps: [
       {
         color: Color.Diddy,
@@ -710,7 +710,7 @@ export const taNLE: RouteSection[] = [
     ]
   },
   {
-    name: "CAVES -> CASTLE",
+    name: "CAVES TO CASTLE",
     steps: [
       {
         color: Color.DK,
@@ -804,7 +804,7 @@ export const taNLE: RouteSection[] = [
     ]
   },
   {
-    name: "CASTLE -> HELM",
+    name: "CASTLE TO HELM",
     steps: [
       {
         color: Color.Lanky,
@@ -846,7 +846,7 @@ export const taNLE: RouteSection[] = [
     ]
   },
   {
-    name: "HELM -> K. ROOL",
+    name: "HELM TO K. ROOL",
     steps: [
       {
         color: Color.DK,
