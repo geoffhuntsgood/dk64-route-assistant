@@ -1,30 +1,26 @@
 export const styles = {
   header: {
-    width: "100%",
-    padding: "10px 0",
-    textAlign: "center",
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100vw",
+    height: "50px",
+    zIndex: 999,
+    padding: "10px",
     fontFamily: "SixtyfourConvergence",
     fontSize: "2rem",
+    color: "white",
+    backgroundColor: "#003500"
   },
-  button: {
+  dkButton: {
     width: "95%",
+    textTransform: "none",
     textAlign: "center",
     fontFamily: "SixtyfourConvergence",
     fontSize: "1.2rem",
     backgroundColor: "rgba(0, 0, 0, 0.5)",
     "&:hover": {
-      backgroundColor: "navy"
+      backgroundColor: "darkgreen"
     }
-  },
-  contents: {
-    height: "calc(100vh - 9rem)",
-    overflowX: "hidden",
-    overflowY: "auto"
-  },
-  item: {
-    fontFamily: "monospace",
-    fontWeight: "bold",
-    fontSize: "1rem",
-    color: "black"
   }
 };

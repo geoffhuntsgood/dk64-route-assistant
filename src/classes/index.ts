@@ -1,2 +1,2 @@
-export * from "./RouteSection";
+export * from "./Route";
 export * from "./Step";

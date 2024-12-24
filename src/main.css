@@ -1,34 +1,11 @@
 @font-face {
-  font-family: "SixtyfourConvergence";
-  src: url("/font/SixtyfourConvergence-Regular.ttf");
+  font-family: SixtyfourConvergence;
+  src: url("./assets/font/SixtyfourConvergence-Regular.ttf");
 }
 
-body {
-  margin: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/img/trees.jpg");
-}
-
-a {
-  text-decoration: none;
-
-  &:focus {
-    cursor: pointer;
-  }
-}
-
-::-webkit-scrollbar {
-  width: 3px;
-}
-
-::-webkit-scrollbar-track {
-  background: goldenrod;
-}
-
-::-webkit-scrollbar-thumb {
-  height: 50px;
-  background: maroon;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
