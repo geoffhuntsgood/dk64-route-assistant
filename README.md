@@ -7,12 +7,12 @@ It's intended to be used on mobile, or as a browser source in OBS/streaming soft
 ## Features
 
 - Show/hide counts for:
-- - Golden Bananas
-- - Blueprints
-- - Battle Crowns
-- - Banana Fairies
-- - Banana Medals
-- - Boss Keys
+  - Golden Bananas
+  - Blueprints
+  - Battle Crowns
+  - Banana Fairies
+  - Banana Medals
+  - Boss Keys
 - N64/Wii U VC toggle for console-specific routes
 - Dark mode
 
@@ -25,39 +25,39 @@ or by pressing the arrows on the header bar.
 ## Current Routes
 
 - N64:
-- - Any%:
-- - - 5-Kong (with warps)
-- - - 5-Kong (warpless)
-- - - 1-Kong (2014 route)
-- - - 1-Kong (2015 route)
-- - 101%:
-- - No Levels Early:
-- - - Intermediate
-- - - Advanced 40 BP
-- - - 801 IQ Route
-- - Category Extensions:
+  - Any%:
+    - 5-Kong (with warps)
+    - 5-Kong (warpless)
+    - 1-Kong (2014 route)
+    - 1-Kong (2015 route)
+  - 101%:
+  - No Levels Early:
+    - Intermediate
+    - Advanced 40 BP
+    - 801 IQ Route
+  - Category Extensions:
 
 - Wii U VC:
-- - Any%:
-- - - 5-Kong
-- - - 1-Kong (2014 route)
-- - - 1-Kong (2015 route)
-- - 101%:
-- - - Beginner (w/video links)
-- - - Intermediate
-- - - Expert
-- - No Levels Early:
-- - - Intermediate
-- - - Advanced 40 BP
-- - - Helm Escape
-- - Category Extensions:
-- - - Any% No ISG
-- - - Any% All Keys
-- - - 100 GBs Moveless (unofficial)
-- - - Tag Anywhere 101% (unofficial)
-- - - Tag Anywhere NLE
-- - - Glitchless Any%
-- - - Glitchelss 101%
+  - Any%:
+    - 5-Kong
+    - 1-Kong (2014 route)
+    - 1-Kong (2015 route)
+  - 101%:
+    - Beginner (w/video links)
+    - Intermediate
+    - Expert
+  - No Levels Early:
+    - Intermediate
+    - Advanced 40 BP
+    - Helm Escape
+  - Category Extensions:
+    - Any% No ISG
+    - Any% All Keys
+    - 100 GBs Moveless (unofficial)
+    - Tag Anywhere 101% (unofficial)
+    - Tag Anywhere NLE
+    - Glitchless Any%
+    - Glitchelss 101%
 
 ## Run Locally
 
